@@ -27,11 +27,19 @@ class MainApplication:
 tech = jobData.getTechs()
 popTechs = jobData.getPopTechs()
 
-dataCounted = pd.read_csv("AI_output_counted.csv")
+dataCounted = pd.read_csv("app/AI_output_counted.csv")
 counted_calcs = [[ast.literal_eval(x.lower()), y] for x, y in zip(dataCounted['Techs'], dataCounted['Count'])]
 
 listing_count = 2807
 
+color_map_pie = [
+   "#124559",
+   "#279AF1",
+   "#7CDDF4",
+   "#C2FFF9",
+    "#BEAEC1",
+    "#D7263D"
+    ]  
 #fig = px.line(df)
 
 app = dash.Dash(__name__,external_stylesheets=[dbc.themes.SLATE])
@@ -40,12 +48,12 @@ app = dash.Dash(__name__,external_stylesheets=[dbc.themes.SLATE])
 matchData = pd.DataFrame(data={"Match Percentage":[100,90,80,70,60,50,40,30,20,10,0], "Market Percentage":[0,0,0,0,0,0,0,0,0,0,100]})
 pieData = matchData
 
-matchFig = px.bar(matchData, x="Match Percentage", y="Market Percentage")
+matchFig = px.bar(matchData, x="Match Percentage", y="Market Percentage",  color="Match Percentage", color_continuous_scale="Bluered_r")
 matchFig.update_xaxes(autorange="reversed", tickmode="array", tickvals = [100,90,80,70,60,50,40,30,20,10,0], ticktext=["Full Match", "90%", "80%", "70%", "60%", "50%", "40%","30%", "20%","10%","Not Qualified" ])
 matchFig.update_yaxes( tickmode="array", tickvals = [100,90,80,70,60,50,40,30,20,10,0], ticktext=["100% of jobs", "90%", "80%", "70%", "60%", "50%", "40%","30%", "20%","10%","No Matches" ])
+matchFig.update_layout(title_text="Tech Stack vs Market")
 
-
-pieFig = px.pie(pieData, values="Match Percentage", names="Market Percentage",  hole=.2, color_discrete_sequence=px.colors.diverging.RdYlBu)
+pieFig = px.pie(pieData, values="Match Percentage", names="Market Percentage",  hole=.2, color_discrete_sequence=color_map_pie)
 #pieFig.update_xaxes(autorange="reversed", tickmode="array", tickvals = [100,75,50,25,0], ticktext=["Full Match", "75%+", "50%+", "25+%","Not Qualified" ])
 #pieFig.update_yaxes( tickmode="array", tickvals = [100,75,50,25,0], ticktext=["100% of jobs", "75%+", "50%+", "25+%","No Matches" ])
 
@@ -54,13 +62,13 @@ upgradeFigure = px.bar()
 upgradeFigure.update_layout(
     xaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
     yaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
-    title=""
+    title="Tech Stack vs Market"
 )
 
 #print("wtf")
 
 app.layout = [
-   html.H1(title="I know", children="My current TechStack"),
+   html.H1(title="??", children="Known Techstack:"),
    html.Div(id="dropdownDiv", children= [dcc.Dropdown(tech, id='known-dropdown',multi=True)]),
    html.Div(id="pieDiv", children = [dcc.Graph(id="pie-graph", figure=pieFig)] ),
    html.Div(id="matchDiv", children=
@@ -160,16 +168,9 @@ def update_match_graph(value):
    matchFig.update_xaxes(autorange="reversed", tickmode="array", tickvals = [100,90,80,70,60,50,40,30,20,10,0], ticktext=["Full Match", "90%", "80%", "70%", "60%", "50%", "40%","30%", "20%","10%","Not Qualified" ])
    matchFig.update_yaxes( tickmode="array", tickvals = [100,90,80,70,60,50,40,30,20,10,0], ticktext=["100% of jobs", "90%", "80%", "70%", "60%", "50%", "40%","30%", "20%","10%","No Matches" ])
    matchFig.update_layout(coloraxis_showscale=False)
-   
+   matchFig.update_layout(title_text="Tech Stack vs Market")
 
-   color_map_pie = [
-   "#124559",
-   "#279AF1",
-   "#7CDDF4",
-   "#C2FFF9",
-    "#BEAEC1",
-    "#D7263D"
-    ]  
+  
    
    pieFig = px.pie(pieData, names="Category",  values="Values", 
                    labels={"Category":"Category"}, hole=.2, 
@@ -217,11 +218,11 @@ def create_reccomendation(n_clicks,value):
    output = []
    for x in top10:
       output.append([x, round((tops[x]/ listing_count)*100)])
-
-   print(output)
+   
    upgrade_data = pd.DataFrame(data={"What you should learn": [x[0] for x in output], "Total Market Percentage Increase": [x[1]  for x in output]})
    upgrade_figure = px.bar(upgrade_data, y="Total Market Percentage Increase", x = "What you should learn")
    upgrade_figure.update_yaxes(tickmode="array", tickvals=[x for x in range(output[0][1] + 1)], ticktext = [f'{x}%' for x in range(output[0][1]+1)])
+   upgrade_figure.update_layout(title_text="Best stuff to learn")
 
    return upgrade_figure
 
