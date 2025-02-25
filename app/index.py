@@ -1,10 +1,28 @@
 import dash
-from dash import html, dcc, callback, Input, Output, State
+from dash import html, dcc, callback, Input, Output, State, Dash, page_container
 import plotly.express as px
 import pandas as pd
 import dash_bootstrap_components as dbc
 import jobData
 import ast
+
+
+
+class MainApplication:
+    def __init__(self):
+        self.__app = Dash(
+            __name__,
+            use_pages=True,
+        )
+        self.set_layout()
+
+
+    @property
+    def app(self):
+        return self.__app
+
+
+
 
 tech = jobData.getTechs()
 popTechs = jobData.getPopTechs()
