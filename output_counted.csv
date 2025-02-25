@@ -1,0 +1,1978 @@
+Techs,Count
+['Ada'],2
+['Amazon Web Services \\ AWS'],15
+['Angular'],1
+['Apex'],2
+['Assembly'],23
+['Azure'],10
+['Bash'],1
+['C#'],4
+['C++'],1
+['Cobol'],3
+['Crystal'],3
+['Docker'],2
+['Express'],5
+['Flutter'],1
+['Fortran'],1
+['Go'],23
+['Google Cloud \\ GCP'],6
+['H'],4
+['HTML \\ CSS'],5
+['Java'],14
+['JS \\ javascript'],1
+['Kubernetes'],1
+['MATLAB'],2
+['Oracle'],3
+['Phoenix'],1
+['PHP'],2
+['PowerShell'],2
+['PYTHON'],23
+['R'],12
+['React'],6
+['Render'],1
+['SQL'],17
+['Swift'],2
+['VMware'],1
+['WordPress'],2
+"['Ada', 'Make']",2
+"['Amazon Web Services \\ AWS', 'Azure']",7
+"['Amazon Web Services \\ AWS', 'Docker']",1
+"['Amazon Web Services \\ AWS', 'Express']",1
+"['Amazon Web Services \\ AWS', 'Make']",12
+"['Apex', 'Make']",3
+"['Assembly', 'Crystal']",1
+"['Assembly', 'Make']",4
+"['Assembly', 'R']",3
+"['Azure', 'ASP.NET']",1
+"['Azure', 'Google Cloud \\ GCP']",1
+"['Azure', 'Make']",6
+"['Bash', 'Azure']",1
+"['C#', 'Java']",2
+"['C#', 'Make']",2
+"['C#', 'R']",1
+"['C#', 'SQL']",1
+"['C++', 'C']",77
+"['C++', 'React']",1
+"['Cobol', 'H']",1
+"['Crystal', 'Make']",1
+"['Dart', 'Flutter']",1
+"['Dynamodb', 'Amazon Web Services \\ AWS']",1
+"['Express', 'Make']",4
+"['Go', 'Apex']",1
+"['Go', 'Google Cloud \\ GCP']",2
+"['Go', 'Make']",20
+"['Go', 'MATLAB']",1
+"['Go', 'R']",1
+"['Go', 'Ruby']",1
+"['Go', 'Scala']",1
+"['Google Cloud \\ GCP', 'Kubernetes']",1
+"['Google Cloud \\ GCP', 'Make']",2
+"['Groovy', 'Amazon Web Services \\ AWS']",1
+"['H', 'Azure']",1
+"['H', 'Make']",4
+"['HTML \\ CSS', 'Make']",4
+"['HTML \\ CSS', 'PYTHON']",1
+"['HTML \\ CSS', 'SQL']",1
+"['Java', 'Amazon Web Services \\ AWS']",1
+"['Java', 'Angular']",2
+"['Java', 'Azure']",3
+"['Java', 'Docker']",1
+"['Java', 'Gradle']",1
+"['Java', 'Kotlin']",3
+"['Java', 'Make']",6
+"['Java', 'OpenShift']",1
+"['Java', 'Oracle']",3
+"['Java', 'PostgreSQL']",1
+"['Java', 'React']",1
+"['Java', 'Spring Boot']",4
+"['JS \\ javascript', 'Go']",1
+"['JS \\ javascript', 'HTML \\ CSS']",7
+"['JS \\ javascript', 'Make']",1
+"['JS \\ javascript', 'MySQL']",1
+"['JS \\ javascript', 'Node.js']",2
+"['JS \\ javascript', 'PYTHON']",2
+"['JS \\ javascript', 'React']",2
+"['JS \\ javascript', 'TS \\ TypeScript']",1
+"['Kotlin', 'Amazon Web Services \\ AWS']",1
+"['Kotlin', 'React']",1
+"['Make', 'APT']",1
+"['Make', 'Unreal Engine']",2
+"['MATLAB', 'Make']",1
+"['Phoenix', 'Make']",1
+"['PostgreSQL', 'Amazon Web Services \\ AWS']",1
+"['PowerShell', 'Azure']",1
+"['PYTHON', 'Ansible']",1
+"['PYTHON', 'Go']",4
+"['PYTHON', 'Java']",3
+"['PYTHON', 'Make']",9
+"['PYTHON', 'MATLAB']",1
+"['PYTHON', 'Perl']",1
+"['PYTHON', 'SQL']",4
+"['R', 'H']",1
+"['R', 'Make']",8
+"['R', 'Zephyr']",1
+"['React', 'ASP.NET']",1
+"['React', 'Make']",3
+"['Ruby', 'Ruby on Rails']",1
+"['Snowflake', 'Google Cloud \\ GCP']",1
+"['Solr', 'Amazon Web Services \\ AWS']",1
+"['SQL', 'Ada']",1
+"['SQL', 'Amazon Web Services \\ AWS']",1
+"['SQL', 'Angular']",1
+"['SQL', 'Azure']",3
+"['SQL', 'Crystal']",1
+"['SQL', 'Express']",2
+"['SQL', 'Go']",4
+"['SQL', 'Java']",7
+"['SQL', 'Make']",7
+"['SQL', 'Maven']",1
+"['SQL', 'Microsoft SQL Server']",1
+"['SQL', 'Oracle']",4
+"['SQL', 'Snowflake']",1
+"['Swift', 'Make']",1
+"['TS \\ TypeScript', 'Google Cloud \\ GCP']",1
+"['TS \\ TypeScript', 'Make']",1
+"['TS \\ TypeScript', 'R']",1
+"['VMware', 'Make']",2
+"['VMware', 'Phoenix']",1
+"['WordPress', 'Make']",1
+"['Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP']",5
+"['Amazon Web Services \\ AWS', 'Azure', 'VMware']",1
+"['Amazon Web Services \\ AWS', 'Docker', 'Make']",1
+"['Amazon Web Services \\ AWS', 'Docker', 'Terraform']",1
+"['Amazon Web Services \\ AWS', 'Make', 'Terraform']",1
+"['Assembly', 'Ada', 'Make']",2
+"['Assembly', 'Express', 'Make']",1
+"['Assembly', 'R', 'Make']",2
+"['Assembly', 'R', 'Oracle']",1
+"['Azure', 'Kubernetes', 'Terraform']",1
+"['Azure', 'Make', 'Kubernetes']",1
+"['Bash', 'PowerShell', 'Amazon Web Services \\ AWS']",1
+"['C#', 'Java', 'Apex']",1
+"['C#', 'Java', 'Go']",1
+"['C#', 'Java', 'Make']",1
+"['C#', 'SQL', 'Azure']",1
+"['C++', 'C', 'Ada']",5
+"['C++', 'C', 'Amazon Web Services \\ AWS']",2
+"['C++', 'C', 'Angular']",1
+"['C++', 'C', 'ASP.NET']",1
+"['C++', 'C', 'Assembly']",7
+"['C++', 'C', 'Azure']",3
+"['C++', 'C', 'Go']",4
+"['C++', 'C', 'H']",2
+"['C++', 'C', 'Kotlin']",1
+"['C++', 'C', 'Make']",25
+"['C++', 'C', 'MATLAB']",7
+"['C++', 'C', 'R']",5
+"['C++', 'C', 'Rust']",4
+"['C++', 'C', 'Swift']",4
+"['C++', 'C', 'Unreal Engine']",4
+"['C++', 'C', 'Visual Basic']",1
+"['C++', 'Java', 'C']",5
+"['C++', 'SQL', 'C']",6
+"['C++', 'TS \\ TypeScript', 'C']",2
+"['Databricks', 'Azure', 'Databricks']",1
+"['Dynamodb', 'Amazon Web Services \\ AWS', 'Kubernetes']",1
+"['Express', 'Homebrew', 'Make']",1
+"['Go', 'Amazon Web Services \\ AWS', 'Make']",1
+"['Go', 'Assembly', 'Make']",1
+"['Go', 'Docker', 'Kubernetes']",1
+"['Go', 'Express', 'Make']",1
+"['Go', 'H', 'Express']",1
+"['Go', 'Kotlin', 'Gradle']",1
+"['Go', 'Make', 'Kubernetes']",1
+"['Go', 'R', 'Make']",2
+"['Go', 'Ruby', 'Make']",1
+"['Go', 'Rust', 'Make']",1
+"['Go', 'Swift', 'Make']",1
+"['Go', 'Vercel', 'Make']",2
+"['HTML \\ CSS', 'Assembly', 'Make']",1
+"['HTML \\ CSS', 'C++', 'C']",3
+"['HTML \\ CSS', 'Java', 'WordPress']",1
+"['HTML \\ CSS', 'Phoenix', 'Make']",1
+"['HTML \\ CSS', 'SQL', 'Java']",2
+"['Java', 'Amazon Web Services \\ AWS', 'Spring Boot']",2
+"['Java', 'Azure', 'Make']",2
+"['Java', 'Docker', 'Gradle']",1
+"['Java', 'Docker', 'Kubernetes']",1
+"['Java', 'Google Cloud \\ GCP', 'Docker']",1
+"['Java', 'Google Cloud \\ GCP', 'Kubernetes']",1
+"['Java', 'Google Cloud \\ GCP', 'Make']",1
+"['Java', 'Google Cloud \\ GCP', 'Spring Boot']",1
+"['Java', 'H', 'Make']",1
+"['Java', 'Kotlin', 'H']",1
+"['Java', 'Kotlin', 'Make']",2
+"['Java', 'MongoDB', 'Express']",1
+"['Java', 'MySQL', 'Oracle']",1
+"['Java', 'Oracle', 'Angular']",1
+"['Java', 'Oracle', 'jQuery']",1
+"['Java', 'React', 'Make']",1
+"['Java', 'Scala', 'Amazon Web Services \\ AWS']",1
+"['Java', 'Spring Boot', 'Kubernetes']",1
+"['Java', 'Spring Boot', 'Make']",2
+"['Java', 'Swift', 'Oracle']",1
+"['JS \\ javascript', 'Amazon Web Services \\ AWS', 'Angular']",1
+"['JS \\ javascript', 'Amazon Web Services \\ AWS', 'Vue.js']",1
+"['JS \\ javascript', 'Apex', 'jQuery']",1
+"['JS \\ javascript', 'Go', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'Amazon Web Services \\ AWS']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'Drupal']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'Make']",2
+"['JS \\ javascript', 'HTML \\ CSS', 'Oracle']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'React']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL']",4
+"['JS \\ javascript', 'HTML \\ CSS', 'WordPress']",1
+"['JS \\ javascript', 'Java', 'React']",1
+"['JS \\ javascript', 'jQuery', 'Make']",1
+"['JS \\ javascript', 'Node.js', 'Express']",1
+"['JS \\ javascript', 'PHP', 'WordPress']",1
+"['JS \\ javascript', 'PYTHON', 'Django']",1
+"['JS \\ javascript', 'PYTHON', 'FastAPI']",1
+"['JS \\ javascript', 'PYTHON', 'Java']",3
+"['JS \\ javascript', 'PYTHON', 'Make']",3
+"['JS \\ javascript', 'PYTHON', 'Swift']",1
+"['JS \\ javascript', 'React', 'Make']",5
+"['JS \\ javascript', 'SQL', 'Ant']",1
+"['JS \\ javascript', 'SQL', 'Java']",1
+"['JS \\ javascript', 'SQL', 'Node.js']",1
+"['JS \\ javascript', 'SQL', 'React']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Go']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Make']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'React']",1
+"['JS \\ javascript', 'WordPress', 'Drupal']",1
+"['Kotlin', 'Amazon Web Services \\ AWS', 'Make']",1
+"['Kotlin', 'Gradle', 'Dagger']",1
+"['Kotlin', 'Make', 'Dagger']",1
+"['Kotlin', 'React', 'Make']",1
+"['OpenShift', 'Make', 'Kubernetes']",1
+"['Oracle', 'Amazon Web Services \\ AWS', 'Managed Hosting']",1
+"['Oracle', 'Snowflake', 'Make']",1
+"['Oracle', 'VMware', 'Make']",1
+"['PHP', 'Laravel', 'Make']",1
+"['PHP', 'PostgreSQL', 'MySQL']",1
+"['PostgreSQL', 'MySQL', 'Amazon Web Services \\ AWS']",1
+"['PowerShell', 'Azure', 'Make']",3
+"['Presto', 'Amazon Web Services \\ AWS', 'React']",1
+"['PYTHON', 'Ada', 'Make']",1
+"['PYTHON', 'Amazon Web Services \\ AWS', 'Ansible']",1
+"['PYTHON', 'Amazon Web Services \\ AWS', 'Azure']",1
+"['PYTHON', 'Amazon Web Services \\ AWS', 'Docker']",1
+"['PYTHON', 'Amazon Web Services \\ AWS', 'Make']",2
+"['PYTHON', 'Assembly', 'Make']",2
+"['PYTHON', 'Azure', 'Terraform']",1
+"['PYTHON', 'Bash', 'Go']",1
+"['PYTHON', 'Bash', 'Kubernetes']",1
+"['PYTHON', 'C++', 'C']",36
+"['PYTHON', 'Databricks', 'Databricks']",1
+"['PYTHON', 'Docker', 'Kubernetes']",1
+"['PYTHON', 'Express', 'Kubernetes']",1
+"['PYTHON', 'Go', 'Make']",1
+"['PYTHON', 'Go', 'React']",1
+"['PYTHON', 'Google Cloud \\ GCP', 'Make']",1
+"['PYTHON', 'Google Cloud \\ GCP', 'Terraform']",1
+"['PYTHON', 'H', 'Make']",2
+"['PYTHON', 'Java', 'Amazon Web Services \\ AWS']",4
+"['PYTHON', 'Java', 'Go']",1
+"['PYTHON', 'Java', 'Make']",3
+"['PYTHON', 'Java', 'R']",1
+"['PYTHON', 'Make', 'Unreal Engine']",1
+"['PYTHON', 'MATLAB', 'Make']",5
+"['PYTHON', 'R', 'Make']",2
+"['PYTHON', 'React', 'Ansible']",1
+"['PYTHON', 'React', 'Kubernetes']",1
+"['PYTHON', 'React', 'Make']",1
+"['PYTHON', 'Rust', 'Make']",2
+"['PYTHON', 'Scala', 'Amazon Web Services \\ AWS']",1
+"['PYTHON', 'SQL', 'Amazon Web Services \\ AWS']",3
+"['PYTHON', 'SQL', 'Ansible']",1
+"['PYTHON', 'SQL', 'Azure']",1
+"['PYTHON', 'SQL', 'Bash']",1
+"['PYTHON', 'SQL', 'Docker']",1
+"['PYTHON', 'SQL', 'Go']",1
+"['PYTHON', 'SQL', 'Make']",7
+"['PYTHON', 'SQL', 'Oracle']",1
+"['PYTHON', 'SQL', 'R']",1
+"['PYTHON', 'SQL', 'VBA']",1
+"['PYTHON', 'TS \\ TypeScript', 'Ansible']",1
+"['PYTHON', 'TS \\ TypeScript', 'Lua']",1
+"['PYTHON', 'TS \\ TypeScript', 'Make']",1
+"['PYTHON', 'VMware', 'Ansible']",1
+"['R', 'Amazon Web Services \\ AWS', 'VMware']",1
+"['R', 'Azure', 'Make']",1
+"['R', 'Make', 'Flutter']",2
+"['Redis', 'Make', 'Terraform']",1
+"['Ruby', 'MongoDB', 'Docker']",1
+"['Ruby', 'Ruby on Rails', 'Make']",1
+"['Rust', 'Amazon Web Services \\ AWS', 'Make']",1
+"['Rust', 'Swift', 'Make']",1
+"['Scala', 'Docker', 'Kubernetes']",1
+"['Scala', 'Dynamodb', 'Amazon Web Services \\ AWS']",1
+"['Scala', 'Google Cloud \\ GCP', 'Kubernetes']",1
+"['SQL', 'Amazon Web Services \\ AWS', 'Make']",1
+"['SQL', 'Assembly', 'Make']",1
+"['SQL', 'Bash', 'MySQL']",1
+"['SQL', 'Cobol', 'Make']",1
+"['SQL', 'Java', 'Go']",1
+"['SQL', 'Java', 'Google Cloud \\ GCP']",1
+"['SQL', 'Java', 'Make']",3
+"['SQL', 'Java', 'Oracle']",5
+"['SQL', 'Java', 'React']",1
+"['SQL', 'Java', 'Redis']",1
+"['SQL', 'Java', 'Ruby']",1
+"['SQL', 'Java', 'Scala']",1
+"['SQL', 'Microsoft SQL Server', 'Make']",1
+"['SQL', 'MySQL', 'Redis']",1
+"['SQL', 'Oracle', 'Amazon Web Services \\ AWS']",1
+"['SQL', 'Oracle', 'Make']",3
+"['SQL', 'Phoenix', 'Chef']",1
+"['SQL', 'PostgreSQL', 'Oracle']",1
+"['SQL', 'PowerShell', 'Azure']",1
+"['SQL', 'PowerShell', 'Make']",1
+"['SQL', 'PowerShell', 'Oracle']",1
+"['SQL', 'R', 'Make']",1
+"['SQL', 'Snowflake', 'Azure']",2
+"['SQL', 'Swift', 'Make']",1
+"['SQL', 'TS \\ TypeScript', 'Google Cloud \\ GCP']",1
+"['SQL', 'Visual Basic', 'Oracle']",1
+"['TS \\ TypeScript', 'Amazon Web Services \\ AWS', 'React']",1
+"['TS \\ TypeScript', 'Google Cloud \\ GCP', 'React']",1
+"['TS \\ TypeScript', 'Oracle', 'Make']",1
+"['TS \\ TypeScript', 'React', 'Make']",4
+"['VMware', 'Phoenix', 'Make']",1
+"['Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Make']",1
+"['Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Terraform']",1
+"['Amazon Web Services \\ AWS', 'Azure', 'VMware', 'Kubernetes']",1
+"['Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Make', 'Kubernetes']",1
+"['Amazon Web Services \\ AWS', 'Make', 'Terraform', 'Ansible']",1
+"['Apex', 'Amazon Web Services \\ AWS', 'Azure', 'Terraform']",1
+"['Bash', 'Amazon Web Services \\ AWS', 'Docker', 'Make']",1
+"['Bash', 'PowerShell', 'Azure', 'Composer']",1
+"['C#', 'SQL', 'Azure', 'React']",1
+"['C++', 'C', 'Amazon Web Services \\ AWS', 'Make']",3
+"['C++', 'C', 'Assembly', 'Kubernetes']",2
+"['C++', 'C', 'Assembly', 'Make']",2
+"['C++', 'C', 'Assembly', 'Oracle']",1
+"['C++', 'C', 'Azure', 'Chef']",1
+"['C++', 'C', 'Azure', 'Make']",2
+"['C++', 'C', 'Docker', 'Make']",1
+"['C++', 'C', 'Fortran', 'Make']",2
+"['C++', 'C', 'Go', 'Azure']",1
+"['C++', 'C', 'Go', 'Express']",1
+"['C++', 'C', 'Go', 'Google Cloud \\ GCP']",1
+"['C++', 'C', 'Go', 'MongoDB']",1
+"['C++', 'C', 'Google Cloud \\ GCP', 'Kubernetes']",1
+"['C++', 'C', 'Kotlin', 'Make']",1
+"['C++', 'C', 'Make', 'Unreal Engine']",1
+"['C++', 'C', 'MATLAB', 'Make']",3
+"['C++', 'C', 'Oracle', 'ASP.NET']",3
+"['C++', 'C', 'R', 'Azure']",1
+"['C++', 'C', 'R', 'Make']",1
+"['C++', 'C', 'React', 'Angular']",1
+"['C++', 'C', 'React', 'Make']",2
+"['C++', 'C', 'Render', 'Unreal Engine']",1
+"['C++', 'C', 'Rust', 'Assembly']",1
+"['C++', 'C', 'Rust', 'Make']",1
+"['C++', 'C', 'Swift', 'Make']",1
+"['C++', 'C', 'Swift', 'SQLite']",1
+"['C++', 'C', 'VBA', 'Delphi']",1
+"['C++', 'C', 'VBA', 'Microsoft Access']",1
+"['C++', 'C#', 'C', 'MATLAB']",1
+"['C++', 'C#', 'Java', 'C']",1
+"['C++', 'Java', 'C', 'Amazon Web Services \\ AWS']",1
+"['C++', 'Java', 'C', 'ASP.NET']",1
+"['C++', 'Java', 'C', 'Assembly']",1
+"['C++', 'Java', 'C', 'Go']",1
+"['C++', 'Java', 'C', 'Google Cloud \\ GCP']",1
+"['C++', 'Java', 'C', 'Kotlin']",1
+"['C++', 'Java', 'C', 'Kubernetes']",1
+"['C++', 'Java', 'C', 'Make']",4
+"['C++', 'Java', 'C', 'Maven']",1
+"['C++', 'SQL', 'C', 'ASP.NET']",2
+"['C++', 'SQL', 'C', 'Azure']",2
+"['C++', 'SQL', 'C', 'Crystal']",1
+"['C++', 'SQL', 'C', 'Make']",4
+"['C++', 'SQL', 'C', 'Oracle']",1
+"['C++', 'SQL', 'C', 'Swift']",1
+"['C++', 'SQL', 'Java', 'C']",4
+"['C++', 'TS \\ TypeScript', 'C', 'Angular']",1
+"['C++', 'TS \\ TypeScript', 'C', 'Assembly']",1
+"['C++', 'TS \\ TypeScript', 'C', 'React']",1
+"['C++', 'TS \\ TypeScript', 'Java', 'C']",1
+"['Dart', 'Swift', 'Make', 'Flutter']",1
+"['Databricks', 'Amazon Web Services \\ AWS', 'Databricks', 'Make']",1
+"['Go', 'Dynamodb', 'Amazon Web Services \\ AWS', 'Make']",2
+"['Go', 'Make', 'Kubernetes', 'Puppet']",1
+"['Go', 'PostgreSQL', 'Amazon Web Services \\ AWS', 'Make']",1
+"['HTML \\ CSS', 'Azure', 'Make', 'Kubernetes']",1
+"['HTML \\ CSS', 'Java', 'Angular', 'Spring Boot']",3
+"['HTML \\ CSS', 'Java', 'Oracle', 'jQuery']",2
+"['HTML \\ CSS', 'Ruby', 'Ruby on Rails', 'Make']",1
+"['HTML \\ CSS', 'SQL', 'R', 'Make']",1
+"['Java', 'Amazon Web Services \\ AWS', 'Angular', 'Spring Boot']",1
+"['Java', 'Amazon Web Services \\ AWS', 'Azure', 'VMware']",1
+"['Java', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Spring Boot']",1
+"['Java', 'Angular', 'Spring Boot', 'Maven']",1
+"['Java', 'Azure', 'Docker', 'Kubernetes']",2
+"['Java', 'Cassandra', 'Spring Boot', 'Make']",1
+"['Java', 'Databricks', 'Amazon Web Services \\ AWS', 'Databricks']",1
+"['Java', 'Go', 'React', 'Make']",1
+"['Java', 'Kotlin', 'Firebase', 'Dagger']",1
+"['Java', 'Kotlin', 'Google Cloud \\ GCP', 'Make']",1
+"['Java', 'Kotlin', 'Google Cloud \\ GCP', 'React']",1
+"['Java', 'Kotlin', 'Spring Boot', 'Gradle']",1
+"['Java', 'MySQL', 'Spring Boot', 'Make']",1
+"['Java', 'R', 'Make', 'Kubernetes']",1
+"['Java', 'React', 'Angular', 'Make']",2
+"['Java', 'Ruby', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP']",1
+"['JS \\ javascript', 'Amazon Web Services \\ AWS', 'Azure', 'Make']",1
+"['JS \\ javascript', 'C++', 'Azure', 'React']",3
+"['JS \\ javascript', 'C++', 'C', 'ASP.NET']",2
+"['JS \\ javascript', 'C++', 'Java', 'C']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'Go', 'React']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'Java', 'Angular']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'Java', 'Docker']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'Java', 'Groovy']",2
+"['JS \\ javascript', 'HTML \\ CSS', 'Java', 'MySQL']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PHP', 'Docker']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PHP', 'Drupal']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PHP', 'MySQL']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PHP', 'WordPress']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PowerShell', 'Azure']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'Amazon Web Services \\ AWS']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'Java']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'AngularJS']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'Apex']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'ASP.NET']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'jQuery']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'TS \\ TypeScript', 'Angular']",1
+"['JS \\ javascript', 'Java', 'Node.js', 'React']",1
+"['JS \\ javascript', 'Java', 'PHP', 'Make']",1
+"['JS \\ javascript', 'Java', 'React', 'Angular']",2
+"['JS \\ javascript', 'MongoDB', 'Node.js', 'React']",1
+"['JS \\ javascript', 'PostgreSQL', 'jQuery', 'Angular']",1
+"['JS \\ javascript', 'PYTHON', 'Amazon Web Services \\ AWS', 'React']",1
+"['JS \\ javascript', 'PYTHON', 'Azure', 'Docker']",1
+"['JS \\ javascript', 'PYTHON', 'Bash', 'Go']",1
+"['JS \\ javascript', 'PYTHON', 'Java', 'Go']",1
+"['JS \\ javascript', 'PYTHON', 'Node.js', 'Make']",2
+"['JS \\ javascript', 'PYTHON', 'Node.js', 'React']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'PowerShell']",1
+"['JS \\ javascript', 'PYTHON', 'TS \\ TypeScript', 'Java']",2
+"['JS \\ javascript', 'PYTHON', 'TS \\ TypeScript', 'Make']",1
+"['JS \\ javascript', 'React', 'Next.js', 'Spring Boot']",1
+"['JS \\ javascript', 'Ruby', 'React', 'Make']",1
+"['JS \\ javascript', 'SQL', 'Apex', 'Make']",1
+"['JS \\ javascript', 'SQL', 'BigQuery', 'Google Cloud \\ GCP']",1
+"['JS \\ javascript', 'SQL', 'Java', 'Oracle']",1
+"['JS \\ javascript', 'SQL', 'Java', 'React']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Ada', 'React']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Go', 'React']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Node.js', 'Express']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Node.js', 'React']",1
+"['Kotlin', 'React', 'Make', 'Kubernetes']",1
+"['Oracle', 'Azure', 'Terraform', 'Ansible']",1
+"['Oracle', 'React', 'Angular', 'AngularJS']",1
+"['PostgreSQL', 'Google Cloud \\ GCP', 'Docker', 'Make']",1
+"['PYTHON', 'Amazon Web Services \\ AWS', 'Azure', 'Ansible']",2
+"['PYTHON', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP']",2
+"['PYTHON', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Django']",1
+"['PYTHON', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Docker']",1
+"['PYTHON', 'Amazon Web Services \\ AWS', 'Make', 'Terraform']",1
+"['PYTHON', 'Bash', 'Amazon Web Services \\ AWS', 'Terraform']",1
+"['PYTHON', 'Bash', 'Google Cloud \\ GCP', 'Kubernetes']",1
+"['PYTHON', 'Bash', 'Perl', 'Amazon Web Services \\ AWS']",1
+"['PYTHON', 'Bash', 'PowerShell', 'Make']",2
+"['PYTHON', 'C#', 'Express', 'Make']",1
+"['PYTHON', 'C#', 'R', 'Amazon Web Services \\ AWS']",1
+"['PYTHON', 'C++', 'Bash', 'C']",2
+"['PYTHON', 'C++', 'C', 'Amazon Web Services \\ AWS']",2
+"['PYTHON', 'C++', 'C', 'Ansible']",2
+"['PYTHON', 'C++', 'C', 'Assembly']",1
+"['PYTHON', 'C++', 'C', 'Docker']",1
+"['PYTHON', 'C++', 'C', 'Express']",2
+"['PYTHON', 'C++', 'C', 'Firebase']",1
+"['PYTHON', 'C++', 'C', 'Go']",1
+"['PYTHON', 'C++', 'C', 'Google Cloud \\ GCP']",1
+"['PYTHON', 'C++', 'C', 'Lua']",1
+"['PYTHON', 'C++', 'C', 'Make']",10
+"['PYTHON', 'C++', 'C', 'MATLAB']",4
+"['PYTHON', 'C++', 'C', 'Maven']",1
+"['PYTHON', 'C++', 'C', 'Perl']",1
+"['PYTHON', 'C++', 'C', 'R']",4
+"['PYTHON', 'C++', 'C', 'Rust']",2
+"['PYTHON', 'C++', 'C', 'Unreal Engine']",1
+"['PYTHON', 'C++', 'Java', 'C']",14
+"['PYTHON', 'C++', 'SQL', 'C']",4
+"['PYTHON', 'C++', 'TS \\ TypeScript', 'C']",1
+"['PYTHON', 'Docker', 'Ansible', 'Puppet']",1
+"['PYTHON', 'Dynamodb', 'Amazon Web Services \\ AWS', 'Terraform']",2
+"['PYTHON', 'Go', 'Azure', 'Kubernetes']",1
+"['PYTHON', 'Go', 'Databricks', 'Databricks']",1
+"['PYTHON', 'Java', 'Amazon Web Services \\ AWS', 'Make']",1
+"['PYTHON', 'Java', 'Oracle', 'Make']",1
+"['PYTHON', 'Java', 'PHP', 'Ruby']",1
+"['PYTHON', 'Java', 'Scala', 'Make']",1
+"['PYTHON', 'Kotlin', 'Amazon Web Services \\ AWS', 'Make']",1
+"['PYTHON', 'Oracle', 'Amazon Web Services \\ AWS', 'Azure']",1
+"['PYTHON', 'Oracle', 'Docker', 'Make']",1
+"['PYTHON', 'PostgreSQL', 'Amazon Web Services \\ AWS', 'Make']",1
+"['PYTHON', 'PowerShell', 'Azure', 'Cloudflare']",1
+"['PYTHON', 'R', 'MATLAB', 'Make']",1
+"['PYTHON', 'Rust', 'Google Cloud \\ GCP', 'Terraform']",1
+"['PYTHON', 'SQL', 'Ada', 'Make']",1
+"['PYTHON', 'SQL', 'Amazon Web Services \\ AWS', 'Docker']",1
+"['PYTHON', 'SQL', 'Azure', 'Make']",1
+"['PYTHON', 'SQL', 'BigQuery', 'Make']",1
+"['PYTHON', 'SQL', 'Databricks', 'Databricks']",1
+"['PYTHON', 'SQL', 'Google Cloud \\ GCP', 'Make']",1
+"['PYTHON', 'SQL', 'Java', 'Amazon Web Services \\ AWS']",1
+"['PYTHON', 'SQL', 'Java', 'Azure']",1
+"['PYTHON', 'SQL', 'Java', 'Google Cloud \\ GCP']",1
+"['PYTHON', 'SQL', 'Java', 'Make']",2
+"['PYTHON', 'SQL', 'Java', 'Redis']",1
+"['PYTHON', 'SQL', 'Java', 'Yarn']",1
+"['PYTHON', 'SQL', 'Oracle', 'Amazon Web Services \\ AWS']",1
+"['PYTHON', 'SQL', 'R', 'Crystal']",1
+"['PYTHON', 'SQL', 'R', 'Make']",1
+"['PYTHON', 'TS \\ TypeScript', 'Google Cloud \\ GCP', 'React']",1
+"['PYTHON', 'TS \\ TypeScript', 'Java', 'Make']",1
+"['Ruby', 'MongoDB', 'Dynamodb', 'Docker']",2
+"['Ruby', 'PostgreSQL', 'Amazon Web Services \\ AWS', 'Ruby on Rails']",1
+"['Ruby', 'React', 'Ruby on Rails', 'Make']",1
+"['Rust', 'Scala', 'Amazon Web Services \\ AWS', 'Make']",1
+"['Scala', 'Amazon Web Services \\ AWS', 'Make', 'Terraform']",1
+"['SQL', 'Amazon Web Services \\ AWS', 'Azure', 'React']",1
+"['SQL', 'Databricks', 'Amazon Web Services \\ AWS', 'Databricks']",1
+"['SQL', 'Django', 'Docker', 'Make']",1
+"['SQL', 'Go', 'Databricks', 'Databricks']",1
+"['SQL', 'Go', 'React', 'Make']",1
+"['SQL', 'Google Cloud \\ GCP', 'React', 'Django']",1
+"['SQL', 'Java', 'Amazon Web Services \\ AWS', 'Azure']",1
+"['SQL', 'Java', 'Angular', 'Spring Boot']",1
+"['SQL', 'Java', 'Docker', 'Kubernetes']",1
+"['SQL', 'Java', 'Make', 'Kubernetes']",1
+"['SQL', 'Java', 'Oracle', 'Make']",1
+"['SQL', 'Java', 'Oracle', 'Spring Boot']",1
+"['SQL', 'Java', 'PHP', 'React']",1
+"['SQL', 'Java', 'Zephyr', 'Make']",1
+"['SQL', 'Kotlin', 'Swift', 'SQLite']",1
+"['SQL', 'Microsoft SQL Server', 'Cosmos DB', 'Azure']",1
+"['SQL', 'Oracle', 'Amazon Web Services \\ AWS', 'Docker']",1
+"['SQL', 'Oracle', 'Express', 'Make']",1
+"['SQL', 'PostgreSQL', 'Amazon Web Services \\ AWS', 'Make']",1
+"['SQL', 'PowerShell', 'Amazon Web Services \\ AWS', 'Azure']",1
+"['SQL', 'PowerShell', 'Microsoft SQL Server', 'Azure']",1
+"['SQL', 'Redis', 'Azure', 'NuGet']",1
+"['SQL', 'Ruby', 'VBA', 'Ruby on Rails']",1
+"['TS \\ TypeScript', 'Amazon Web Services \\ AWS', 'React', 'Vite']",1
+"['TS \\ TypeScript', 'Dynamodb', 'Amazon Web Services \\ AWS', 'React']",1
+"['TS \\ TypeScript', 'Go', 'Amazon Web Services \\ AWS', 'Make']",1
+"['TS \\ TypeScript', 'Go', 'React', 'Make']",1
+"['TS \\ TypeScript', 'Java', 'Dynamodb', 'Amazon Web Services \\ AWS']",4
+"['TS \\ TypeScript', 'Java', 'Google Cloud \\ GCP', 'React']",1
+"['TS \\ TypeScript', 'PHP', 'React', 'NestJS']",1
+"['TS \\ TypeScript', 'Redis', 'Docker', 'Make']",1
+"['TS \\ TypeScript', 'Swift', 'React', 'Make']",1
+"['Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Kubernetes', 'Terraform']",1
+"['Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Make', 'Unreal Engine']",1
+"['Amazon Web Services \\ AWS', 'Azure', 'VMware', 'OpenShift', 'Puppet']",1
+"['Amazon Web Services \\ AWS', 'Docker', 'Kubernetes', 'Terraform', 'Ansible']",1
+"['Amazon Web Services \\ AWS', 'Express', 'Make', 'Terraform', 'Ansible']",1
+"['Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Docker', 'Make', 'Kubernetes']",1
+"['Azure', 'Docker', 'Make', 'Kubernetes', 'Terraform']",1
+"['Azure', 'OpenShift', 'Docker', 'Terraform', 'Ansible']",2
+"['C#', 'Java', 'Dynamodb', 'Amazon Web Services \\ AWS', 'Make']",1
+"['C#', 'SQL', 'Azure', 'Angular', 'GraphQL[^w+#][W]REST']",1
+"['C#', 'SQL', 'Java', 'Go', 'Azure']",1
+"['C#', 'SQL', 'SQLite', 'Oracle', 'Make']",1
+"['C++', 'Bash', 'Java', 'C', 'H']",1
+"['C++', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP']",2
+"['C++', 'C', 'Amazon Web Services \\ AWS', 'Docker', 'Terraform']",1
+"['C++', 'C', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Terraform']",2
+"['C++', 'C', 'Assembly', 'MATLAB', 'Make']",1
+"['C++', 'C', 'Azure', 'React', 'Angular']",3
+"['C++', 'C', 'Go', 'Amazon Web Services \\ AWS', 'Terraform']",1
+"['C++', 'C', 'Go', 'Make', 'Kubernetes']",1
+"['C++', 'C', 'MongoDB', 'Azure', 'Make']",1
+"['C++', 'C', 'Rust', 'R', 'Make']",1
+"['C++', 'C', 'Swift', 'Docker', 'Kubernetes']",1
+"['C++', 'C', 'Swift', 'H', 'Phoenix']",1
+"['C++', 'C', 'Swift', 'Make', 'GraphQL[^w+#][W]REST']",1
+"['C++', 'C', 'Visual Basic', 'Fortran', 'Composer']",1
+"['C++', 'C#', 'SQL', 'C', 'Oracle']",1
+"['C++', 'Java', 'C', 'Amazon Web Services \\ AWS', 'Azure']",1
+"['C++', 'Java', 'C', 'Amazon Web Services \\ AWS', 'Make']",4
+"['C++', 'Java', 'C', 'Go', 'Make']",1
+"['C++', 'Java', 'C', 'H', 'Maven']",1
+"['C++', 'Java', 'C', 'Kotlin', 'Assembly']",1
+"['C++', 'Java', 'C', 'Scala', 'Make']",1
+"['C++', 'Java', 'C', 'Solr', 'Amazon Web Services \\ AWS']",1
+"['C++', 'SQL', 'C', 'Ada', 'Make']",1
+"['C++', 'SQL', 'C', 'Angular', 'Ansible']",1
+"['C++', 'SQL', 'C', 'Angular', 'Make']",1
+"['C++', 'SQL', 'C', 'Azure', 'Make']",1
+"['C++', 'SQL', 'C', 'Azure', 'Terraform']",1
+"['C++', 'SQL', 'C', 'MySQL', 'Redis']",1
+"['C++', 'SQL', 'C', 'Oracle', 'Chef']",1
+"['C++', 'SQL', 'C', 'Oracle', 'Make']",2
+"['C++', 'SQL', 'C', 'React', 'Angular']",1
+"['C++', 'SQL', 'C', 'React', 'ASP.NET']",1
+"['C++', 'SQL', 'Java', 'C', 'Make']",2
+"['C++', 'SQL', 'Java', 'C', 'Oracle']",1
+"['C++', 'TS \\ TypeScript', 'C', 'React', 'Make']",1
+"['Dynamodb', 'Amazon Web Services \\ AWS', 'Docker', 'Make', 'Kubernetes']",1
+"['Elixir', 'Google Cloud \\ GCP', 'Docker', 'Make', 'Kubernetes']",1
+"['Go', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Make']",2
+"['Go', 'MongoDB', 'Amazon Web Services \\ AWS', 'Docker', 'Kubernetes']",1
+"['HTML \\ CSS', 'C++', 'C', 'Angular', 'Make']",1
+"['HTML \\ CSS', 'C++', 'SQL', 'C', 'R']",1
+"['HTML \\ CSS', 'Java', 'Swift', 'Ada', 'Make']",1
+"['HTML \\ CSS', 'MySQL', 'Laravel', 'Svelte', 'Make']",1
+"['HTML \\ CSS', 'PYTHON', 'C++', 'C', 'Make']",1
+"['HTML \\ CSS', 'PYTHON', 'SQL', 'Java', 'R']",1
+"['HTML \\ CSS', 'SQL', 'Java', 'Oracle', 'jQuery']",1
+"['Java', 'Amazon Web Services \\ AWS', 'React', 'Angular', 'Spring Boot']",1
+"['Java', 'Azure', 'Express', 'Make', 'Kubernetes']",1
+"['Java', 'Azure', 'React', 'Angular', 'Terraform']",1
+"['Java', 'Dart', 'PostgreSQL', 'Amazon Web Services \\ AWS', 'Flutter']",1
+"['Java', 'Kotlin', 'PostgreSQL', 'SQLite', 'Make']",1
+"['Java', 'Kotlin', 'SQLite', 'Firebase', 'React']",1
+"['Java', 'Kotlin', 'Swift', 'React', 'Flutter']",1
+"['Java', 'MySQL', 'IBM DB2', 'Maven', 'Ant']",1
+"['Java', 'Rust', 'Ruby', 'Angular', 'Spring Boot']",1
+"['Java', 'Scala', 'React', 'Angular', 'Make']",1
+"['JS \\ javascript', 'C++', 'C', 'Azure', 'Make']",2
+"['JS \\ javascript', 'C++', 'C', 'Go', 'Make']",1
+"['JS \\ javascript', 'C++', 'C', 'Lua', 'Make']",1
+"['JS \\ javascript', 'C++', 'C', 'Swift', 'Node.js']",1
+"['JS \\ javascript', 'C++', 'SQL', 'C', 'Ada']",1
+"['JS \\ javascript', 'C++', 'SQL', 'C', 'ASP.NET']",1
+"['JS \\ javascript', 'C++', 'SQL', 'C', 'Azure']",2
+"['JS \\ javascript', 'C++', 'SQL', 'C', 'Go']",1
+"['JS \\ javascript', 'C++', 'TS \\ TypeScript', 'C', 'Azure']",1
+"['JS \\ javascript', 'C++', 'TS \\ TypeScript', 'C', 'React']",1
+"['JS \\ javascript', 'Go', 'React', 'Angular', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'C', 'Angular']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'C', 'ASP.NET']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'C', 'jQuery']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'C', 'React']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C']",4
+"['JS \\ javascript', 'HTML \\ CSS', 'Java', 'MongoDB', 'React']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'Java', 'PHP', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PHP', 'jQuery', 'WordPress']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PHP', 'MySQL', 'jQuery']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PHP', 'Node.js', 'Drupal']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PHP', 'WordPress', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PostgreSQL', 'MySQL', 'Docker']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C#', 'Azure']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'Java', 'React']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'SQL', 'ASP.NET']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'SQL', 'Go']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'R', 'Angular', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'React', 'Angular', 'Webpack']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'React', 'jQuery', 'Next.js']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'React', 'Make', 'Gradle']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'React', 'Make', 'Webpack']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'Amazon Web Services \\ AWS', 'Azure']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'Go', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'Java', 'Crystal']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'Java', 'React']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'TS \\ TypeScript', 'Go', 'React']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'TS \\ TypeScript', 'React', 'Make']",3
+"['JS \\ javascript', 'Java', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP']",1
+"['JS \\ javascript', 'Java', 'Amazon Web Services \\ AWS', 'React', 'Docker']",1
+"['JS \\ javascript', 'Java', 'Azure', 'Google Cloud \\ GCP', 'Node.js']",1
+"['JS \\ javascript', 'Java', 'Node.js', 'Express', 'Angular']",1
+"['JS \\ javascript', 'Java', 'React', 'Angular', 'Make']",3
+"['JS \\ javascript', 'PostgreSQL', 'Node.js', 'React', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'Bash', 'Java', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'C', 'Julia']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'C', 'R']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'C', 'React']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'Java', 'C']",4
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'C']",1
+"['JS \\ javascript', 'PYTHON', 'Java', 'Angular', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'Java', 'Go', 'Perl']",1
+"['JS \\ javascript', 'PYTHON', 'Java', 'MySQL', 'React']",1
+"['JS \\ javascript', 'PYTHON', 'Java', 'React', 'Django']",1
+"['JS \\ javascript', 'PYTHON', 'Java', 'Zephyr', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'PHP', 'MySQL', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'PostgreSQL', 'Node.js', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'PostgreSQL', 'React', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'React', 'Django', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'TS \\ TypeScript', 'PostgreSQL']",1
+"['JS \\ javascript', 'PYTHON', 'TS \\ TypeScript', 'Angular', 'Make']",2
+"['JS \\ javascript', 'PYTHON', 'TS \\ TypeScript', 'Azure', 'Make']",1
+"['JS \\ javascript', 'Ruby', 'React', 'Ruby on Rails', 'Make']",33
+"['JS \\ javascript', 'SQL', 'Express', 'Make', 'Ant']",1
+"['JS \\ javascript', 'SQL', 'Java', 'Oracle', 'VMware']",1
+"['JS \\ javascript', 'SQL', 'Java', 'React', 'Angular']",1
+"['JS \\ javascript', 'SQL', 'Java', 'React', 'Gradle']",1
+"['JS \\ javascript', 'SQL', 'Oracle', 'jQuery', 'Angular']",1
+"['JS \\ javascript', 'SQL', 'TS \\ TypeScript', 'Java', 'Groovy']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Amazon Web Services \\ AWS', 'Vue.js', 'Make']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Firebase', 'Node.js', 'React']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Go', 'React', 'Make']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Java', 'Amazon Web Services \\ AWS', 'Terraform']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'MySQL', 'Amazon Web Services \\ AWS', 'React']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Node.js', 'React', 'Make']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'PostgreSQL', 'Amazon Web Services \\ AWS', 'Node.js']",4
+"['JS \\ javascript', 'TS \\ TypeScript', 'React', 'Angular', 'Make']",2
+"['JS \\ javascript', 'TS \\ TypeScript', 'React', 'Next.js', 'Kubernetes']",1
+"['Kotlin', 'Swift', 'Make', 'Kubernetes', 'Flutter']",1
+"['MongoDB', 'Amazon Web Services \\ AWS', 'Azure', 'Docker', 'Kubernetes']",1
+"['PHP', 'PowerShell', 'Amazon Web Services \\ AWS', 'Azure', 'VMware']",1
+"['PowerShell', 'Azure', 'Make', 'Kubernetes', 'Terraform']",1
+"['PowerShell', 'Oracle', 'Amazon Web Services \\ AWS', 'Azure', 'VMware']",1
+"['PYTHON', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Make']",1
+"['PYTHON', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Terraform']",1
+"['PYTHON', 'Azure', 'React', 'Django', 'Make']",1
+"['PYTHON', 'Bash', 'Amazon Web Services \\ AWS', 'Make', 'Terraform']",1
+"['PYTHON', 'Bash', 'Java', 'Amazon Web Services \\ AWS', 'Terraform']",1
+"['PYTHON', 'Bash', 'PowerShell', 'Amazon Web Services \\ AWS', 'Terraform']",1
+"['PYTHON', 'Bash', 'PowerShell', 'Azure', 'Terraform']",1
+"['PYTHON', 'Bash', 'R', 'Docker', 'Ansible']",1
+"['PYTHON', 'C#', 'Java', 'Amazon Web Services \\ AWS', 'Make']",1
+"['PYTHON', 'C++', 'Bash', 'C', 'Make']",3
+"['PYTHON', 'C++', 'C', 'Assembly', 'Make']",1
+"['PYTHON', 'C++', 'C', 'Docker', 'Kubernetes']",1
+"['PYTHON', 'C++', 'C', 'Docker', 'Make']",2
+"['PYTHON', 'C++', 'C', 'Go', 'Make']",1
+"['PYTHON', 'C++', 'C', 'Go', 'MATLAB']",1
+"['PYTHON', 'C++', 'C', 'MATLAB', 'Make']",2
+"['PYTHON', 'C++', 'C', 'Perl', 'Make']",1
+"['PYTHON', 'C++', 'C', 'PowerShell', 'Make']",2
+"['PYTHON', 'C++', 'C', 'R', 'Make']",2
+"['PYTHON', 'C++', 'C', 'R', 'MATLAB']",2
+"['PYTHON', 'C++', 'C', 'React', 'Make']",1
+"['PYTHON', 'C++', 'C', 'Rust', 'Amazon Web Services \\ AWS']",1
+"['PYTHON', 'C++', 'C', 'Swift', 'Make']",1
+"['PYTHON', 'C++', 'C', 'Visual Basic', 'Fortran']",1
+"['PYTHON', 'C++', 'Java', 'C', 'Amazon Web Services \\ AWS']",4
+"['PYTHON', 'C++', 'Java', 'C', 'Go']",1
+"['PYTHON', 'C++', 'Java', 'C', 'Make']",7
+"['PYTHON', 'C++', 'Java', 'C', 'VBA']",1
+"['PYTHON', 'C++', 'SQL', 'C', 'Amazon Web Services \\ AWS']",1
+"['PYTHON', 'C++', 'SQL', 'C', 'Angular']",1
+"['PYTHON', 'C++', 'SQL', 'C', 'MySQL']",1
+"['PYTHON', 'C++', 'SQL', 'Java', 'C']",1
+"['PYTHON', 'C++', 'TS \\ TypeScript', 'C', 'Assembly']",2
+"['PYTHON', 'C++', 'TS \\ TypeScript', 'C', 'MATLAB']",1
+"['PYTHON', 'Databricks', 'Amazon Web Services \\ AWS', 'Azure', 'Databricks']",1
+"['PYTHON', 'Docker', 'Make', 'Kubernetes', 'Nix']",1
+"['PYTHON', 'Go', 'MongoDB', 'Docker', 'Kubernetes']",1
+"['PYTHON', 'Go', 'Scala', 'Databricks', 'Databricks']",1
+"['PYTHON', 'Java', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP']",1
+"['PYTHON', 'Java', 'BigQuery', 'Google Cloud \\ GCP', 'Make']",1
+"['PYTHON', 'Java', 'Dynamodb', 'Amazon Web Services \\ AWS', 'Terraform']",1
+"['PYTHON', 'Java', 'Go', 'Kotlin', 'Flask']",1
+"['PYTHON', 'Java', 'Go', 'Rust', 'Make']",2
+"['PYTHON', 'Java', 'Kotlin', 'Amazon Web Services \\ AWS', 'React']",1
+"['PYTHON', 'Java', 'Kotlin', 'Swift', 'Scala']",1
+"['PYTHON', 'Java', 'PowerShell', 'Oracle', 'Azure']",1
+"['PYTHON', 'Java', 'Scala', 'Docker', 'Make']",1
+"['PYTHON', 'PHP', 'Ruby', 'Perl', 'Ada']",1
+"['PYTHON', 'PostgreSQL', 'Amazon Web Services \\ AWS', 'React', 'Kubernetes']",1
+"['PYTHON', 'PowerShell', 'Azure', 'Make', 'Terraform']",2
+"['PYTHON', 'React', 'Django', 'Docker', 'Kubernetes']",1
+"['PYTHON', 'Redis', 'Amazon Web Services \\ AWS', 'Docker', 'Kubernetes']",1
+"['PYTHON', 'Redis', 'React', 'Django', 'Make']",3
+"['PYTHON', 'SQL', 'Amazon Web Services \\ AWS', 'Kubernetes', 'Terraform']",1
+"['PYTHON', 'SQL', 'Azure', 'Express', 'Make']",1
+"['PYTHON', 'SQL', 'Databricks', 'Azure', 'Databricks']",1
+"['PYTHON', 'SQL', 'Erlang', 'MySQL', 'Kubernetes']",1
+"['PYTHON', 'SQL', 'Go', 'R', 'Make']",1
+"['PYTHON', 'SQL', 'Java', 'Amazon Web Services \\ AWS', 'Make']",1
+"['PYTHON', 'SQL', 'Java', 'Azure', 'Make']",1
+"['PYTHON', 'SQL', 'Java', 'Delphi', 'Spring Boot']",1
+"['PYTHON', 'SQL', 'Java', 'Perl', 'Make']",1
+"['PYTHON', 'SQL', 'PHP', 'PostgreSQL', 'Laravel']",1
+"['PYTHON', 'SQL', 'PowerShell', 'Amazon Web Services \\ AWS', 'Make']",2
+"['PYTHON', 'SQL', 'PowerShell', 'Snowflake', 'Make']",1
+"['PYTHON', 'SQL', 'Snowflake', 'Amazon Web Services \\ AWS', 'Make']",2
+"['PYTHON', 'Swift', 'Google Cloud \\ GCP', 'Kubernetes', 'Terraform']",1
+"['PYTHON', 'TS \\ TypeScript', 'Java', 'Docker', 'Kubernetes']",1
+"['PYTHON', 'TS \\ TypeScript', 'React', 'Express', 'Make']",1
+"['PYTHON', 'TS \\ TypeScript', 'React', 'FastAPI', 'Make']",1
+"['Ruby', 'Elixir', 'Amazon Web Services \\ AWS', 'Docker', 'Make']",1
+"['Ruby', 'React', 'Ruby on Rails', 'Make', 'Kubernetes']",1
+"['SQL', 'Dynamodb', 'Amazon Web Services \\ AWS', 'Docker', 'Make']",1
+"['SQL', 'Go', 'Azure', 'Docker', 'Kubernetes']",1
+"['SQL', 'Go', 'Redis', 'Elasticsearch', 'Make']",1
+"['SQL', 'Go', 'Ruby', 'Ruby on Rails', 'Make']",1
+"['SQL', 'Java', 'Docker', 'Make', 'Kubernetes']",1
+"['SQL', 'Java', 'MariaDB', 'Oracle', 'AngularJS']",1
+"['SQL', 'Java', 'MongoDB', 'Google Cloud \\ GCP', 'Spring Boot']",1
+"['SQL', 'Java', 'Oracle', 'Angular', 'Kubernetes']",1
+"['SQL', 'PostgreSQL', 'MySQL', 'Oracle', 'Make']",1
+"['SQL', 'R', 'Databricks', 'Azure', 'Databricks']",1
+"['SQL', 'R', 'MySQL', 'Oracle', 'Microsoft Access']",2
+"['TS \\ TypeScript', 'Assembly', 'PostgreSQL', 'React', 'Make']",2
+"['TS \\ TypeScript', 'Java', 'Go', 'Ruby', 'Docker']",1
+"['TS \\ TypeScript', 'Ruby', 'Elasticsearch', 'React', 'Make']",1
+"['Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Make', 'Terraform', 'Pulumi']",1
+"['Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Terraform', 'Ansible', 'Puppet']",1
+"['Amazon Web Services \\ AWS', 'Azure', 'Kubernetes', 'Terraform', 'Ansible', 'Pulumi']",1
+"['Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Make', 'Kubernetes', 'Terraform', 'Ansible']",2
+"['Amazon Web Services \\ AWS', 'Make', 'Terraform', 'Ansible', 'Puppet', 'Chef']",1
+"['C#', 'SQL', 'TS \\ TypeScript', 'Azure', 'Angular', 'Make']",1
+"['C++', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker']",1
+"['C++', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Make']",1
+"['C++', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Terraform']",1
+"['C++', 'C', 'Delphi', 'React', 'Make', 'Flutter']",1
+"['C++', 'C', 'Go', 'Amazon Web Services \\ AWS', 'Make', 'Terraform']",1
+"['C++', 'C', 'Kotlin', 'Swift', 'Flask', 'Django']",1
+"['C++', 'C', 'PowerShell', 'Amazon Web Services \\ AWS', 'Docker', 'Make']",1
+"['C++', 'C', 'Ruby', 'Amazon Web Services \\ AWS', 'Ruby on Rails', 'Make']",1
+"['C++', 'C', 'Swift', 'Amazon Web Services \\ AWS', 'Firebase', 'Make']",2
+"['C++', 'C', 'Zephyr', 'Azure', 'Express', 'Google Test']",1
+"['C++', 'Java', 'C', 'Go', 'Kotlin', 'Make']",1
+"['C++', 'Java', 'C', 'Go', 'Snowflake', 'Make']",1
+"['C++', 'Java', 'C', 'R', 'MySQL', 'Make']",1
+"['C++', 'SQL', 'Bash', 'Java', 'C', 'PowerShell']",1
+"['C++', 'SQL', 'C', 'Amazon Web Services \\ AWS', 'ASP.NET', 'Make']",1
+"['C++', 'SQL', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Angular']",2
+"['C++', 'SQL', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP']",1
+"['C++', 'SQL', 'C', 'Azure', 'Angular', 'Make']",2
+"['C++', 'SQL', 'C', 'Azure', 'ASP.NET CORE', 'ASP.NET']",1
+"['C++', 'SQL', 'C', 'Azure', 'ASP.NET', 'Make']",1
+"['C++', 'SQL', 'C', 'Azure', 'Blazor', 'Make']",1
+"['C++', 'SQL', 'C', 'Azure', 'Make', 'Chef']",1
+"['C++', 'SQL', 'C', 'Cobol', 'Oracle', 'Make']",1
+"['C++', 'SQL', 'C', 'Express', 'Angular', 'Make']",1
+"['C++', 'SQL', 'C', 'Microsoft SQL Server', 'Amazon Web Services \\ AWS', 'Azure']",1
+"['C++', 'SQL', 'C', 'Oracle', 'Angular', 'ASP.NET']",1
+"['C++', 'SQL', 'C', 'React', 'Express', 'Make']",1
+"['C++', 'SQL', 'Java', 'C', 'Azure', 'ASP.NET']",1
+"['C++', 'SQL', 'TS \\ TypeScript', 'C', 'PowerShell', 'Angular']",1
+"['C++', 'SQL', 'TS \\ TypeScript', 'C', 'React', 'Angular']",1
+"['C++', 'TS \\ TypeScript', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Angular']",1
+"['C++', 'TS \\ TypeScript', 'Java', 'C', 'Swift', 'React']",1
+"['Go', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Make']",1
+"['Go', 'PostgreSQL', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Make']",2
+"['Go', 'PostgreSQL', 'Docker', 'Make', 'Kubernetes', 'Terraform']",2
+"['Go', 'PostgreSQL', 'Redis', 'Amazon Web Services \\ AWS', 'Docker', 'Kubernetes']",1
+"['Go', 'Ruby', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Make']",1
+"['HTML \\ CSS', 'Java', 'Go', 'React', 'Make', 'Terraform']",1
+"['HTML \\ CSS', 'MongoDB', 'jQuery', 'WordPress', 'Make', 'Ansible']",1
+"['HTML \\ CSS', 'SQL', 'Bash', 'Java', 'Perl', 'Maven']",1
+"['HTML \\ CSS', 'TS \\ TypeScript', 'Supabase', 'Google Cloud \\ GCP', 'Supabase', 'React']",1
+"['Java', 'Amazon Web Services \\ AWS', 'Azure', 'Spring Boot', 'Docker', 'Kubernetes']",1
+"['Java', 'Cassandra', 'Amazon Web Services \\ AWS', 'Docker', 'Make', 'Gradle']",2
+"['Java', 'Couchbase', 'Amazon Web Services \\ AWS', 'Express', 'Spring Boot', 'Make']",1
+"['Java', 'R', 'MySQL', 'Redis', 'Spring Boot', 'Make']",1
+"['Java', 'Redis', 'OpenShift', 'Docker', 'Make', 'Kubernetes']",2
+"['JS \\ javascript', 'Apex', 'Google Cloud \\ GCP', 'jQuery', 'AngularJS', 'Make']",1
+"['JS \\ javascript', 'C++', 'C', 'Amazon Web Services \\ AWS', 'React', 'Make']",1
+"['JS \\ javascript', 'C++', 'C', 'Node.js', 'React', 'Docker']",1
+"['JS \\ javascript', 'C++', 'Java', 'C', 'Go', 'Make']",2
+"['JS \\ javascript', 'C++', 'Java', 'C', 'Ruby', 'Make']",2
+"['JS \\ javascript', 'C++', 'SQL', 'C', 'Azure', 'Angular']",1
+"['JS \\ javascript', 'C++', 'SQL', 'C', 'Azure', 'Blazor']",1
+"['JS \\ javascript', 'C++', 'SQL', 'C', 'Node.js', 'Angular']",1
+"['JS \\ javascript', 'C++', 'SQL', 'C', 'React', 'ASP.NET']",1
+"['JS \\ javascript', 'C++', 'SQL', 'C', 'VBA', 'Azure']",1
+"['JS \\ javascript', 'C++', 'SQL', 'TS \\ TypeScript', 'C', 'Azure']",1
+"['JS \\ javascript', 'C++', 'TS \\ TypeScript', 'C', 'Angular', 'ASP.NET']",1
+"['JS \\ javascript', 'C++', 'TS \\ TypeScript', 'C', 'Azure', 'React']",1
+"['JS \\ javascript', 'Go', 'Google Cloud \\ GCP', 'Make', 'Kubernetes', 'Terraform']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'Amazon Web Services \\ AWS', 'React', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'Amazon Web Services \\ AWS', 'React', 'Next.js', 'Terraform']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'Azure', 'Angular', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'C', 'Go', 'Node.js']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'C', 'React', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C', 'ASP.NET']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C', 'Make']",2
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C', 'PHP']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'TS \\ TypeScript', 'Java', 'C']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'Go', 'Apex', 'Azure', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'Java', 'Kotlin', 'Groovy', 'Azure']",2
+"['JS \\ javascript', 'HTML \\ CSS', 'Java', 'Kotlin', 'Swift', 'Next.js']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'Java', 'PostgreSQL', 'React', 'Spring Boot']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'Node.js', 'React', 'Angular', 'Vue.js']",3
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C#', 'Azure', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'Java', 'C']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'Java', 'PHP', 'jQuery']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'SQL', 'Azure', 'Django']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'SQL', 'Flask', 'Django']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'TS \\ TypeScript', 'React', 'Angular']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'React', 'Django', 'Make', 'Webpack']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'Java', 'Amazon Web Services \\ AWS', 'jQuery']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'Java', 'MySQL', 'Node.js']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'Java', 'Oracle', 'Amazon Web Services \\ AWS']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'PHP', 'Ada', 'WordPress']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'PHP', 'jQuery', 'Angular']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'PHP', 'jQuery', 'WordPress']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'React', 'jQuery', 'Angular']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'TS \\ TypeScript', 'React', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'TS \\ TypeScript', 'Ada', 'React', 'Angular']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'TS \\ TypeScript', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'React']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'TS \\ TypeScript', 'Azure', 'Angular', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'TS \\ TypeScript', 'Java', 'Amazon Web Services \\ AWS', 'Angular']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'TS \\ TypeScript', 'Node.js', 'React', 'Angular']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'TS \\ TypeScript', 'React', 'Angular', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'TS \\ TypeScript', 'React', 'Angular', 'Vue.js']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'TS \\ TypeScript', 'React', 'Next.js', 'Make']",3
+"['JS \\ javascript', 'HTML \\ CSS', 'TS \\ TypeScript', 'Visual Basic', 'React', 'Vue.js']",1
+"['JS \\ javascript', 'Java', 'Amazon Web Services \\ AWS', 'Azure', 'Node.js', 'Angular']",1
+"['JS \\ javascript', 'Java', 'Amazon Web Services \\ AWS', 'Azure', 'React', 'Make']",1
+"['JS \\ javascript', 'Java', 'Go', 'Node.js', 'Angular', 'Vue.js']",1
+"['JS \\ javascript', 'Java', 'Kotlin', 'React', 'Express', 'Make']",2
+"['JS \\ javascript', 'Java', 'MySQL', 'Amazon Web Services \\ AWS', 'ASP.NET', 'Make']",1
+"['JS \\ javascript', 'MongoDB', 'Azure', 'Node.js', 'React', 'Kubernetes']",1
+"['JS \\ javascript', 'MongoDB', 'Node.js', 'React', 'Express', 'Make']",1
+"['JS \\ javascript', 'PHP', 'MySQL', 'React', 'WordPress', 'npm']",1
+"['JS \\ javascript', 'PYTHON', 'C#', 'Java', 'Go', 'Swift']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'C', 'Amazon Web Services \\ AWS', 'Azure']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'C', 'PHP', 'R']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'Java', 'C', 'Azure']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'C', 'Phoenix']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'C', 'React']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'Java', 'C']",3
+"['JS \\ javascript', 'PYTHON', 'C++', 'TS \\ TypeScript', 'C', 'Rust']",1
+"['JS \\ javascript', 'PYTHON', 'Java', 'Amazon Web Services \\ AWS', 'React', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'Java', 'Dynamodb', 'Amazon Web Services \\ AWS', 'Node.js']",1
+"['JS \\ javascript', 'PYTHON', 'Java', 'Dynamodb', 'Amazon Web Services \\ AWS', 'React']",1
+"['JS \\ javascript', 'PYTHON', 'Java', 'PHP', 'Scala', 'Make']",2
+"['JS \\ javascript', 'PYTHON', 'MySQL', 'Neo4J', 'Angular', 'Docker']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'Amazon Web Services \\ AWS', 'React', 'Docker']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'Perl', 'Node.js', 'AngularJS']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'PostgreSQL', 'SQLite', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'TS \\ TypeScript', 'Snowflake', 'Amazon Web Services \\ AWS']",1
+"['JS \\ javascript', 'PYTHON', 'TS \\ TypeScript', 'React', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'React', 'Vue.js', 'npm', 'Vite', 'Webpack']",1
+"['JS \\ javascript', 'SQL', 'Azure', 'jQuery', 'ASP.NET', 'Blazor']",1
+"['JS \\ javascript', 'SQL', 'Azure', 'React', 'Angular', 'Make']",1
+"['JS \\ javascript', 'SQL', 'Java', 'Go', 'Make', 'Gradle']",1
+"['JS \\ javascript', 'SQL', 'Java', 'Go', 'Node.js', 'Make']",1
+"['JS \\ javascript', 'SQL', 'Java', 'R', 'Microsoft SQL Server', 'Firebird']",2
+"['JS \\ javascript', 'SQL', 'Microsoft SQL Server', 'Azure', 'ASP.NET', 'Make']",1
+"['JS \\ javascript', 'SQL', 'TS \\ TypeScript', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP']",1
+"['JS \\ javascript', 'SQL', 'TS \\ TypeScript', 'Azure', 'Node.js', 'Angular']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Ada', 'Google Cloud \\ GCP', 'Docker', 'Kubernetes']",2
+"['JS \\ javascript', 'TS \\ TypeScript', 'Azure', 'React', 'npm', 'Webpack']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Dynamodb', 'Amazon Web Services \\ AWS', 'Node.js', 'Angular']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Go', 'MySQL', 'React', 'Make']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'MySQL', 'Dynamodb', 'Amazon Web Services \\ AWS', 'React']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Node.js', 'Docker', 'npm', 'Kubernetes']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Node.js', 'React', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Node.js', 'React', 'Next.js', 'Make']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'PostgreSQL', 'Docker', 'Make', 'Kubernetes']",2
+"['JS \\ javascript', 'TS \\ TypeScript', 'React', 'Angular', 'Make', 'Webpack']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'React', 'Next.js', 'Vite', 'Webpack']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Redis', 'Node.js', 'React', 'Make']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Ruby', 'Amazon Web Services \\ AWS', 'Node.js', 'Make']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Ruby', 'PostgreSQL', 'React', 'Ruby on Rails']",1
+"['JS \\ javascript', 'VBA', 'Amazon Web Services \\ AWS', 'React', 'Express', 'Make']",1
+"['PYTHON', 'Ada', 'Neo4J', 'Amazon Web Services \\ AWS', 'Make', 'Kubernetes']",1
+"['PYTHON', 'Amazon Web Services \\ AWS', 'Azure', 'Docker', 'Kubernetes', 'Terraform']",1
+"['PYTHON', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Kubernetes']",1
+"['PYTHON', 'Amazon Web Services \\ AWS', 'Docker', 'Make', 'Kubernetes', 'Terraform']",1
+"['PYTHON', 'Bash', 'Amazon Web Services \\ AWS', 'Ansible', 'Puppet', 'Chef']",1
+"['PYTHON', 'Bash', 'Go', 'Docker', 'Make', 'Kubernetes']",1
+"['PYTHON', 'Bash', 'Google Cloud \\ GCP', 'Make', 'Kubernetes', 'Terraform']",1
+"['PYTHON', 'Bash', 'Java', 'Amazon Web Services \\ AWS', 'Make', 'Terraform']",1
+"['PYTHON', 'Bash', 'Java', 'Azure', 'Express', 'Make']",1
+"['PYTHON', 'Bash', 'PowerShell', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP']",1
+"['PYTHON', 'Bash', 'PowerShell', 'Amazon Web Services \\ AWS', 'Docker', 'Kubernetes']",1
+"['PYTHON', 'Bash', 'PowerShell', 'Perl', 'Amazon Web Services \\ AWS', 'Azure']",1
+"['PYTHON', 'C#', 'Bash', 'Java', 'Assembly', 'Apex']",1
+"['PYTHON', 'C++', 'Bash', 'C', 'Go', 'Make']",1
+"['PYTHON', 'C++', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP']",1
+"['PYTHON', 'C++', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Kubernetes']",1
+"['PYTHON', 'C++', 'C', 'Assembly', 'Azure', 'Make']",1
+"['PYTHON', 'C++', 'C', 'Assembly', 'Make', 'Ant']",1
+"['PYTHON', 'C++', 'C', 'Assembly', 'Swift', 'Make']",1
+"['PYTHON', 'C++', 'C', 'BigQuery', 'Make', 'Kubernetes']",1
+"['PYTHON', 'C++', 'C', 'Databricks', 'Azure', 'Databricks']",1
+"['PYTHON', 'C++', 'C', 'Go', 'Docker', 'Make']",1
+"['PYTHON', 'C++', 'C', 'Go', 'R', 'Make']",2
+"['PYTHON', 'C++', 'Java', 'C', 'Amazon Web Services \\ AWS', 'Make']",1
+"['PYTHON', 'C++', 'Java', 'C', 'Go', 'R']",1
+"['PYTHON', 'C++', 'Java', 'C', 'H', 'Maven']",1
+"['PYTHON', 'C++', 'Java', 'C', 'Kotlin', 'Google Cloud \\ GCP']",1
+"['PYTHON', 'C++', 'Java', 'C', 'Make', 'Ansible']",1
+"['PYTHON', 'C++', 'Java', 'C', 'Oracle', 'Kubernetes']",1
+"['PYTHON', 'C++', 'Java', 'C', 'Perl', 'Oracle']",1
+"['PYTHON', 'C++', 'Java', 'C', 'Visual Basic', 'MATLAB']",1
+"['PYTHON', 'C++', 'SQL', 'C', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP']",1
+"['PYTHON', 'C++', 'SQL', 'C', 'Amazon Web Services \\ AWS', 'Make']",1
+"['PYTHON', 'C++', 'SQL', 'C', 'Elasticsearch', 'Azure']",1
+"['PYTHON', 'C++', 'SQL', 'C', 'Express', 'ASP.NET']",1
+"['PYTHON', 'C++', 'SQL', 'C', 'MySQL', 'Azure']",1
+"['PYTHON', 'C++', 'SQL', 'Java', 'C', 'Amazon Web Services \\ AWS']",1
+"['PYTHON', 'C++', 'SQL', 'Java', 'C', 'Make']",1
+"['PYTHON', 'C++', 'SQL', 'Java', 'C', 'Oracle']",1
+"['PYTHON', 'C++', 'TS \\ TypeScript', 'C', 'Amazon Web Services \\ AWS', 'Azure']",1
+"['PYTHON', 'C++', 'TS \\ TypeScript', 'C', 'Databricks', 'Databricks']",1
+"['PYTHON', 'C++', 'TS \\ TypeScript', 'C', 'Rust', 'Amazon Web Services \\ AWS']",1
+"['PYTHON', 'Databricks', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Databricks']",1
+"['PYTHON', 'Go', 'Ada', 'MongoDB', 'Snowflake', 'Amazon Web Services \\ AWS']",1
+"['PYTHON', 'Go', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Terraform']",1
+"['PYTHON', 'Go', 'Amazon Web Services \\ AWS', 'Make', 'Kubernetes', 'Terraform']",1
+"['PYTHON', 'Go', 'Kotlin', 'MySQL', 'Elasticsearch', 'Make']",1
+"['PYTHON', 'Java', 'Amazon Web Services \\ AWS', 'Docker', 'Make', 'Kubernetes']",1
+"['PYTHON', 'Java', 'Amazon Web Services \\ AWS', 'React', 'Make', 'Kubernetes']",1
+"['PYTHON', 'Java', 'Azure', 'Google Cloud \\ GCP', 'Terraform', 'Ansible']",1
+"['PYTHON', 'Java', 'Elasticsearch', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP']",1
+"['PYTHON', 'Java', 'Kotlin', 'Amazon Web Services \\ AWS', 'React', 'Make']",1
+"['PYTHON', 'Java', 'PostgreSQL', 'MySQL', 'Dynamodb', 'Amazon Web Services \\ AWS']",1
+"['PYTHON', 'Java', 'Ruby', 'Amazon Web Services \\ AWS', 'Docker', 'Kubernetes']",1
+"['PYTHON', 'PostgreSQL', 'MariaDB', 'Amazon Web Services \\ AWS', 'Azure', 'Make']",1
+"['PYTHON', 'PostgreSQL', 'MySQL', 'Django', 'FastAPI', 'Make']",1
+"['PYTHON', 'PostgreSQL', 'Redis', 'Amazon Web Services \\ AWS', 'Django', 'Make']",1
+"['PYTHON', 'PowerShell', 'Go', 'Docker', 'Kubernetes', 'Terraform']",1
+"['PYTHON', 'Scala', 'Redis', 'BigQuery', 'Cassandra', 'Kubernetes']",1
+"['PYTHON', 'SQL', 'Amazon Web Services \\ AWS', 'Django', 'Docker', 'Kubernetes']",2
+"['PYTHON', 'SQL', 'Cosmos DB', 'Databricks', 'Azure', 'Databricks']",1
+"['PYTHON', 'SQL', 'Go', 'MySQL', 'Oracle', 'Amazon Web Services \\ AWS']",2
+"['PYTHON', 'SQL', 'Java', 'Go', 'Kotlin', 'Make']",1
+"['PYTHON', 'SQL', 'Java', 'Oracle', 'Spring Boot', 'Make']",1
+"['PYTHON', 'SQL', 'Java', 'PHP', 'Visual Basic', 'Oracle']",2
+"['PYTHON', 'SQL', 'Java', 'Ruby', 'R', 'Ruby on Rails']",1
+"['PYTHON', 'SQL', 'Java', 'Scala', 'Azure', 'Make']",1
+"['PYTHON', 'SQL', 'MySQL', 'Dynamodb', 'Amazon Web Services \\ AWS', 'Make']",1
+"['PYTHON', 'SQL', 'PHP', 'MySQL', 'VMware', 'Drupal']",1
+"['PYTHON', 'SQL', 'PostgreSQL', 'MySQL', 'Dynamodb', 'Amazon Web Services \\ AWS']",1
+"['PYTHON', 'SQL', 'R', 'Databricks', 'Azure', 'Databricks']",1
+"['PYTHON', 'SQL', 'R', 'Snowflake', 'Google Cloud \\ GCP', 'Make']",1
+"['PYTHON', 'SQL', 'Snowflake', 'Amazon Web Services \\ AWS', 'Docker', 'Make']",1
+"['PYTHON', 'SQL', 'Snowflake', 'Databricks', 'Azure', 'Databricks']",1
+"['PYTHON', 'TS \\ TypeScript', 'Bash', 'Go', 'OpenShift', 'Kubernetes']",1
+"['PYTHON', 'TS \\ TypeScript', 'Java', 'PostgreSQL', 'MongoDB', 'Docker']",1
+"['Redis', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Docker', 'Kubernetes', 'Terraform']",1
+"['Ruby', 'PostgreSQL', 'Amazon Web Services \\ AWS', 'Angular', 'Ruby on Rails', 'Make']",1
+"['Ruby', 'PostgreSQL', 'Redis', 'Amazon Web Services \\ AWS', 'Ruby on Rails', 'Docker']",1
+"['SQL', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Make', 'Kubernetes']",1
+"['SQL', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'VMware', 'Make']",1
+"['SQL', 'Java', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Spring Boot']",1
+"['SQL', 'Java', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Spring Boot', 'Make']",1
+"['SQL', 'Java', 'Go', 'MySQL', 'Spring Boot', 'Make']",1
+"['SQL', 'Java', 'Google Cloud \\ GCP', 'Spring Boot', 'Docker', 'Kubernetes']",1
+"['SQL', 'Java', 'Kotlin', 'Groovy', 'Scala', 'Make']",1
+"['SQL', 'Java', 'MongoDB', 'Oracle', 'Google Cloud \\ GCP', 'Make']",1
+"['SQL', 'Java', 'Oracle', 'Angular', 'Make', 'Kubernetes']",1
+"['SQL', 'Java', 'Oracle', 'Google Cloud \\ GCP', 'OpenShift', 'Angular']",1
+"['SQL', 'Java', 'R', 'Azure', 'React', 'Kubernetes']",1
+"['SQL', 'Java', 'React', 'Express', 'Angular', 'Maven']",1
+"['SQL', 'Oracle', 'Google Cloud \\ GCP', 'OpenShift', 'Docker', 'Kubernetes']",1
+"['SQL', 'PostgreSQL', 'Oracle', 'Azure', 'Docker', 'Kubernetes']",1
+"['SQL', 'Snowflake', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Maven']",1
+"['SQL', 'TS \\ TypeScript', 'Java', 'Kotlin', 'Angular', 'Docker']",1
+"['Swift', 'Dynamodb', 'Amazon Web Services \\ AWS', 'React', 'Express', 'Make']",1
+"['TS \\ TypeScript', 'Go', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'React']",1
+"['TS \\ TypeScript', 'Java', 'Angular', 'Docker', 'Kubernetes', 'Puppet']",1
+"['TS \\ TypeScript', 'Java', 'Go', 'Amazon Web Services \\ AWS', 'Spring Boot', 'Make']",1
+"['TS \\ TypeScript', 'Java', 'PostgreSQL', 'Amazon Web Services \\ AWS', 'React', 'Make']",1
+"['TS \\ TypeScript', 'React', 'npm', 'Vite', 'Yarn', 'Webpack']",1
+"['Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Make', 'Kubernetes', 'Terraform', 'Ansible']",1
+"['C++', 'C', 'MySQL', 'ASP.NET', 'Blazor', 'Docker', 'Kubernetes']",1
+"['C++', 'C', 'MySQL', 'Elasticsearch', 'Amazon Web Services \\ AWS', 'Kubernetes', 'Terraform']",1
+"['C++', 'C', 'PostgreSQL', 'MySQL', 'Amazon Web Services \\ AWS', 'Docker', 'Kubernetes']",1
+"['C++', 'C#', 'SQL', 'C', 'Go', 'Azure', 'Make']",1
+"['C++', 'C#', 'SQL', 'C', 'Go', 'Oracle', 'Make']",1
+"['C++', 'Java', 'C', 'Cobol', 'SQLite', 'React', 'Angular']",1
+"['C++', 'Java', 'C', 'Kotlin', 'Swift', 'React', 'Make']",1
+"['C++', 'SQL', 'C', 'Assembly', 'Oracle', 'Docker', 'Make']",1
+"['C++', 'SQL', 'C', 'MongoDB', 'Azure', 'ASP.NET', 'Blazor']",1
+"['C++', 'SQL', 'C', 'PowerShell', 'Azure', 'Express', 'Make']",1
+"['C++', 'SQL', 'Java', 'C', 'Go', 'Elasticsearch', 'Make']",1
+"['Go', 'PostgreSQL', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'React', 'Make']",2
+"['HTML \\ CSS', 'C++', 'SQL', 'C', 'Azure', 'jQuery', 'Make']",1
+"['HTML \\ CSS', 'C++', 'SQL', 'C', 'Docker', 'Make', 'Kubernetes']",1
+"['HTML \\ CSS', 'C++', 'SQL', 'Java', 'C', 'ASP.NET', 'Make']",1
+"['HTML \\ CSS', 'C++', 'SQL', 'Java', 'C', 'Oracle', 'H']",1
+"['HTML \\ CSS', 'C++', 'SQL', 'Java', 'C', 'React', 'Spring Boot']",1
+"['HTML \\ CSS', 'PYTHON', 'C++', 'SQL', 'C', 'jQuery', 'ASP.NET']",1
+"['Java', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'OpenStack', 'React', 'Angular']",1
+"['Java', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Spring Boot', 'Docker', 'Kubernetes']",1
+"['Java', 'Azure', 'Angular', 'Spring Boot', 'Docker', 'Make', 'Kubernetes']",1
+"['Java', 'Kotlin', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Spring Boot', 'Docker', 'Kubernetes']",1
+"['Java', 'Kotlin', 'Groovy', 'Amazon Web Services \\ AWS', 'Make', 'Gradle', 'Terraform']",1
+"['Java', 'Kotlin', 'R', 'Amazon Web Services \\ AWS', 'Make', 'Kubernetes', 'Terraform']",1
+"['Java', 'MongoDB', 'Redis', 'Cassandra', 'Spring Boot', 'Docker', 'Kubernetes']",1
+"['Java', 'MySQL', 'Snowflake', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Make']",1
+"['Java', 'PHP', 'Go', 'PostgreSQL', 'MySQL', 'Amazon Web Services \\ AWS', 'Spring Boot']",1
+"['Java', 'PostgreSQL', 'MySQL', 'Amazon Web Services \\ AWS', 'Spring Boot', 'Terraform', 'Ansible']",1
+"['Java', 'Rust', 'Swift', 'PostgreSQL', 'Oracle', 'Cassandra', 'Kubernetes']",1
+"['Java', 'Snowflake', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'React', 'Angular', 'Make']",1
+"['JS \\ javascript', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Node.js', 'Angular', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'C++', 'Java', 'C', 'Node.js', 'React', 'Angular']",1
+"['JS \\ javascript', 'C++', 'SQL', 'C', 'PowerShell', 'Azure', 'Terraform']",1
+"['JS \\ javascript', 'C++', 'SQL', 'TS \\ TypeScript', 'C', 'Azure', 'React']",1
+"['JS \\ javascript', 'Go', 'Amazon Web Services \\ AWS', 'Node.js', 'React', 'Next.js', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'Ada', 'React', 'jQuery', 'Angular', 'Vue.js']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'Ada', 'React', 'Next.js', 'WordPress', 'Drupal']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C#', 'SQL', 'Amazon Web Services \\ AWS', 'Azure', 'ASP.NET']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C#', 'TS \\ TypeScript', 'Java', 'Azure', 'React']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'C', 'jQuery', 'AngularJS', 'Webpack']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'C', 'React', 'Express', 'ASP.NET']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'C', 'Visual Basic', 'Azure', 'ASP.NET']",2
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C', 'jQuery', 'ASP.NET']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C', 'React', 'Angular']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C', 'React', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'TS \\ TypeScript', 'Java', 'C']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'TS \\ TypeScript', 'C', 'React', 'Angular']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'Kotlin', 'React', 'jQuery', 'Gatsby', 'Webpack']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PHP', 'Go', 'Redis', 'MariaDB', 'WordPress']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PHP', 'MySQL', 'Amazon Web Services \\ AWS', 'React', 'Laravel']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PHP', 'MySQL', 'Azure', 'WordPress', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PHP', 'R', 'jQuery', 'Drupal', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'C', 'PowerShell', 'Amazon Web Services \\ AWS']",2
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'Java', 'C', 'Flutter']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'Java', 'C', 'PHP']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'SQL', 'C', 'Swift']",2
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'TS \\ TypeScript', 'Java', 'C']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'Java', 'React', 'Angular', 'Spring Boot']",2
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'SQL', 'Java', 'Groovy', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'SQL', 'React', 'ASP.NET', 'AngularJS']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'TS \\ TypeScript', 'Java', 'Go', 'Amazon Web Services \\ AWS']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'TS \\ TypeScript', 'Java', 'Go', 'React']",2
+"['JS \\ javascript', 'HTML \\ CSS', 'React', 'Express', 'Docker', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'Java', 'Amazon Web Services \\ AWS', 'Express', 'Angular']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'Java', 'Go', 'Oracle', 'jQuery']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'Java', 'Oracle', 'jQuery', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'Microsoft SQL Server', 'Amazon Web Services \\ AWS', 'Azure', 'Angular']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'MongoDB', 'Node.js', 'React', 'Express']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'TS \\ TypeScript', 'Java', 'Angular', 'Maven']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'TS \\ TypeScript', 'Amazon Web Services \\ AWS', 'Node.js', 'Angular', 'Terraform']",2
+"['JS \\ javascript', 'HTML \\ CSS', 'TS \\ TypeScript', 'Cloudflare', 'Node.js', 'React', 'Next.js']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'TS \\ TypeScript', 'Java', 'Kotlin', 'Amazon Web Services \\ AWS', 'Angular']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'TS \\ TypeScript', 'Kotlin', 'Swift', 'React', 'Next.js']",1
+"['JS \\ javascript', 'Java', 'Amazon Web Services \\ AWS', 'React', 'Spring Boot', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'Java', 'Snowflake', 'Amazon Web Services \\ AWS', 'React', 'Spring Boot', 'Make']",1
+"['JS \\ javascript', 'MongoDB', 'Amazon Web Services \\ AWS', 'Azure', 'Node.js', 'React', 'Flutter']",1
+"['JS \\ javascript', 'MySQL', 'MongoDB', 'Node.js', 'Express', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'PHP', 'Go', 'React', 'Laravel', 'Svelte', 'Make']",1
+"['JS \\ javascript', 'PHP', 'MySQL', 'Amazon Web Services \\ AWS', 'Node.js', 'Laravel', 'Make']",1
+"['JS \\ javascript', 'PostgreSQL', 'Amazon Web Services \\ AWS', 'Node.js', 'Make', 'Kubernetes', 'Terraform']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'C', 'React', 'Angular', 'Vue.js']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'C', 'Rust', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'Java', 'C', 'Azure', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'Java', 'C', 'Elasticsearch', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'Java', 'C', 'Kotlin', 'R']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'Java', 'C', 'OpenShift', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'Java', 'C', 'PHP', 'Make']",3
+"['JS \\ javascript', 'PYTHON', 'C++', 'Java', 'C', 'Ruby', 'Azure']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'Java', 'C', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'Java', 'C', 'PowerShell']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'TS \\ TypeScript', 'Java', 'C']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'TS \\ TypeScript', 'Java', 'C', 'Amazon Web Services \\ AWS']",1
+"['JS \\ javascript', 'PYTHON', 'Java', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'Java', 'FastAPI', 'Make', 'Terraform', 'Ansible']",1
+"['JS \\ javascript', 'PYTHON', 'Java', 'Go', 'Amazon Web Services \\ AWS', 'Angular', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'Java', 'MySQL', 'jQuery', 'Make', 'Maven']",1
+"['JS \\ javascript', 'PYTHON', 'Kotlin', 'MySQL', 'Amazon Web Services \\ AWS', 'React', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'MySQL', 'Elasticsearch', 'React', 'Django', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'Node.js', 'React', 'Docker', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'Amazon Web Services \\ AWS', 'Angular', 'AngularJS', 'Make']",3
+"['JS \\ javascript', 'PYTHON', 'SQL', 'Java', 'Rust', 'Amazon Web Services \\ AWS', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'PHP', 'Go', 'MySQL', 'jQuery']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'TS \\ TypeScript', 'Docker', 'Kubernetes', 'Terraform']",1
+"['JS \\ javascript', 'PYTHON', 'TS \\ TypeScript', 'Amazon Web Services \\ AWS', 'Vue.js', 'Svelte', 'Terraform']",2
+"['JS \\ javascript', 'PYTHON', 'TS \\ TypeScript', 'Java', 'MongoDB', 'Elasticsearch', 'Make']",1
+"['JS \\ javascript', 'SQL', 'Java', 'Amazon Web Services \\ AWS', 'React', 'Spring Boot', 'AngularJS']",1
+"['JS \\ javascript', 'SQL', 'Java', 'Oracle', 'Angular', 'Spring Boot', 'Docker']",1
+"['JS \\ javascript', 'SQL', 'Java', 'Oracle', 'OpenShift', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'SQL', 'Java', 'PostgreSQL', 'MariaDB', 'Oracle', 'Make']",1
+"['JS \\ javascript', 'SQL', 'PHP', 'MySQL', 'Laravel', 'AngularJS', 'Make']",1
+"['JS \\ javascript', 'SQL', 'TS \\ TypeScript', 'Amazon Web Services \\ AWS', 'Azure', 'Node.js', 'Vue.js']",1
+"['JS \\ javascript', 'SQL', 'TS \\ TypeScript', 'Amazon Web Services \\ AWS', 'Node.js', 'React', 'Next.js']",1
+"['JS \\ javascript', 'SQL', 'TS \\ TypeScript', 'PostgreSQL', 'MySQL', 'Amazon Web Services \\ AWS', 'Express']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Ada', 'MySQL', 'Node.js', 'React', 'Make']",2
+"['JS \\ javascript', 'TS \\ TypeScript', 'Ada', 'React', 'Angular', 'Spring Boot', 'Maven']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Amazon Web Services \\ AWS', 'Node.js', 'React', 'Express', 'Make']",1
+"['PYTHON', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Kubernetes', 'Puppet']",1
+"['PYTHON', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Make', 'Kubernetes']",1
+"['PYTHON', 'Amazon Web Services \\ AWS', 'Azure', 'React', 'Flask', 'Django', 'Docker']",1
+"['PYTHON', 'Bash', 'Amazon Web Services \\ AWS', 'Docker', 'Kubernetes', 'Terraform', 'Ansible']",1
+"['PYTHON', 'Bash', 'PowerShell', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Kubernetes']",1
+"['PYTHON', 'Bash', 'PowerShell', 'Amazon Web Services \\ AWS', 'Azure', 'Make', 'Terraform']",1
+"['PYTHON', 'C#', 'Bash', 'Java', 'Go', 'Groovy', 'Make']",1
+"['PYTHON', 'C#', 'TS \\ TypeScript', 'Java', 'R', 'Amazon Web Services \\ AWS', 'Terraform']",1
+"['PYTHON', 'C++', 'Bash', 'C', 'Docker', 'Make', 'Google Test']",3
+"['PYTHON', 'C++', 'C', 'Databricks', 'Amazon Web Services \\ AWS', 'Databricks', 'Make']",1
+"['PYTHON', 'C++', 'C', 'MongoDB', 'Azure', 'React', 'Make']",1
+"['PYTHON', 'C++', 'Java', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP']",1
+"['PYTHON', 'C++', 'Java', 'C', 'Assembly', 'Zephyr', 'Make']",1
+"['PYTHON', 'C++', 'Java', 'C', 'Go', 'Docker', 'Kubernetes']",1
+"['PYTHON', 'C++', 'Java', 'C', 'Go', 'Docker', 'Make']",1
+"['PYTHON', 'C++', 'SQL', 'Bash', 'C', 'MATLAB', 'Docker']",1
+"['PYTHON', 'C++', 'SQL', 'C', 'Apex', 'Crystal', 'ASP.NET']",1
+"['PYTHON', 'C++', 'SQL', 'C', 'Erlang', 'MySQL', 'Kubernetes']",1
+"['PYTHON', 'C++', 'SQL', 'C', 'MariaDB', 'Docker', 'Kubernetes']",1
+"['PYTHON', 'C++', 'SQL', 'C', 'R', 'PostgreSQL', 'Docker']",1
+"['PYTHON', 'C++', 'SQL', 'C', 'R', 'VBA', 'Amazon Web Services \\ AWS']",1
+"['PYTHON', 'Go', 'Docker', 'Make', 'Kubernetes', 'Terraform', 'Ansible']",1
+"['PYTHON', 'Groovy', 'Amazon Web Services \\ AWS', 'Docker', 'Kubernetes', 'Ansible', 'Chef']",1
+"['PYTHON', 'Java', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'OpenShift', 'Docker']",1
+"['PYTHON', 'Java', 'Go', 'Amazon Web Services \\ AWS', 'Docker', 'Kubernetes', 'Terraform']",1
+"['PYTHON', 'Java', 'Go', 'Oracle', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Make']",1
+"['PYTHON', 'Java', 'Go', 'PostgreSQL', 'Docker', 'Make', 'Kubernetes']",2
+"['PYTHON', 'Java', 'R', 'PostgreSQL', 'Spring Boot', 'Django', 'Make']",1
+"['PYTHON', 'Java', 'Scala', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Make']",1
+"['PYTHON', 'Java', 'Scala', 'Databricks', 'Amazon Web Services \\ AWS', 'Databricks', 'Make']",1
+"['PYTHON', 'MySQL', 'InfluxDB', 'Amazon Web Services \\ AWS', 'React', 'Flask', 'Docker']",1
+"['PYTHON', 'PowerShell', 'Amazon Web Services \\ AWS', 'Azure', 'VMware', 'Docker', 'Kubernetes']",1
+"['PYTHON', 'R', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Kubernetes']",1
+"['PYTHON', 'Redis', 'BigQuery', 'Google Cloud \\ GCP', 'Make', 'Terraform', 'Composer']",1
+"['PYTHON', 'SQL', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Make', 'Kubernetes']",1
+"['PYTHON', 'SQL', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'React', 'FastAPI']",1
+"['PYTHON', 'SQL', 'Bash', 'Java', 'PowerShell', 'Oracle', 'Make']",1
+"['PYTHON', 'SQL', 'Bash', 'MongoDB', 'React', 'Docker', 'Kubernetes']",2
+"['PYTHON', 'SQL', 'BigQuery', 'Snowflake', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP']",1
+"['PYTHON', 'SQL', 'Google Cloud \\ GCP', 'Express', 'Docker', 'Make', 'Kubernetes']",1
+"['PYTHON', 'SQL', 'Java', 'BigQuery', 'Google Cloud \\ GCP', 'Make', 'Terraform']",1
+"['PYTHON', 'SQL', 'Java', 'R', 'Amazon Web Services \\ AWS', 'Azure', 'Make']",1
+"['PYTHON', 'SQL', 'Java', 'Scala', 'Cassandra', 'Databricks', 'Databricks']",1
+"['PYTHON', 'SQL', 'MongoDB', 'Redis', 'BigQuery', 'Google Cloud \\ GCP', 'Kubernetes']",1
+"['PYTHON', 'SQL', 'Ruby', 'Amazon Web Services \\ AWS', 'Make', 'Kubernetes', 'Terraform']",1
+"['PYTHON', 'SQL', 'TS \\ TypeScript', 'PHP', 'PostgreSQL', 'MySQL', 'React']",1
+"['Ruby', 'MySQL', 'Redis', 'Elasticsearch', 'React', 'Ruby on Rails', 'Docker']",1
+"['Ruby', 'PostgreSQL', 'MySQL', 'Elasticsearch', 'H', 'Ruby on Rails', 'Make']",1
+"['SQL', 'Bash', 'Java', 'PostgreSQL', 'Oracle', 'Docker', 'Kubernetes']",1
+"['SQL', 'Go', 'Microsoft SQL Server', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Make']",1
+"['SQL', 'Go', 'Ruby', 'Amazon Web Services \\ AWS', 'React', 'Ruby on Rails', 'Make']",1
+"['SQL', 'Go', 'Ruby', 'Snowflake', 'Amazon Web Services \\ AWS', 'Ruby on Rails', 'Make']",2
+"['SQL', 'Go', 'Snowflake', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Make']",1
+"['SQL', 'Java', 'Go', 'Kotlin', 'Redis', 'Elasticsearch', 'Make']",1
+"['SQL', 'Java', 'Go', 'Oracle', 'Amazon Web Services \\ AWS', 'jQuery', 'AngularJS']",2
+"['SQL', 'Java', 'Oracle', 'Amazon Web Services \\ AWS', 'Spring Boot', 'Make', 'Terraform']",1
+"['SQL', 'Java', 'Oracle', 'React', 'Angular', 'Docker', 'Kubernetes']",1
+"['SQL', 'Java', 'R', 'Amazon Web Services \\ AWS', 'Azure', 'React', 'Kubernetes']",1
+"['SQL', 'Java', 'R', 'Oracle', 'Angular', 'Make', 'Kubernetes']",1
+"['SQL', 'Java', 'R', 'Oracle', 'Azure', 'Angular', 'Make']",2
+"['SQL', 'Java', 'Redis', 'Oracle', 'Cassandra', 'Amazon Web Services \\ AWS', 'Azure']",1
+"['SQL', 'Redis', 'Elasticsearch', 'Amazon Web Services \\ AWS', 'React', 'Make', 'Kubernetes']",1
+"['SQL', 'TS \\ TypeScript', 'R', 'React', 'Express', 'AngularJS', 'Make']",1
+"['TS \\ TypeScript', 'Java', 'Azure', 'React', 'Docker', 'Make', 'Kubernetes']",1
+"['TS \\ TypeScript', 'Ruby', 'Amazon Web Services \\ AWS', 'React', 'Ruby on Rails', 'Docker', 'Make']",1
+"['C#', 'SQL', 'PostgreSQL', 'MongoDB', 'Amazon Web Services \\ AWS', 'Azure', 'Angular', 'Pulumi']",1
+"['C++', 'C', 'Go', 'Elasticsearch', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'VMware']",1
+"['C++', 'C', 'Oracle', 'Azure', 'Google Cloud \\ GCP', 'Angular', 'ASP.NET', 'Make']",1
+"['C++', 'C', 'Ruby', 'MySQL', 'React', 'Express', 'Ruby on Rails', 'Make']",1
+"['C++', 'C#', 'Java', 'C', 'Go', 'Kotlin', 'Scala', 'Make']",1
+"['C++', 'Java', 'C', 'Go', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Make']",1
+"['C++', 'SQL', 'C', 'Azure', 'jQuery', 'Express', 'ASP.NET', 'Make']",1
+"['C++', 'SQL', 'C', 'Oracle', 'Amazon Web Services \\ AWS', 'Azure', 'Express', 'Make']",1
+"['C++', 'SQL', 'Java', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Make']",1
+"['C++', 'SQL', 'Java', 'C', 'PostgreSQL', 'Angular', 'ASP.NET', 'Flutter']",1
+"['C++', 'SQL', 'Java', 'C', 'Redis', 'Elasticsearch', 'Oracle', 'Docker']",1
+"['C++', 'SQL', 'Java', 'C', 'Rust', 'Cassandra', 'Docker', 'Kubernetes']",1
+"['C++', 'SQL', 'TS \\ TypeScript', 'C', 'Amazon Web Services \\ AWS', 'React', 'Make', 'Terraform']",2
+"['C++', 'SQL', 'TS \\ TypeScript', 'C', 'Azure', 'React', 'Angular', 'ASP.NET']",1
+"['C++', 'SQL', 'TS \\ TypeScript', 'C', 'MySQL', 'MariaDB', 'Snowflake', 'Make']",1
+"['C++', 'SQL', 'TS \\ TypeScript', 'C', 'Oracle', 'Azure', 'Angular', 'AngularJS']",1
+"['C++', 'SQL', 'TS \\ TypeScript', 'C', 'PowerShell', 'Azure', 'Angular', 'Make']",2
+"['C++', 'TS \\ TypeScript', 'C', 'Azure', 'React', 'Docker', 'Make', 'Kubernetes']",1
+"['C++', 'TS \\ TypeScript', 'C', 'Go', 'Snowflake', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP']",1
+"['C++', 'TS \\ TypeScript', 'Java', 'C', 'Go', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP']",1
+"['Go', 'Ruby', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Ruby on Rails', 'Make', 'Terraform']",1
+"['HTML \\ CSS', 'C++', 'SQL', 'TS \\ TypeScript', 'C', 'Swift', 'React', 'Make']",1
+"['HTML \\ CSS', 'PYTHON', 'C++', 'SQL', 'Java', 'C', 'PHP', 'Make']",1
+"['HTML \\ CSS', 'PYTHON', 'C++', 'TS \\ TypeScript', 'C', 'Redis', 'React', 'Flask']",1
+"['HTML \\ CSS', 'PYTHON', 'SQL', 'MongoDB', 'Amazon Web Services \\ AWS', 'Azure', 'Angular', 'Docker']",1
+"['Java', 'Apex', 'Zephyr', 'Amazon Web Services \\ AWS', 'Azure', 'Docker', 'Kubernetes', 'Terraform']",1
+"['Java', 'Kotlin', 'Google Cloud \\ GCP', 'Express', 'Spring Boot', 'Docker', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'C#', 'SQL', 'PHP', 'Apex', 'MySQL', 'Azure', 'ASP.NET']",1
+"['JS \\ javascript', 'C++', 'C', 'Ruby', 'Heroku', 'React', 'Ruby on Rails', 'Make']",1
+"['JS \\ javascript', 'C++', 'C', 'Ruby', 'React', 'Express', 'Angular', 'Ruby on Rails']",1
+"['JS \\ javascript', 'C++', 'C', 'Swift', 'SQLite', 'Amazon Web Services \\ AWS', 'Azure', 'Express']",1
+"['JS \\ javascript', 'C++', 'Java', 'C', 'MongoDB', 'React', 'ASP.NET', 'Make']",2
+"['JS \\ javascript', 'C++', 'Java', 'C', 'PHP', 'React', 'Angular', 'Vue.js']",1
+"['JS \\ javascript', 'C++', 'Java', 'C', 'PostgreSQL', 'Oracle', 'OpenShift', 'React']",1
+"['JS \\ javascript', 'C++', 'Java', 'C', 'Scala', 'React', 'AngularJS', 'Make']",1
+"['JS \\ javascript', 'C++', 'SQL', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Angular', 'Make']",1
+"['JS \\ javascript', 'C++', 'SQL', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Make']",1
+"['JS \\ javascript', 'C++', 'SQL', 'C', 'Amazon Web Services \\ AWS', 'Express', 'Angular', 'ASP.NET']",1
+"['JS \\ javascript', 'C++', 'SQL', 'C', 'PowerShell', 'Microsoft SQL Server', 'jQuery', 'ASP.NET']",2
+"['JS \\ javascript', 'C++', 'SQL', 'C', 'PowerShell', 'VBA', 'Microsoft Access', 'Make']",1
+"['JS \\ javascript', 'C++', 'SQL', 'C', 'R', 'Ada', 'Azure', 'Make']",1
+"['JS \\ javascript', 'C++', 'SQL', 'Java', 'C', 'Oracle', 'Angular', 'Make']",1
+"['JS \\ javascript', 'C++', 'SQL', 'TS \\ TypeScript', 'C', 'Amazon Web Services \\ AWS', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'C++', 'SQL', 'TS \\ TypeScript', 'C', 'Azure', 'Node.js', 'Angular']",1
+"['JS \\ javascript', 'C++', 'TS \\ TypeScript', 'C', 'Azure', 'Node.js', 'jQuery', 'Angular']",1
+"['JS \\ javascript', 'C++', 'TS \\ TypeScript', 'C', 'Azure', 'Node.js', 'React', 'Next.js']",1
+"['JS \\ javascript', 'C++', 'TS \\ TypeScript', 'C', 'MongoDB', 'Angular', 'AngularJS', 'Docker']",2
+"['JS \\ javascript', 'Go', 'MySQL', 'Redis', 'Amazon Web Services \\ AWS', 'Node.js', 'React', 'Docker']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C#', 'SQL', 'R', 'Visual Basic', 'React', 'ASP.NET']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'C', 'Node.js', 'React', 'Next.js', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'C', 'React', 'Vue.js', 'WordPress', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'Java', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'ASP.NET']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'jQuery']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C', 'Azure', 'React', 'ASP.NET']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C', 'jQuery', 'ASP.NET', 'AngularJS']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C', 'jQuery', 'ASP.NET', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C', 'MySQL', 'jQuery', 'ASP.NET']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C', 'R', 'Angular', 'ASP.NET']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'Java', 'C', 'jQuery', 'AngularJS']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'TS \\ TypeScript', 'C', 'npm', 'Make']",3
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'TS \\ TypeScript', 'C', 'R', 'React']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'TS \\ TypeScript', 'C', 'Amazon Web Services \\ AWS', 'React', 'Next.js']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'TS \\ TypeScript', 'C', 'Azure', 'React', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'TS \\ TypeScript', 'Java', 'C', 'Azure', 'React']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'Go', 'Groovy', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'MongoDB', 'Redis', 'Azure', 'Google Cloud \\ GCP', 'React', 'Gatsby']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'Node.js', 'React', 'jQuery', 'Angular', 'Make', 'Composer']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'Amazon Web Services \\ AWS', 'Azure', 'React', 'Django', 'Docker']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'Amazon Web Services \\ AWS', 'Node.js', 'React', 'Drupal', 'Kubernetes']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C#', 'SQL', 'PHP', 'jQuery', 'Angular']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C#', 'SQL', 'PowerShell', 'Ruby', 'ASP.NET']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'Java', 'C', 'Assembly', 'MySQL']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'Java', 'C', 'Swift', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'SQL', 'Java', 'C', 'MySQL']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'TS \\ TypeScript', 'Java', 'C', 'Make']",2
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'SQL', 'Bash', 'PowerShell', 'Amazon Web Services \\ AWS', 'Azure']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'SQL', 'Java', 'Oracle', 'Amazon Web Services \\ AWS', 'Terraform']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'SQL', 'Java', 'PHP', 'Oracle', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'SQL', 'Node.js', 'React', 'Flask', 'Django']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'SQL', 'PostgreSQL', 'MySQL', 'Dynamodb', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'TS \\ TypeScript', 'Java', 'Google Cloud \\ GCP', 'React', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'Java', 'Azure', 'jQuery', 'Vue.js', 'Maven']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'Java', 'jQuery', 'Angular', 'AngularJS', 'Maven']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'Java', 'Oracle', 'Solr', 'Azure', 'Angular']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'PHP', 'MySQL', 'Node.js', 'React', 'jQuery']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'TS \\ TypeScript', 'Amazon Web Services \\ AWS', 'React', 'Vite', 'Webpack']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'TS \\ TypeScript', 'Java', 'Amazon Web Services \\ AWS', 'React', 'Spring Boot']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'TS \\ TypeScript', 'Java', 'Angular', 'Spring Boot', 'Maven']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'TS \\ TypeScript', 'Visual Basic', 'VBA', 'React', 'Express']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'TS \\ TypeScript', 'Ada', 'MySQL', 'Node.js', 'React', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'TS \\ TypeScript', 'Go', 'Node.js', 'React', 'Next.js', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'TS \\ TypeScript', 'Java', 'Kotlin', 'Groovy', 'Azure', 'React']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'TS \\ TypeScript', 'Java', 'Node.js', 'React', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'TS \\ TypeScript', 'PHP', 'Amazon Web Services \\ AWS', 'React', 'Docker', 'Make']",1
+"['JS \\ javascript', 'Java', 'Amazon Web Services \\ AWS', 'jQuery', 'Angular', 'Docker', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'Java', 'Azure', 'Node.js', 'React', 'Angular', 'Spring Boot', 'Docker']",1
+"['JS \\ javascript', 'Java', 'Azure', 'OpenShift', 'Node.js', 'Docker', 'Terraform', 'Ansible']",1
+"['JS \\ javascript', 'Java', 'H', 'Amazon Web Services \\ AWS', 'jQuery', 'Angular', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'Java', 'Kotlin', 'MongoDB', 'Amazon Web Services \\ AWS', 'React', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'Java', 'Kotlin', 'Redis', 'Dynamodb', 'Amazon Web Services \\ AWS', 'Node.js', 'Make']",1
+"['JS \\ javascript', 'Java', 'MySQL', 'Amazon Web Services \\ AWS', 'React', 'Angular', 'Vue.js', 'Spring Boot']",1
+"['JS \\ javascript', 'Java', 'Oracle', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'React', 'Kubernetes']",1
+"['JS \\ javascript', 'Java', 'PostgreSQL', 'Oracle', 'Amazon Web Services \\ AWS', 'Node.js', 'React', 'Angular']",1
+"['JS \\ javascript', 'PostgreSQL', 'Clickhouse', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Firebase', 'Node.js', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'Amazon Web Services \\ AWS', 'Azure', 'Docker', 'Kubernetes', 'Terraform', 'Ansible']",1
+"['JS \\ javascript', 'PYTHON', 'Bash', 'jQuery', 'Flask', 'Docker', 'Pip', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'Java', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'Java', 'C', 'Go', 'R', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'Java', 'C', 'Go', 'Spring Boot', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'Java', 'C', 'Spring Boot', 'Docker', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'C', 'Amazon Web Services \\ AWS', 'React', 'Angular']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'C', 'Perl', 'Node.js', 'AngularJS']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'Java', 'C', 'Go', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'Java', 'C', 'MySQL', 'Amazon Web Services \\ AWS']",1
+"['JS \\ javascript', 'PYTHON', 'Java', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'React', 'Spring Boot']",1
+"['JS \\ javascript', 'PYTHON', 'Java', 'Databricks', 'Databricks', 'Spring Boot', 'Docker', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'Java', 'Go', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'Java', 'Go', 'Amazon Web Services \\ AWS', 'Node.js', 'Make', 'Terraform']",1
+"['JS \\ javascript', 'PYTHON', 'Java', 'PHP', 'Ruby', 'Node.js', 'Vue.js', 'Django']",1
+"['JS \\ javascript', 'PYTHON', 'Kotlin', 'Ruby', 'Amazon Web Services \\ AWS', 'React', 'Ruby on Rails', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'React', 'Angular']",2
+"['JS \\ javascript', 'PYTHON', 'SQL', 'Amazon Web Services \\ AWS', 'Node.js', 'React', 'Next.js', 'Terraform']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'Azure', 'Angular', 'Django', 'Make', 'Terraform']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'Dynamodb', 'Amazon Web Services \\ AWS', 'React', 'Next.js', 'Angular']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'Java', 'Scala', 'Oracle', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'PostgreSQL', 'Amazon Web Services \\ AWS', 'Flask', 'FastAPI', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'TS \\ TypeScript', 'Java', 'Azure', 'Kubernetes', 'Gradle']",1
+"['JS \\ javascript', 'PYTHON', 'TS \\ TypeScript', 'Java', 'Amazon Web Services \\ AWS', 'Node.js', 'React', 'Next.js']",1
+"['JS \\ javascript', 'PYTHON', 'TS \\ TypeScript', 'Java', 'Go', 'Kotlin', 'Amazon Web Services \\ AWS', 'React']",1
+"['JS \\ javascript', 'PYTHON', 'TS \\ TypeScript', 'Java', 'Go', 'Node.js', 'React', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'TS \\ TypeScript', 'Java', 'Go', 'Snowflake', 'React', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'TS \\ TypeScript', 'Java', 'H', 'Amazon Web Services \\ AWS', 'Node.js', 'React']",1
+"['JS \\ javascript', 'PYTHON', 'TS \\ TypeScript', 'Java', 'Node.js', 'React', 'Next.js', 'Angular']",1
+"['JS \\ javascript', 'PYTHON', 'TS \\ TypeScript', 'Snowflake', 'Amazon Web Services \\ AWS', 'Node.js', 'NestJS', 'Make']",1
+"['JS \\ javascript', 'SQL', 'Java', 'Amazon Web Services \\ AWS', 'React', 'Angular', 'Spring Boot', 'Kubernetes']",1
+"['JS \\ javascript', 'SQL', 'Java', 'Go', 'PostgreSQL', 'Google Cloud \\ GCP', 'React', 'Spring Boot']",2
+"['JS \\ javascript', 'SQL', 'Java', 'Oracle', 'Amazon Web Services \\ AWS', 'Azure', 'React', 'Spring Boot']",1
+"['JS \\ javascript', 'SQL', 'PHP', 'MySQL', 'React', 'Vue.js', 'Laravel', 'Make']",1
+"['JS \\ javascript', 'SQL', 'TS \\ TypeScript', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Node.js', 'React']",1
+"['JS \\ javascript', 'SQL', 'TS \\ TypeScript', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'React', 'Angular']",1
+"['JS \\ javascript', 'SQL', 'TS \\ TypeScript', 'Java', 'Kotlin', 'PostgreSQL', 'Node.js', 'Make']",1
+"['JS \\ javascript', 'SQL', 'TS \\ TypeScript', 'Java', 'Ruby', 'Amazon Web Services \\ AWS', 'React', 'Make']",1
+"['JS \\ javascript', 'SQL', 'TS \\ TypeScript', 'PHP', 'Node.js', 'Angular', 'Laravel', 'Docker']",1
+"['JS \\ javascript', 'SQL', 'TS \\ TypeScript', 'Redis', 'Amazon Web Services \\ AWS', 'Node.js', 'React', 'Docker']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Amazon Web Services \\ AWS', 'Node.js', 'React', 'Next.js', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Amazon Web Services \\ AWS', 'Vercel', 'Heroku', 'React', 'Next.js', 'Angular']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Azure', 'React', 'ASP.NET', 'Docker', 'Vite', 'Kubernetes']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Go', 'PostgreSQL', 'Docker', 'Make', 'Kubernetes', 'Terraform']",2
+"['JS \\ javascript', 'TS \\ TypeScript', 'Java', 'Amazon Web Services \\ AWS', 'Node.js', 'React', 'Angular', 'Docker']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Java', 'Azure', 'Google Cloud \\ GCP', 'React', 'Spring Boot', 'Make']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Java', 'MongoDB', 'React', 'Spring Boot', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'MySQL', 'Amazon Web Services \\ AWS', 'Vercel', 'Node.js', 'React', 'npm']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'MySQL', 'MongoDB', 'Amazon Web Services \\ AWS', 'Node.js', 'React', 'Make']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Ruby', 'Amazon Web Services \\ AWS', 'React', 'Ruby on Rails', 'Docker', 'Terraform']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Rust', 'Solidity', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'React']",1
+"['MySQL', 'Elasticsearch', 'Amazon Web Services \\ AWS', 'React', 'Angular', 'Phoenix', 'Docker', 'Kubernetes']",1
+"['PYTHON', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'VMware', 'Docker', 'Kubernetes', 'Ansible']",1
+"['PYTHON', 'Bash', 'Java', 'Google Cloud \\ GCP', 'Docker', 'Kubernetes', 'Terraform', 'Ansible']",1
+"['PYTHON', 'Bash', 'PHP', 'PostgreSQL', 'Redis', 'Amazon Web Services \\ AWS', 'Puppet', 'Chef']",1
+"['PYTHON', 'Bash', 'PowerShell', 'Ada', 'Amazon Web Services \\ AWS', 'Docker', 'Kubernetes', 'Terraform']",1
+"['PYTHON', 'Bash', 'PowerShell', 'Ruby', 'Perl', 'Ansible', 'Puppet', 'Chef']",1
+"['PYTHON', 'Bash', 'VMware', 'Docker', 'Make', 'Kubernetes', 'Ansible', 'Puppet']",9
+"['PYTHON', 'C++', 'Bash', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'VMware', 'OpenStack']",1
+"['PYTHON', 'C++', 'Bash', 'C', 'Docker', 'Make', 'Ansible', 'Podman']",1
+"['PYTHON', 'C++', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Docker', 'Make', 'Kubernetes']",1
+"['PYTHON', 'C++', 'C', 'PostgreSQL', 'MySQL', 'Amazon Web Services \\ AWS', 'Terraform', 'Ansible']",1
+"['PYTHON', 'C++', 'C#', 'Java', 'C', 'Perl', 'Amazon Web Services \\ AWS', 'Make']",1
+"['PYTHON', 'C++', 'Java', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Make']",3
+"['PYTHON', 'C++', 'Java', 'C', 'Amazon Web Services \\ AWS', 'Spring Boot', 'Docker', 'Kubernetes']",1
+"['PYTHON', 'C++', 'Java', 'C', 'Go', 'Kotlin', 'Ruby', 'Make']",1
+"['PYTHON', 'C++', 'Java', 'C', 'PowerShell', 'Ruby', 'Amazon Web Services \\ AWS', 'Make']",1
+"['PYTHON', 'C++', 'Java', 'C', 'R', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP']",1
+"['PYTHON', 'C++', 'Java', 'C', 'Zephyr', 'Amazon Web Services \\ AWS', 'Azure', 'Make']",1
+"['PYTHON', 'C++', 'SQL', 'Bash', 'C', 'Scala', 'Cassandra', 'Docker']",1
+"['PYTHON', 'C++', 'SQL', 'C', 'Swift', 'SQLite', 'Cockroachdb', 'Make']",1
+"['PYTHON', 'C++', 'SQL', 'Java', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Docker']",1
+"['PYTHON', 'C++', 'SQL', 'Java', 'C', 'PHP', 'Oracle', 'React']",1
+"['PYTHON', 'C++', 'SQL', 'Java', 'C', 'Scala', 'Azure', 'Make']",1
+"['PYTHON', 'C++', 'TS \\ TypeScript', 'Bash', 'C', 'Go', 'H', 'Make']",1
+"['PYTHON', 'C++', 'TS \\ TypeScript', 'C', 'Rust', 'React', 'Make', 'Kubernetes']",1
+"['PYTHON', 'C++', 'TS \\ TypeScript', 'Java', 'C', 'Assembly', 'Perl', 'Make']",1
+"['PYTHON', 'Go', 'Amazon Web Services \\ AWS', 'Docker', 'Make', 'Kubernetes', 'Terraform', 'Ansible']",1
+"['PYTHON', 'Java', 'Google Cloud \\ GCP', 'React', 'Angular', 'Spring Boot', 'Make', 'Gradle']",1
+"['PYTHON', 'Java', 'PHP', 'R', 'Amazon Web Services \\ AWS', 'Angular', 'Spring Boot', 'Terraform']",1
+"['PYTHON', 'Java', 'R', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Kubernetes']",1
+"['PYTHON', 'Java', 'R', 'Databricks', 'Databricks', 'Docker', 'Make', 'Kubernetes']",1
+"['PYTHON', 'Java', 'Redis', 'Amazon Web Services \\ AWS', 'Spring Boot', 'Make', 'Maven', 'Terraform']",1
+"['PYTHON', 'Java', 'Rust', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Docker', 'Make', 'Kubernetes']",2
+"['PYTHON', 'Java', 'Scala', 'Databricks', 'Amazon Web Services \\ AWS', 'Databricks', 'Make', 'Terraform']",1
+"['PYTHON', 'Java', 'Scala', 'Oracle', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Make']",1
+"['PYTHON', 'PostgreSQL', 'Amazon Web Services \\ AWS', 'React', 'Angular', 'Django', 'Docker', 'Kubernetes']",1
+"['PYTHON', 'Ruby', 'Amazon Web Services \\ AWS', 'Docker', 'Make', 'Kubernetes', 'Terraform', 'Ansible']",1
+"['PYTHON', 'Ruby', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Flask', 'Django', 'Ruby on Rails', 'Make']",1
+"['PYTHON', 'SQL', 'Go', 'PostgreSQL', 'Amazon Web Services \\ AWS', 'Azure', 'Make', 'Terraform']",1
+"['PYTHON', 'SQL', 'Go', 'Snowflake', 'Databricks', 'Amazon Web Services \\ AWS', 'Databricks', 'Kubernetes']",1
+"['PYTHON', 'SQL', 'R', 'MATLAB', 'Oracle', 'Dynamodb', 'Amazon Web Services \\ AWS', 'Make']",1
+"['PYTHON', 'SQL', 'R', 'Snowflake', 'Databricks', 'Databricks', 'Make', 'Kubernetes']",1
+"['SQL', 'Java', 'Oracle', 'Express', 'Angular', 'Spring Boot', 'Make', 'Maven']",1
+"['SQL', 'Java', 'PostgreSQL', 'Oracle', 'Amazon Web Services \\ AWS', 'Azure', 'Spring Boot', 'Make']",1
+"['SQL', 'Java', 'PostgreSQL', 'Redis', 'Cosmos DB', 'Cassandra', 'Azure', 'Docker']",1
+"['SQL', 'TS \\ TypeScript', 'Go', 'Azure', 'React', 'Make', 'Kubernetes', 'Terraform']",1
+"['TS \\ TypeScript', 'Java', 'Ada', 'MySQL', 'Couchbase', 'Azure', 'React', 'Spring Boot']",1
+"['TS \\ TypeScript', 'Java', 'Go', 'Scala', 'Clickhouse', 'React', 'Make', 'Kubernetes']",1
+"['C#', 'SQL', 'Go', 'Assembly', 'Couchbase', 'ASP.NET CORE', 'ASP.NET', 'Docker', 'Kubernetes']",1
+"['C++', 'SQL', 'Bash', 'Java', 'C', 'PowerShell', 'Oracle', 'Amazon Web Services \\ AWS', 'Azure']",1
+"['C++', 'SQL', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Angular', 'ASP.NET CORE', 'ASP.NET', 'Make']",1
+"['C++', 'SQL', 'C', 'Dynamodb', 'Amazon Web Services \\ AWS', 'Azure', 'Docker', 'Kubernetes', 'Terraform']",1
+"['C++', 'SQL', 'C', 'Microsoft SQL Server', 'Databricks', 'Amazon Web Services \\ AWS', 'Azure', 'Databricks', 'Make']",1
+"['C++', 'SQL', 'C', 'PostgreSQL', 'MongoDB', 'Amazon Web Services \\ AWS', 'Azure', 'Angular', 'Pulumi']",1
+"['C++', 'SQL', 'C', 'PowerShell', 'Microsoft SQL Server', 'Azure', 'Docker', 'Make', 'Kubernetes']",1
+"['C++', 'SQL', 'C', 'Redis', 'Azure', 'AngularJS', 'Docker', 'Make', 'Kubernetes']",1
+"['C++', 'SQL', 'Java', 'C', 'Oracle', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Make']",1
+"['C++', 'SQL', 'Java', 'C', 'Oracle', 'Azure', 'Google Cloud \\ GCP', 'Make', 'Kubernetes']",1
+"['C++', 'SQL', 'Java', 'C', 'Perl', 'Oracle', 'Make', 'Maven', 'Ant']",1
+"['C++', 'SQL', 'Java', 'C', 'PostgreSQL', 'MySQL', 'Snowflake', 'Cassandra', 'Make']",1
+"['C++', 'SQL', 'TS \\ TypeScript', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'React', 'Phoenix', 'Make']",1
+"['Go', 'Kotlin', 'Swift', 'Scala', 'Haskell', 'Clojure', 'Erlang', 'F#', 'Make']",1
+"['HTML \\ CSS', 'C++', 'SQL', 'C', 'PHP', 'MySQL', 'Azure', 'Angular', 'ASP.NET']",1
+"['HTML \\ CSS', 'PYTHON', 'Go', 'PostgreSQL', 'Amazon Web Services \\ AWS', 'React', 'Angular', 'Django', 'Docker']",1
+"['HTML \\ CSS', 'PYTHON', 'SQL', 'Cosmos DB', 'Databricks', 'Neo4J', 'Azure', 'Databricks', 'Make']",1
+"['HTML \\ CSS', 'SQL', 'TS \\ TypeScript', 'Java', 'React', 'Spring Boot', 'Docker', 'Make', 'Kubernetes']",1
+"['Java', 'Go', 'Dynamodb', 'Amazon Web Services \\ AWS', 'Azure', 'OpenShift', 'Spring Boot', 'Docker', 'Kubernetes']",1
+"['Java', 'Go', 'Rust', 'Scala', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Kubernetes']",1
+"['Java', 'MongoDB', 'Dynamodb', 'Cassandra', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Kubernetes']",1
+"['Java', 'Oracle', 'Amazon Web Services \\ AWS', 'OpenShift', 'jQuery', 'AngularJS', 'Kubernetes', 'Maven', 'Gradle']",1
+"['JS \\ javascript', 'Amazon Web Services \\ AWS', 'Node.js', 'React', 'Angular', 'Vue.js', 'Make', 'Webpack', 'GraphQL[^w+#][W]REST']",1
+"['JS \\ javascript', 'C#', 'SQL', 'TS \\ TypeScript', 'React', 'Angular', 'ASP.NET CORE', 'Vue.js', 'ASP.NET']",1
+"['JS \\ javascript', 'C++', 'SQL', 'C', 'Azure', 'Google Cloud \\ GCP', 'React', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'C++', 'SQL', 'C', 'Azure', 'React', 'Angular', 'ASP.NET', 'Flutter']",1
+"['JS \\ javascript', 'C++', 'SQL', 'C', 'Azure', 'Vercel', 'React', 'Angular', 'Make']",1
+"['JS \\ javascript', 'C++', 'SQL', 'C', 'Cobol', 'Microsoft SQL Server', 'Oracle', 'Azure', 'ASP.NET']",1
+"['JS \\ javascript', 'C++', 'SQL', 'C', 'Oracle', 'React', 'jQuery', 'Angular', 'ASP.NET']",1
+"['JS \\ javascript', 'C++', 'SQL', 'C', 'Oracle', 'Snowflake', 'Amazon Web Services \\ AWS', 'Azure', 'Make']",1
+"['JS \\ javascript', 'C++', 'SQL', 'C', 'PHP', 'Apex', 'MySQL', 'Azure', 'ASP.NET']",1
+"['JS \\ javascript', 'C++', 'SQL', 'Java', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Node.js', 'AngularJS']",1
+"['JS \\ javascript', 'C++', 'SQL', 'TS \\ TypeScript', 'C', 'Azure', 'jQuery', 'ASP.NET', 'Make']",2
+"['JS \\ javascript', 'C++', 'TS \\ TypeScript', 'C', 'Azure', 'React', 'ASP.NET CORE', 'ASP.NET', 'Docker']",1
+"['JS \\ javascript', 'C++', 'TS \\ TypeScript', 'Java', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Heroku', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'Amazon Web Services \\ AWS', 'Azure', 'React', 'Angular', 'Vue.js', 'WordPress', 'Drupal']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'C', 'React', 'Angular', 'Vue.js', 'WordPress', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C', 'Azure', 'jQuery', 'Angular', 'Blazor']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C', 'Azure', 'React', 'Angular', 'ASP.NET']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C', 'MySQL', 'Microsoft SQL Server', 'ASP.NET', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C', 'R', 'Visual Basic', 'React', 'ASP.NET']",2
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C', 'VBA', 'Microsoft Access', 'Angular', 'ASP.NET']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C', 'VBA', 'Microsoft SQL Server', 'jQuery', 'ASP.NET']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'Java', 'C', 'Azure', 'React', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'Java', 'C', 'MySQL', 'Amazon Web Services \\ AWS', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'Java', 'C', 'Oracle', 'Angular', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'TS \\ TypeScript', 'Java', 'C', 'Angular', 'Maven']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PHP', 'MySQL', 'React', 'jQuery', 'Vue.js', 'WordPress', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'Bash', 'C', 'PostgreSQL', 'MySQL', 'VMware']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'C#', 'Java', 'C', 'Swift', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'Java', 'C', 'React', 'Angular', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'SQL', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'TS \\ TypeScript', 'Java', 'C', 'Go', 'Google Cloud \\ GCP']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'SQL', 'Go', 'React', 'ASP.NET', 'AngularJS', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'SQL', 'Java', 'Amazon Web Services \\ AWS', 'Azure', 'React', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'SQL', 'PHP', 'Apex', 'Dynamodb', 'Amazon Web Services \\ AWS', 'Drupal']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'SQL', 'PHP', 'MySQL', 'Amazon Web Services \\ AWS', 'Azure', 'WordPress']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'Apex', 'Crystal', 'Oracle', 'Amazon Web Services \\ AWS', 'jQuery', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'Go', 'Azure', 'jQuery', 'Express', 'ASP.NET', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'Java', 'Amazon Web Services \\ AWS', 'Azure', 'React', 'Angular', 'Spring Boot']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'Java', 'PostgreSQL', 'MySQL', 'Oracle', 'Google Cloud \\ GCP', 'Kubernetes']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'TS \\ TypeScript', 'Go', 'Dynamodb', 'Amazon Web Services \\ AWS', 'React', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'TS \\ TypeScript', 'Amazon Web Services \\ AWS', 'React', 'Vue.js', 'Docker', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'TS \\ TypeScript', 'Java', 'PostgreSQL', 'jQuery', 'Angular', 'Spring Boot', 'AngularJS']",1
+"['JS \\ javascript', 'PHP', 'MySQL', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'React', 'Next.js', 'Vue.js']",1
+"['JS \\ javascript', 'PostgreSQL', 'MySQL', 'MariaDB', 'React', 'Vue.js', 'Django', 'WordPress', 'Laravel']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'Java', 'C', 'Oracle', 'Spring Boot', 'Docker', 'Make']",3
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'C', 'PostgreSQL', 'Microsoft SQL Server', 'InfluxDB', 'Django']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'Java', 'C', 'Google Cloud \\ GCP', 'React', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'Java', 'C', 'Ruby', 'Make', 'Ant']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'TS \\ TypeScript', 'Bash', 'Java', 'C', 'Vue.js']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'TS \\ TypeScript', 'C', 'Dynamodb', 'Google Cloud \\ GCP', 'React', 'FastAPI']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'TS \\ TypeScript', 'C', 'PHP', 'Amazon Web Services \\ AWS', 'React', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'TS \\ TypeScript', 'Java', 'C', 'Go', 'Groovy', 'Scala']",1
+"['JS \\ javascript', 'PYTHON', 'PostgreSQL', 'MySQL', 'MongoDB', 'Amazon Web Services \\ AWS', 'React', 'Flask', 'Django']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'Go', 'Ruby', 'MySQL', 'Google Cloud \\ GCP', 'Ruby on Rails', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'Java', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'React', 'Angular']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'Java', 'Go', 'Snowflake', 'Amazon Web Services \\ AWS', 'Node.js', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'Java', 'PHP', 'Amazon Web Services \\ AWS', 'Docker', 'Make', 'Kubernetes']",2
+"['JS \\ javascript', 'PYTHON', 'SQL', 'Java', 'Swift', 'Scala', 'Oracle', 'React', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'TS \\ TypeScript', 'Java', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Node.js', 'React', 'Next.js']",1
+"['JS \\ javascript', 'SQL', 'Java', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'React', 'Spring Boot', 'Kubernetes']",1
+"['JS \\ javascript', 'SQL', 'Java', 'Elasticsearch', 'Solr', 'Amazon Web Services \\ AWS', 'Angular', 'Maven', 'Ant']",1
+"['JS \\ javascript', 'SQL', 'Java', 'PostgreSQL', 'Elasticsearch', 'Amazon Web Services \\ AWS', 'React', 'Angular', 'Spring Boot']",1
+"['JS \\ javascript', 'SQL', 'TS \\ TypeScript', 'Azure', 'Node.js', 'Express', 'NestJS', 'Make', 'Flutter']",3
+"['JS \\ javascript', 'SQL', 'TS \\ TypeScript', 'Dynamodb', 'Amazon Web Services \\ AWS', 'Node.js', 'React', 'Express', 'Docker']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Go', 'React', 'Angular', 'Docker', 'Make', 'Kubernetes', 'Maven']",2
+"['JS \\ javascript', 'TS \\ TypeScript', 'MySQL', 'Redis', 'Amazon Web Services \\ AWS', 'Node.js', 'Express', 'Docker', 'Make']",1
+"['PYTHON', 'Bash', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Kubernetes', 'Terraform', 'Ansible']",1
+"['PYTHON', 'Bash', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Kubernetes', 'Terraform', 'Podman']",1
+"['PYTHON', 'Bash', 'Go', 'Groovy', 'Google Cloud \\ GCP', 'VMware', 'Docker', 'Kubernetes', 'Ansible']",1
+"['PYTHON', 'Bash', 'Ruby', 'Amazon Web Services \\ AWS', 'Docker', 'Make', 'Kubernetes', 'Terraform', 'Puppet']",1
+"['PYTHON', 'C++', 'Java', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Kubernetes']",1
+"['PYTHON', 'C++', 'Java', 'C', 'Go', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Make']",1
+"['PYTHON', 'C++', 'Java', 'C', 'Go', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Terraform']",1
+"['PYTHON', 'C++', 'Java', 'C', 'Redis', 'Amazon Web Services \\ AWS', 'Express', 'Make', 'Kubernetes']",1
+"['PYTHON', 'C++', 'SQL', 'Bash', 'C', 'PowerShell', 'Snowflake', 'Azure', 'Make']",1
+"['PYTHON', 'C++', 'SQL', 'C', 'Go', 'Assembly', 'Oracle', 'Phoenix', 'Make']",1
+"['PYTHON', 'C++', 'SQL', 'Java', 'C', 'Go', 'Databricks', 'Amazon Web Services \\ AWS', 'Databricks']",1
+"['PYTHON', 'C++', 'SQL', 'Java', 'C', 'Go', 'Rust', 'Amazon Web Services \\ AWS', 'Make']",1
+"['PYTHON', 'C++', 'SQL', 'Java', 'C', 'Microsoft SQL Server', 'Databricks', 'Azure', 'Databricks']",1
+"['PYTHON', 'C++', 'TS \\ TypeScript', 'Java', 'C', 'Amazon Web Services \\ AWS', 'Spring Boot', 'Docker', 'Kubernetes']",1
+"['PYTHON', 'Java', 'Go', 'Amazon Web Services \\ AWS', 'Azure', 'Docker', 'Kubernetes', 'Terraform', 'Ansible']",1
+"['PYTHON', 'Java', 'Go', 'R', 'Amazon Web Services \\ AWS', 'Docker', 'Make', 'Kubernetes', 'Terraform']",1
+"['PYTHON', 'Java', 'MySQL', 'Redis', 'Elasticsearch', 'Snowflake', 'Amazon Web Services \\ AWS', 'Azure', 'Make']",1
+"['PYTHON', 'Java', 'MySQL', 'Redis', 'Oracle', 'Cassandra', 'Amazon Web Services \\ AWS', 'React', 'Angular']",1
+"['PYTHON', 'Java', 'R', 'MongoDB', 'Dynamodb', 'OpenShift', 'Docker', 'Make', 'Kubernetes']",1
+"['PYTHON', 'Java', 'Scala', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Make', 'Kubernetes']",2
+"['PYTHON', 'PowerShell', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Docker', 'Make', 'Kubernetes', 'Terraform', 'Ansible']",1
+"['PYTHON', 'PowerShell', 'R', 'Amazon Web Services \\ AWS', 'Azure', 'Docker', 'Make', 'Terraform', 'Ansible']",1
+"['PYTHON', 'R', 'Amazon Web Services \\ AWS', 'Docker', 'Kubernetes', 'Terraform', 'Ansible', 'Puppet', 'Chef']",1
+"['PYTHON', 'R', 'H', 'Neo4J', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Kubernetes']",1
+"['PYTHON', 'SQL', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Flask', 'Django', 'Docker', 'Kubernetes']",1
+"['PYTHON', 'SQL', 'Go', 'Oracle', 'Databricks', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Databricks']",1
+"['PYTHON', 'SQL', 'Go', 'Ruby', 'R', 'Scala', 'MySQL', 'Elasticsearch', 'Amazon Web Services \\ AWS']",1
+"['PYTHON', 'SQL', 'Java', 'BigQuery', 'Google Cloud \\ GCP', 'Docker', 'Make', 'Kubernetes', 'Composer']",2
+"['PYTHON', 'SQL', 'Java', 'Kotlin', 'PostgreSQL', 'Docker', 'Kubernetes', 'Gradle', 'Ansible']",1
+"['PYTHON', 'SQL', 'Java', 'Scala', 'BigQuery', 'Google Cloud \\ GCP', 'Spring Boot', 'Terraform', 'Composer']",1
+"['PYTHON', 'SQL', 'Java', 'Scala', 'Databricks', 'Amazon Web Services \\ AWS', 'Azure', 'Databricks', 'Make']",1
+"['PYTHON', 'SQL', 'Java', 'Scala', 'Perl', 'Crystal', 'Oracle', 'Presto', 'Amazon Web Services \\ AWS']",1
+"['PYTHON', 'SQL', 'R', 'MATLAB', 'Databricks', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Databricks']",1
+"['PYTHON', 'SQL', 'TS \\ TypeScript', 'Java', 'PostgreSQL', 'Express', 'Angular', 'Spring Boot', 'Make']",1
+"['PYTHON', 'SQL', 'TS \\ TypeScript', 'Java', 'Scala', 'Databricks', 'Azure', 'Databricks', 'Make']",1
+"['PYTHON', 'SQL', 'TS \\ TypeScript', 'Redis', 'Google Cloud \\ GCP', 'Django', 'Docker', 'Make', 'Kubernetes']",1
+"['SQL', 'Go', 'R', 'Oracle', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'VMware', 'Make']",1
+"['SQL', 'Java', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Angular', 'Spring Boot', 'Docker', 'Kubernetes']",1
+"['SQL', 'Java', 'Google Cloud \\ GCP', 'React', 'Angular', 'Spring Boot', 'Docker', 'Make', 'Kubernetes']",1
+"['SQL', 'Java', 'MySQL', 'Redis', 'Amazon Web Services \\ AWS', 'Spring Boot', 'Docker', 'Make', 'Kubernetes']",1
+"['SQL', 'Java', 'Oracle', 'Cassandra', 'Google Cloud \\ GCP', 'Docker', 'Kubernetes', 'Puppet', 'Chef']",4
+"['SQL', 'Java', 'PHP', 'MySQL', 'Amazon Web Services \\ AWS', 'Laravel', 'Docker', 'Make', 'Kubernetes']",1
+"['SQL', 'PowerShell', 'Microsoft SQL Server', 'Azure', 'Docker', 'Kubernetes', 'Ansible', 'Puppet', 'Chef']",1
+"['SQL', 'Ruby', 'MySQL', 'Redis', 'Elasticsearch', 'React', 'AngularJS', 'Ruby on Rails', 'Make']",1
+"['TS \\ TypeScript', 'Go', 'Kotlin', 'Swift', 'Dynamodb', 'Databricks', 'Amazon Web Services \\ AWS', 'Databricks', 'Kubernetes']",1
+"['TS \\ TypeScript', 'Java', 'Kotlin', 'Scala', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'React', 'Kubernetes']",1
+"['C++', 'C#', 'Java', 'C', 'Go', 'Rust', 'Kotlin', 'Scala', 'Make', 'Kubernetes']",1
+"['C++', 'SQL', 'C', 'MongoDB', 'Redis', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Kubernetes']",1
+"['C++', 'SQL', 'C', 'PostgreSQL', 'MySQL', 'Angular', 'Blazor', 'Docker', 'Kubernetes', 'Yarn']",1
+"['C++', 'SQL', 'Java', 'C', 'Amazon Web Services \\ AWS', 'OpenShift', 'ASP.NET', 'Docker', 'Make', 'Kubernetes']",1
+"['C++', 'SQL', 'Java', 'C', 'Databricks', 'Azure', 'Databricks', 'Angular', 'Docker', 'Make']",1
+"['C++', 'SQL', 'TS \\ TypeScript', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'React', 'Angular', 'Phoenix']",1
+"['C++', 'SQL', 'TS \\ TypeScript', 'C', 'Go', 'Azure', 'React', 'Docker', 'Make', 'Kubernetes']",1
+"['C++', 'SQL', 'TS \\ TypeScript', 'C', 'Swift', 'Amazon Web Services \\ AWS', 'Azure', 'React', 'Phoenix', 'Make']",1
+"['C++', 'TS \\ TypeScript', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'React', 'ASP.NET', 'Docker', 'Kubernetes']",1
+"['HTML \\ CSS', 'PYTHON', 'C++', 'SQL', 'C', 'PHP', 'MySQL', 'Azure', 'Angular', 'ASP.NET']",1
+"['HTML \\ CSS', 'SQL', 'Java', 'Ruby', 'Redis', 'Azure', 'Ruby on Rails', 'Docker', 'Make', 'Kubernetes']",2
+"['Java', 'Kotlin', 'Redis', 'Elasticsearch', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Make', 'Kubernetes']",2
+"['JS \\ javascript', 'C++', 'Java', 'C', 'Go', 'Ruby', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Make']",1
+"['JS \\ javascript', 'C++', 'SQL', 'C', 'PHP', 'WordPress', 'Laravel', 'Nuxt.js', 'Make', 'Webpack']",1
+"['JS \\ javascript', 'C++', 'SQL', 'C', 'Visual Basic', 'Azure', 'React', 'Angular', 'ASP.NET CORE', 'ASP.NET']",1
+"['JS \\ javascript', 'C++', 'SQL', 'TS \\ TypeScript', 'C', 'Oracle', 'Azure', 'jQuery', 'Angular', 'AngularJS']",1
+"['JS \\ javascript', 'C++', 'SQL', 'TS \\ TypeScript', 'Java', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Node.js', 'AngularJS']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'C', 'MySQL', 'MariaDB', 'jQuery', 'ASP.NET', 'Blazor', 'Docker']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'C', 'PHP', 'MySQL', 'Amazon Web Services \\ AWS', 'jQuery', 'WordPress', 'Drupal']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'C', 'PowerShell', 'R', 'Azure', 'Express', 'Docker', 'Chef']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'ASP.NET', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C', 'Go', 'Amazon Web Services \\ AWS', 'React', 'Angular', 'Spring Boot']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C', 'H', 'Azure', 'React', 'Angular', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C', 'Oracle', 'Node.js', 'jQuery', 'ASP.NET', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'TS \\ TypeScript', 'C', 'Azure', 'Node.js', 'Angular', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'TS \\ TypeScript', 'C', 'Azure', 'React', 'Angular', 'Docker']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'TS \\ TypeScript', 'C', 'Azure', 'React', 'AngularJS', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'TS \\ TypeScript', 'C', 'React', 'Express', 'ASP.NET', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'TS \\ TypeScript', 'Java', 'C', 'Azure', 'Google Cloud \\ GCP', 'React']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'TS \\ TypeScript', 'Java', 'C', 'Azure', 'React', 'Angular']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'TS \\ TypeScript', 'Java', 'C', 'Oracle', 'Angular', 'Spring Boot']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'TS \\ TypeScript', 'C', 'Rust', 'R', 'PostgreSQL', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'TS \\ TypeScript', 'Java', 'C', 'Node.js', 'React', 'Angular', 'Make']",2
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'TS \\ TypeScript', 'Java', 'C', 'R', 'Oracle', 'Angular', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'Java', 'MySQL', 'MongoDB', 'Redis', 'Oracle', 'Azure', 'React', 'Docker']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'Bash', 'PowerShell', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Angular', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'C#', 'TS \\ TypeScript', 'Java', 'C', 'Make', 'Webpack']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'Java', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'Java', 'C', 'React', 'jQuery', 'Angular', 'Make']",2
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'SQL', 'C', 'PHP', 'Amazon Web Services \\ AWS', 'WordPress', 'Docker']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'SQL', 'Java', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'SQL', 'TS \\ TypeScript', 'C', 'Angular', 'ASP.NET', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'PHP', 'MySQL', 'Amazon Web Services \\ AWS', 'React', 'Next.js', 'Laravel', 'Webpack']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'SQL', 'Amazon Web Services \\ AWS', 'React', 'Flask', 'FastAPI', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'Go', 'PostgreSQL', 'MySQL', 'React', 'Docker', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'TS \\ TypeScript', 'Java', 'BigQuery', 'Google Cloud \\ GCP', 'React', 'Spring Boot', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'TS \\ TypeScript', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Node.js', 'React', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'TS \\ TypeScript', 'Java', 'Amazon Web Services \\ AWS', 'Azure', 'jQuery', 'Angular', 'AngularJS', 'Docker']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'TS \\ TypeScript', 'PHP', 'Ruby', 'MySQL', 'Amazon Web Services \\ AWS', 'WordPress', 'Laravel', 'Ruby on Rails']",1
+"['JS \\ javascript', 'Java', 'Go', 'Kotlin', 'MongoDB', 'Amazon Web Services \\ AWS', 'React', 'Docker', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'Java', 'PostgreSQL', 'Snowflake', 'React', 'Next.js', 'Spring Boot', 'Docker', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'React', 'FastAPI', 'Docker', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'C', 'PHP', 'Ruby', 'Swift', 'Amazon Web Services \\ AWS', 'Docker', 'Kubernetes']",3
+"['JS \\ javascript', 'PYTHON', 'C++', 'Java', 'C', 'Azure', 'Spring Boot', 'AngularJS', 'Docker', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'Java', 'C', 'PowerShell', 'Azure', 'VMware', 'Terraform', 'Ansible']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'C', 'MongoDB', 'Oracle', 'H', 'React', 'Docker']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'C', 'Swift', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Node.js']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'Java', 'C', 'Ruby', 'React', 'Express', 'Ruby on Rails']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'TS \\ TypeScript', 'C', 'MySQL', 'Amazon Web Services \\ AWS', 'Node.js', 'React', 'Docker']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'TS \\ TypeScript', 'Java', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'TS \\ TypeScript', 'Java', 'C', 'PHP', 'React', 'Drupal', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'Java', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Terraform', 'Ansible', 'Puppet', 'Chef']",2
+"['JS \\ javascript', 'PYTHON', 'Java', 'Go', 'Rust', 'Scala', 'MySQL', 'Cassandra', 'Angular', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'Java', 'Apex', 'Cosmos DB', 'Azure', 'Node.js', 'React', 'Vue.js']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'Java', 'MySQL', 'MongoDB', 'Oracle', 'Azure', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'Java', 'R', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'React', 'Angular']",1
+"['JS \\ javascript', 'PYTHON', 'TS \\ TypeScript', 'Dynamodb', 'Amazon Web Services \\ AWS', 'Azure', 'React', 'Next.js', 'Docker', 'Terraform']",1
+"['JS \\ javascript', 'PYTHON', 'TS \\ TypeScript', 'Java', 'MongoDB', 'React', 'Angular', 'Make', 'Kubernetes', 'Maven']",1
+"['JS \\ javascript', 'PYTHON', 'TS \\ TypeScript', 'MongoDB', 'Redis', 'Amazon Web Services \\ AWS', 'Node.js', 'React', 'Express', 'Docker']",1
+"['JS \\ javascript', 'PYTHON', 'TS \\ TypeScript', 'PostgreSQL', 'Redis', 'React', 'FastAPI', 'Svelte', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'Ruby', 'PostgreSQL', 'MySQL', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Node.js', 'Ruby on Rails', 'Docker', 'Terraform']",1
+"['JS \\ javascript', 'SQL', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Node.js', 'React', 'Django', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'SQL', 'Java', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Node.js', 'React', 'npm', 'Webpack', 'Maven']",1
+"['JS \\ javascript', 'SQL', 'PHP', 'MySQL', 'BigQuery', 'React', 'Angular', 'Laravel', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'SQL', 'PostgreSQL', 'MySQL', 'MongoDB', 'Redis', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker']",1
+"['JS \\ javascript', 'SQL', 'Ruby', 'Redis', 'Amazon Web Services \\ AWS', 'React', 'Vue.js', 'Django', 'Ruby on Rails', 'Docker']",1
+"['JS \\ javascript', 'SQL', 'TS \\ TypeScript', 'Go', 'Amazon Web Services \\ AWS', 'Firebase', 'Node.js', 'NestJS', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'SQL', 'TS \\ TypeScript', 'Java', 'Oracle', 'Cosmos DB', 'Azure', 'React', 'jQuery', 'Angular']",1
+"['JS \\ javascript', 'SQL', 'TS \\ TypeScript', 'PostgreSQL', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Node.js', 'React', 'Express']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Java', 'MySQL', 'Oracle', 'Amazon Web Services \\ AWS', 'Angular', 'Spring Boot', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'MongoDB', 'Amazon Web Services \\ AWS', 'Node.js', 'React', 'Angular', 'Docker', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'PHP', 'Amazon Web Services \\ AWS', 'React', 'Angular', 'Vue.js', 'Laravel', 'Symfony', 'Docker']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Ruby', 'MySQL', 'Redis', 'Amazon Web Services \\ AWS', 'Node.js', 'React', 'Ruby on Rails', 'Make']",1
+"['PYTHON', 'Bash', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Kubernetes', 'Terraform', 'Ansible', 'Podman']",1
+"['PYTHON', 'Bash', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Make', 'Terraform', 'Ansible', 'Puppet', 'Chef']",1
+"['PYTHON', 'Bash', 'Go', 'Ruby', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Docker', 'Make', 'Kubernetes', 'Terraform']",1
+"['PYTHON', 'Bash', 'PowerShell', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Make', 'Kubernetes', 'Terraform']",1
+"['PYTHON', 'Bash', 'PowerShell', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'VMware', 'Docker', 'Kubernetes', 'Terraform']",1
+"['PYTHON', 'Bash', 'PowerShell', 'Perl', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Make', 'Terraform', 'Ansible']",1
+"['PYTHON', 'Bash', 'PowerShell', 'Ruby', 'MySQL', 'Amazon Web Services \\ AWS', 'Azure', 'Make', 'Kubernetes', 'Terraform']",1
+"['PYTHON', 'C++', 'C', 'Azure', 'React', 'Django', 'FastAPI', 'Docker', 'npm', 'Kubernetes']",1
+"['PYTHON', 'C++', 'C', 'Go', 'R', 'Groovy', 'Amazon Web Services \\ AWS', 'Docker', 'Make', 'Kubernetes']",1
+"['PYTHON', 'C++', 'C', 'PostgreSQL', 'MySQL', 'H', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Django']",1
+"['PYTHON', 'C++', 'Java', 'C', 'Go', 'Redis', 'Amazon Web Services \\ AWS', 'Make', 'Kubernetes', 'Terraform']",1
+"['PYTHON', 'C++', 'Java', 'C', 'Go', 'Ruby', 'MongoDB', 'Flask', 'Django', 'Make']",2
+"['PYTHON', 'C++', 'Java', 'C', 'Go', 'Rust', 'Kotlin', 'Amazon Web Services \\ AWS', 'Make', 'Terraform']",2
+"['PYTHON', 'C++', 'Java', 'C', 'MySQL', 'Redis', 'Elasticsearch', 'Dynamodb', 'Amazon Web Services \\ AWS', 'Kubernetes']",1
+"['PYTHON', 'C++', 'Java', 'C', 'Rust', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Make', 'Gradle']",1
+"['PYTHON', 'C++', 'SQL', 'Java', 'C', 'PowerShell', 'Oracle', 'Azure', 'VMware', 'Make']",1
+"['PYTHON', 'C++', 'TS \\ TypeScript', 'C', 'Redis', 'Amazon Web Services \\ AWS', 'React', 'FastAPI', 'Docker', 'Pulumi']",1
+"['PYTHON', 'Go', 'PostgreSQL', 'MySQL', 'Redis', 'Elasticsearch', 'Amazon Web Services \\ AWS', 'Make', 'Terraform', 'Ansible']",1
+"['PYTHON', 'Java', 'Go', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Kubernetes', 'Terraform', 'Ansible']",2
+"['PYTHON', 'Java', 'Go', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'OpenStack', 'Docker', 'Kubernetes', 'Podman']",1
+"['PYTHON', 'Java', 'Go', 'Kotlin', 'Scala', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Kubernetes']",1
+"['PYTHON', 'Java', 'PostgreSQL', 'MySQL', 'MongoDB', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Docker', 'Make', 'Kubernetes']",1
+"['PYTHON', 'Java', 'Scala', 'Snowflake', 'Clickhouse', 'Amazon Web Services \\ AWS', 'Docker', 'Make', 'Kubernetes', 'Terraform']",1
+"['PYTHON', 'PostgreSQL', 'MySQL', 'Redis', 'Amazon Web Services \\ AWS', 'Flask', 'Django', 'FastAPI', 'Docker', 'Kubernetes']",1
+"['PYTHON', 'Redis', 'BigQuery', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Django', 'FastAPI', 'Docker', 'Make', 'Kubernetes']",1
+"['PYTHON', 'SQL', 'Bash', 'Java', 'Perl', 'Azure', 'Google Cloud \\ GCP', 'Spring Boot', 'Kubernetes', 'Maven']",1
+"['PYTHON', 'SQL', 'Java', 'Redis', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Kubernetes', 'Terraform', 'Ansible']",1
+"['PYTHON', 'SQL', 'TS \\ TypeScript', 'Java', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Spring Boot', 'Docker', 'Make', 'Terraform']",1
+"['SQL', 'Java', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Spring Boot', 'Docker', 'Kubernetes', 'Maven', 'Gradle']",1
+"['SQL', 'TS \\ TypeScript', 'Java', 'Redis', 'Elasticsearch', 'Amazon Web Services \\ AWS', 'Spring Boot', 'Docker', 'Make', 'Kubernetes']",1
+"['C#', 'Java', 'Go', 'Scala', 'MySQL', 'Oracle', 'Amazon Web Services \\ AWS', 'Azure', 'Docker', 'Make', 'Kubernetes']",1
+"['C++', 'SQL', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Angular', 'ASP.NET CORE', 'ASP.NET', 'Blazor', 'Make', 'Terraform']",1
+"['C++', 'SQL', 'C', 'SQLite', 'Amazon Web Services \\ AWS', 'Azure', 'React', 'Angular', 'ASP.NET CORE', 'ASP.NET', 'Blazor']",1
+"['C++', 'SQL', 'Java', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'React', 'Express', 'Make', 'Maven']",2
+"['C++', 'SQL', 'Java', 'C', 'Oracle', 'Amazon Web Services \\ AWS', 'Azure', 'Docker', 'Make', 'Kubernetes', 'Terraform']",1
+"['C++', 'SQL', 'Java', 'C', 'Scala', 'Ada', 'Redis', 'Cassandra', 'Amazon Web Services \\ AWS', 'Maven', 'Gradle']",1
+"['Java', 'Go', 'MySQL', 'MongoDB', 'Redis', 'Elasticsearch', 'Oracle', 'Dynamodb', 'Cassandra', 'Amazon Web Services \\ AWS', 'Azure']",1
+"['Java', 'MySQL', 'MongoDB', 'Redis', 'Elasticsearch', 'Oracle', 'Dynamodb', 'Cassandra', 'Amazon Web Services \\ AWS', 'Azure', 'Make']",1
+"['Java', 'PostgreSQL', 'MySQL', 'Oracle', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Spring Boot', 'Docker', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'C++', 'C', 'Oracle', 'Azure', 'React', 'Angular', 'ASP.NET CORE', 'ASP.NET', 'Blazor', 'Docker']",1
+"['JS \\ javascript', 'C++', 'SQL', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'React', 'Angular', 'Vue.js', 'ASP.NET', 'Make']",1
+"['JS \\ javascript', 'C++', 'SQL', 'C', 'MySQL', 'MongoDB', 'Dynamodb', 'Amazon Web Services \\ AWS', 'React', 'Vue.js', 'AngularJS']",1
+"['JS \\ javascript', 'C++', 'SQL', 'C', 'PHP', 'MySQL', 'Oracle', 'Node.js', 'React', 'jQuery', 'Laravel']",1
+"['JS \\ javascript', 'C++', 'SQL', 'Java', 'C', 'Amazon Web Services \\ AWS', 'Node.js', 'Express', 'Angular', 'ASP.NET', 'AngularJS']",1
+"['JS \\ javascript', 'C++', 'SQL', 'TS \\ TypeScript', 'C', 'PHP', 'Go', 'Amazon Web Services \\ AWS', 'Azure', 'Node.js', 'Laravel']",1
+"['JS \\ javascript', 'C++', 'TS \\ TypeScript', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'ASP.NET', 'Docker', 'Kubernetes', 'Terraform']",1
+"['JS \\ javascript', 'Go', 'PostgreSQL', 'MySQL', 'MongoDB', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Node.js', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C', 'Crystal', 'Amazon Web Services \\ AWS', 'Azure', 'jQuery', 'ASP.NET CORE', 'ASP.NET']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C', 'Lisp', 'Oracle', 'Azure', 'React', 'Angular', 'ASP.NET']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'Java', 'C', 'MySQL', 'Azure', 'Angular', 'ASP.NET CORE', 'ASP.NET']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'Java', 'C', 'Oracle', 'React', 'jQuery', 'Angular', 'Vue.js']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'TS \\ TypeScript', 'C', 'Amazon Web Services \\ AWS', 'React', 'jQuery', 'ASP.NET', 'Docker']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'TS \\ TypeScript', 'C', 'MySQL', 'Oracle', 'Azure', 'React', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'TS \\ TypeScript', 'Java', 'C', 'R', 'Node.js', 'React', 'Angular', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'Java', 'Azure', 'React', 'Next.js', 'Express', 'Docker', 'Make', 'Kubernetes', 'Webpack']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'React', 'Django', 'Docker', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'Bash', 'PowerShell', 'Go', 'MongoDB', 'Redis', 'Couchbase', 'Node.js', 'Kubernetes']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'SQL', 'PostgreSQL', 'BigQuery', 'Snowflake', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'React']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'SQL', 'TS \\ TypeScript', 'Go', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Angular', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'TS \\ TypeScript', 'Java', 'Go', 'Amazon Web Services \\ AWS', 'Node.js', 'React', 'Angular', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'Ruby', 'Elixir', 'Redis', 'Elasticsearch', 'Cassandra', 'Amazon Web Services \\ AWS', 'Ruby on Rails', 'Phoenix', 'Docker']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'Ruby', 'PostgreSQL', 'MySQL', 'Amazon Web Services \\ AWS', 'Heroku', 'React', 'Vue.js', 'Ruby on Rails', 'Docker']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'Java', 'MySQL', 'Oracle', 'Docker', 'Make', 'Kubernetes', 'Maven', 'Gradle']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'TS \\ TypeScript', 'Java', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'React', 'Webpack', 'Terraform']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'TS \\ TypeScript', 'OpenShift', 'Node.js', 'React', 'Docker', 'npm', 'Make', 'Kubernetes', 'Podman']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'TS \\ TypeScript', 'PHP', 'PostgreSQL', 'Redis', 'Node.js', 'React', 'Next.js', 'Laravel', 'Docker']",1
+"['JS \\ javascript', 'Java', 'Go', 'Swift', 'Amazon Web Services \\ AWS', 'Azure', 'Node.js', 'React', 'Angular', 'npm', 'Webpack']",1
+"['JS \\ javascript', 'Java', 'MongoDB', 'Oracle', 'Amazon Web Services \\ AWS', 'Node.js', 'React', 'Express', 'Angular', 'Make', 'Chef']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'Bash', 'Java', 'C', 'Amazon Web Services \\ AWS', 'Make', 'Terraform', 'Ansible', 'Puppet']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Node.js', 'React', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'C', 'Go', 'Elasticsearch', 'Amazon Web Services \\ AWS', 'Node.js', 'Docker', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'C', 'Go', 'MongoDB', 'InfluxDB', 'Amazon Web Services \\ AWS', 'Node.js', 'React', 'Docker']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'Java', 'C', 'Go', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'React', 'Docker', 'Terraform']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'Java', 'C', 'Ruby', 'Elixir', 'PostgreSQL', 'Docker', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'Java', 'C', 'Swift', 'Scala', 'Amazon Web Services \\ AWS', 'Node.js', 'Phoenix', 'Maven']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'React', 'Angular', 'ASP.NET']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'Java', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Node.js', 'React', 'Angular']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'Java', 'C', 'MySQL', 'React', 'Angular', 'Django', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'TS \\ TypeScript', 'Java', 'C', 'Azure', 'React', 'Angular', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'TS \\ TypeScript', 'Bash', 'Java', 'C', 'Go', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP']",1
+"['JS \\ javascript', 'PYTHON', 'Go', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Make', 'Kubernetes', 'Terraform', 'Ansible']",1
+"['JS \\ javascript', 'PYTHON', 'Go', 'Redis', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Vercel', 'React', 'Next.js', 'Docker', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'Java', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Node.js', 'React', 'Angular', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'PostgreSQL', 'MongoDB', 'Amazon Web Services \\ AWS', 'Azure', 'Vercel', 'Node.js', 'React', 'Next.js', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'Ada', 'Amazon Web Services \\ AWS', 'Cloudflare', 'React', 'Flask', 'FastAPI', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'BigQuery', 'Google Cloud \\ GCP', 'Flask', 'FastAPI', 'Docker', 'Make', 'Terraform', 'Composer']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'PostgreSQL', 'Amazon Web Services \\ AWS', 'Node.js', 'Express', 'FastAPI', 'Make', 'Kubernetes', 'Terraform']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'PostgreSQL', 'MySQL', 'MongoDB', 'Cassandra', 'React', 'Next.js', 'Django', 'Docker']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'TS \\ TypeScript', 'Redis', 'Amazon Web Services \\ AWS', 'Node.js', 'React', 'NestJS', 'Docker', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'TS \\ TypeScript', 'Go', 'PostgreSQL', 'DuckDB', 'Amazon Web Services \\ AWS', 'Remix', 'Docker', 'Make', 'Terraform']",1
+"['JS \\ javascript', 'PYTHON', 'TS \\ TypeScript', 'Go', 'Ruby', 'PostgreSQL', 'Amazon Web Services \\ AWS', 'Cloudflare', 'Heroku', 'React', 'Ruby on Rails']",1
+"['JS \\ javascript', 'PYTHON', 'TS \\ TypeScript', 'Java', 'Node.js', 'React', 'Next.js', 'Angular', 'Django', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'SQL', 'Java', 'PostgreSQL', 'Oracle', 'Amazon Web Services \\ AWS', 'Angular', 'AngularJS', 'Docker', 'Kubernetes', 'Ant']",1
+"['JS \\ javascript', 'SQL', 'Java', 'Ruby', 'Oracle', 'Amazon Web Services \\ AWS', 'Azure', 'Docker', 'Make', 'Kubernetes', 'Terraform']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'MySQL', 'MongoDB', 'Redis', 'Amazon Web Services \\ AWS', 'Node.js', 'React', 'Next.js', 'Express', 'Fastify']",1
+"['PYTHON', 'Bash', 'Go', 'InfluxDB', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Kubernetes', 'Terraform', 'Podman', 'Pulumi']",1
+"['PYTHON', 'Bash', 'Ruby', 'Perl', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Kubernetes', 'Ansible', 'Chef']",1
+"['PYTHON', 'C++', 'Bash', 'C', 'MySQL', 'MariaDB', 'Snowflake', 'Cassandra', 'Docker', 'Make', 'Kubernetes']",1
+"['PYTHON', 'C++', 'Bash', 'C', 'PowerShell', 'BigQuery', 'Google Cloud \\ GCP', 'Docker', 'Make', 'Kubernetes', 'Terraform']",1
+"['PYTHON', 'C++', 'Java', 'C', 'Go', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Make', 'Kubernetes']",1
+"['PYTHON', 'C++', 'SQL', 'C', 'Go', 'PostgreSQL', 'MySQL', 'MongoDB', 'Azure', 'Docker', 'Kubernetes']",1
+"['PYTHON', 'C++', 'SQL', 'Java', 'C', 'Databricks', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Databricks', 'Make']",1
+"['PYTHON', 'C++', 'SQL', 'Java', 'C', 'Go', 'Rust', 'Swift', 'BigQuery', 'H', 'GraphQL[^w+#][W]REST']",1
+"['PYTHON', 'C++', 'SQL', 'Java', 'C', 'PostgreSQL', 'Oracle', 'Azure', 'Docker', 'Kubernetes', 'Maven']",1
+"['PYTHON', 'C++', 'TS \\ TypeScript', 'Java', 'C', 'Ruby', 'Groovy', 'Perl', 'npm', 'Maven', 'MSBuild']",1
+"['PYTHON', 'Java', 'Ruby', 'Scala', 'PostgreSQL', 'MySQL', 'Cassandra', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Make']",1
+"['PYTHON', 'Kotlin', 'Swift', 'MySQL', 'Amazon Web Services \\ AWS', 'Firebase', 'React', 'Express', 'Make', 'Webpack', 'Gradle']",1
+"['PYTHON', 'SQL', 'Go', 'Ruby', 'PostgreSQL', 'MySQL', 'Elasticsearch', 'BigQuery', 'Make', 'Kubernetes', 'Terraform']",1
+"['PYTHON', 'SQL', 'Java', 'MySQL', 'Oracle', 'Azure', 'OpenShift', 'React', 'Spring Boot', 'Maven', 'Gradle']",1
+"['PYTHON', 'SQL', 'Java', 'PowerShell', 'Perl', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Docker', 'Ansible', 'Puppet', 'Chef']",1
+"['PYTHON', 'SQL', 'Java', 'Snowflake', 'Azure', 'Flask', 'Django', 'FastAPI', 'Docker', 'Make', 'Kubernetes']",1
+"['PYTHON', 'SQL', 'Oracle', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Kubernetes', 'Terraform', 'Ansible', 'Chef']",1
+"['PYTHON', 'TS \\ TypeScript', 'Go', 'Ruby', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Docker', 'Make', 'Kubernetes', 'Terraform', 'Ansible']",1
+"['PYTHON', 'TS \\ TypeScript', 'Java', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Make', 'Kubernetes', 'Terraform', 'Ansible']",1
+"['SQL', 'Java', 'PostgreSQL', 'MySQL', 'Microsoft SQL Server', 'MariaDB', 'Oracle', 'Dynamodb', 'Cassandra', 'Google Cloud \\ GCP', 'Make']",1
+"['TS \\ TypeScript', 'Java', 'Ada', 'Redis', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Angular', 'Spring Boot', 'Docker', 'Kubernetes']",1
+"['TS \\ TypeScript', 'Java', 'Go', 'PostgreSQL', 'Oracle', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'React', 'Angular', 'Gradle']",1
+"['C++', 'TS \\ TypeScript', 'C', 'Go', 'Ruby', 'PostgreSQL', 'MySQL', 'MongoDB', 'Cassandra', 'Angular', 'Docker', 'Make']",3
+"['Java', 'Go', 'MySQL', 'MongoDB', 'Redis', 'Elasticsearch', 'Oracle', 'Dynamodb', 'Cassandra', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP']",1
+"['JS \\ javascript', 'C++', 'SQL', 'C', 'PowerShell', 'Microsoft SQL Server', 'Azure', 'React', 'Next.js', 'Angular', 'Docker', 'npm']",1
+"['JS \\ javascript', 'C++', 'SQL', 'Java', 'C', 'Cobol', 'Azure', 'jQuery', 'Angular', 'ASP.NET CORE', 'ASP.NET', 'Make']",1
+"['JS \\ javascript', 'C++', 'SQL', 'Java', 'C', 'Kotlin', 'Amazon Web Services \\ AWS', 'React', 'Next.js', 'Spring Boot', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'C++', 'SQL', 'TS \\ TypeScript', 'C', 'MySQL', 'Amazon Web Services \\ AWS', 'Azure', 'Node.js', 'React', 'Angular', 'Blazor']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C', 'Azure', 'Google Cloud \\ GCP', 'React', 'jQuery', 'Angular', 'Vue.js', 'ASP.NET']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C', 'Microsoft SQL Server', 'Azure', 'React', 'jQuery', 'ASP.NET', 'Blazor', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C', 'PHP', 'Crystal', 'MySQL', 'jQuery', 'ASP.NET', 'FastAPI', 'Chef']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C', 'PostgreSQL', 'Amazon Web Services \\ AWS', 'Azure', 'React', 'Angular', 'ASP.NET', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'C', 'PowerShell', 'Perl', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Node.js', 'Terraform']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'Java', 'C', 'Oracle', 'Amazon Web Services \\ AWS', 'React', 'Angular', 'ASP.NET', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'TS \\ TypeScript', 'C', 'PowerShell', 'Visual Basic', 'MySQL', 'Azure', 'jQuery', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'TS \\ TypeScript', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'jQuery', 'Angular', 'ASP.NET', 'Docker', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'TS \\ TypeScript', 'Java', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'jQuery', 'Angular', 'AngularJS', 'Docker']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'SQL', 'Java', 'C', 'Go', 'Kotlin', 'Swift', 'Cobol', 'Amazon Web Services \\ AWS']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'TS \\ TypeScript', 'Java', 'C', 'Dynamodb', 'Amazon Web Services \\ AWS', 'React', 'Angular', 'Make']",2
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'TS \\ TypeScript', 'Java', 'C', 'Ruby', 'Azure', 'Node.js', 'Angular', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'Java', 'Groovy', 'PostgreSQL', 'Amazon Web Services \\ AWS', 'Azure', 'React', 'Make', 'Maven', 'Terraform']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'MySQL', 'MongoDB', 'Amazon Web Services \\ AWS', 'React', 'Vue.js', 'FastAPI', 'Docker', 'Make', 'Terraform']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'SQL', 'Bash', 'Java', 'PHP', 'Ruby', 'Perl', 'MySQL', 'Oracle', 'Azure']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'SQL', 'Perl', 'Amazon Web Services \\ AWS', 'Vue.js', 'Flask', 'Django', 'FastAPI', 'Docker', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'SQL', 'TS \\ TypeScript', 'Java', 'Go', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'Java', 'Redis', 'Oracle', 'Amazon Web Services \\ AWS', 'OpenShift', 'Node.js', 'Spring Boot', 'Docker', 'Make']",2
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'Ruby', 'PostgreSQL', 'Redis', 'Snowflake', 'Amazon Web Services \\ AWS', 'Heroku', 'React', 'Ruby on Rails', 'Webpack']",2
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'TS \\ TypeScript', 'MongoDB', 'Google Cloud \\ GCP', 'Firebase', 'Node.js', 'React', 'jQuery', 'Angular', 'Vue.js']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'TS \\ TypeScript', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Node.js', 'React', 'Next.js', 'Docker', 'Make', 'Kubernetes']",2
+"['JS \\ javascript', 'HTML \\ CSS', 'TS \\ TypeScript', 'R', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Firebase', 'Heroku', 'Netlify', 'React', 'Make']",1
+"['JS \\ javascript', 'Java', 'Kotlin', 'Lua', 'Amazon Web Services \\ AWS', 'Vercel', 'Netlify', 'Node.js', 'React', 'Next.js', 'Spring Boot', 'Kubernetes']",1
+"['JS \\ javascript', 'Java', 'MySQL', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'jQuery', 'Angular', 'Spring Boot', 'Docker', 'Make', 'Kubernetes', 'Terraform']",1
+"['JS \\ javascript', 'PYTHON', 'Amazon Web Services \\ AWS', 'React', 'Angular', 'Vue.js', 'Flask', 'Django', 'Docker', 'Make', 'Kubernetes', 'Terraform']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'Bash', 'Java', 'C', 'Go', 'Make', 'Kubernetes', 'Terraform', 'Ansible', 'Pulumi']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'Java', 'C', 'Ada', 'Amazon Web Services \\ AWS', 'Angular', 'Spring Boot', 'Make', 'Kubernetes', 'Maven']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'Java', 'C', 'Go', 'Oracle', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Node.js', 'React', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'Java', 'C', 'Go', 'Ruby', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Ruby on Rails', 'Terraform']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'Java', 'C', 'Go', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Terraform']",2
+"['JS \\ javascript', 'PYTHON', 'C++', 'TS \\ TypeScript', 'Java', 'C', 'Go', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'Java', 'Oracle', 'Snowflake', 'Databricks', 'Amazon Web Services \\ AWS', 'VMware', 'Databricks', 'Angular', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'Java', 'R', 'MongoDB', 'Dynamodb', 'Amazon Web Services \\ AWS', 'Node.js', 'React', 'Angular', 'Make', 'Flutter']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'Java', 'Elasticsearch', 'Dynamodb', 'Amazon Web Services \\ AWS', 'Node.js', 'Spring Boot', 'Docker', 'Kubernetes', 'Terraform']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'Java', 'Go', 'Scala', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Node.js', 'Docker', 'Kubernetes']",6
+"['JS \\ javascript', 'PYTHON', 'SQL', 'Java', 'Scala', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Node.js', 'React', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'TS \\ TypeScript', 'Java', 'Go', 'Scala', 'PostgreSQL', 'Dynamodb', 'Node.js', 'React', 'Next.js', 'Django']",1
+"['JS \\ javascript', 'SQL', 'TS \\ TypeScript', 'Java', 'Cosmos DB', 'Azure', 'Node.js', 'React', 'Angular', 'ASP.NET CORE', 'Vue.js', 'ASP.NET']",1
+"['PYTHON', 'Bash', 'Go', 'Ruby', 'Databricks', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Databricks', 'Make', 'Kubernetes', 'Terraform', 'Ansible']",1
+"['PYTHON', 'Bash', 'PowerShell', 'Ruby', 'Swift', 'Amazon Web Services \\ AWS', 'Azure', 'Docker', 'Make', 'Kubernetes', 'Terraform', 'Ansible']",1
+"['PYTHON', 'C++', 'Bash', 'C', 'Kotlin', 'Ruby', 'Swift', 'Firebase', 'Docker', 'Make', 'Ansible', 'Chef']",1
+"['PYTHON', 'C++', 'C', 'Go', 'R', 'Perl', 'Azure', 'Docker', 'Kubernetes', 'Terraform', 'Ansible', 'Puppet']",1
+"['PYTHON', 'C++', 'SQL', 'C', 'Azure', 'React', 'Angular', 'ASP.NET', 'Blazor', 'Docker', 'Kubernetes', 'Terraform']",1
+"['PYTHON', 'C++', 'SQL', 'Java', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Kubernetes', 'Terraform', 'Ansible']",1
+"['PYTHON', 'C++', 'SQL', 'Java', 'C', 'R', 'MATLAB', 'Crystal', 'MySQL', 'SQLite', 'Firebase', 'Make']",2
+"['PYTHON', 'C++', 'SQL', 'TS \\ TypeScript', 'C', 'Kotlin', 'Dart', 'Amazon Web Services \\ AWS', 'Azure', 'React', 'Make', 'Flutter']",1
+"['PYTHON', 'Java', 'MongoDB', 'Elasticsearch', 'Amazon Web Services \\ AWS', 'Angular', 'Kubernetes', 'Maven', 'Gradle', 'Ansible', 'Puppet', 'Chef']",1
+"['PYTHON', 'SQL', 'Java', 'Go', 'Kotlin', 'BigQuery', 'Snowflake', 'Databricks', 'DuckDB', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Databricks']",1
+"['PYTHON', 'TS \\ TypeScript', 'Bash', 'Ruby', 'Dynamodb', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Make', 'Terraform', 'Chef']",1
+"['SQL', 'Java', 'PostgreSQL', 'MySQL', 'MongoDB', 'Oracle', 'Cassandra', 'Amazon Web Services \\ AWS', 'Azure', 'Spring Boot', 'Docker', 'Make']",1
+"['C++', 'SQL', 'Java', 'C', 'Dart', 'MySQL', 'SQLite', 'Amazon Web Services \\ AWS', 'Azure', 'Docker', 'Make', 'Kubernetes', 'Flutter']",1
+"['JS \\ javascript', 'C++', 'SQL', 'TS \\ TypeScript', 'C', 'PostgreSQL', 'Oracle', 'Amazon Web Services \\ AWS', 'Azure', 'Node.js', 'jQuery', 'Angular', 'ASP.NET']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'C', 'Cosmos DB', 'Amazon Web Services \\ AWS', 'Azure', 'React', 'jQuery', 'Angular', 'Docker', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'TS \\ TypeScript', 'C', 'Go', 'Swift', 'Dynamodb', 'Amazon Web Services \\ AWS', 'Angular', 'AngularJS', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'TS \\ TypeScript', 'Java', 'C', 'Oracle', 'jQuery', 'Angular', 'Spring Boot', 'Docker', 'Make']",2
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'TS \\ TypeScript', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'React', 'jQuery', 'Angular', 'Phoenix', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'Java', 'PostgreSQL', 'Google Cloud \\ GCP', 'Cloudflare', 'Spring Boot', 'Docker', 'Make', 'Kubernetes', 'Maven', 'Terraform', 'Ninja']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C#', 'Java', 'Ruby', 'Node.js', 'React', 'Angular', 'Vue.js', 'ASP.NET', 'Ruby on Rails', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'SQL', 'Java', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'Node.js', 'React', 'Angular', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'SQL', 'Java', 'C', 'Go', 'Kotlin', 'Swift', 'Cobol', 'Amazon Web Services \\ AWS', 'Spring Boot']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'SQL', 'Java', 'C', 'R', 'Amazon Web Services \\ AWS', 'Azure', 'Angular', 'Blazor', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'SQL', 'TS \\ TypeScript', 'Java', 'C', 'Go', 'Rust', 'React', 'Angular', 'Vue.js']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'PHP', 'MySQL', 'MongoDB', 'Dynamodb', 'Cassandra', 'Amazon Web Services \\ AWS', 'React', 'Angular', 'WordPress', 'Laravel']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'SQL', 'Amazon Web Services \\ AWS', 'Flask', 'Django', 'Docker', 'Kubernetes', 'Terraform', 'Ansible', 'Puppet', 'Chef']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'TS \\ TypeScript', 'Java', 'MySQL', 'Oracle', 'Amazon Web Services \\ AWS', 'jQuery', 'Angular', 'Spring Boot', 'AngularJS', 'Docker']",1
+"['JS \\ javascript', 'PYTHON', 'Bash', 'PHP', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Kubernetes', 'Terraform', 'Ansible', 'Puppet', 'Chef']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'C', 'Redis', 'Databricks', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Databricks', 'Docker', 'Kubernetes']",2
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'Java', 'C', 'R', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Node.js', 'React', 'Angular']",2
+"['JS \\ javascript', 'PYTHON', 'C++', 'TS \\ TypeScript', 'Java', 'C', 'PHP', 'Snowflake', 'Amazon Web Services \\ AWS', 'Node.js', 'React', 'Docker', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'TS \\ TypeScript', 'Java', 'C', 'Swift', 'Node.js', 'React', 'Angular', 'Django', 'Docker', 'Kubernetes']",2
+"['JS \\ javascript', 'PYTHON', 'Go', 'MySQL', 'MongoDB', 'Redis', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Node.js', 'Docker', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'Java', 'Elixir', 'PostgreSQL', 'Node.js', 'React', 'jQuery', 'Vue.js', 'Django', 'Docker', 'Pip', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'Java', 'Perl', 'PostgreSQL', 'Elasticsearch', 'Cassandra', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'OpenStack', 'Docker', 'Kubernetes', 'Maven']",1
+"['JS \\ javascript', 'PYTHON', 'PHP', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Flask', 'Django', 'Laravel', 'Docker', 'Kubernetes', 'Terraform', 'Ansible']",1
+"['JS \\ javascript', 'PYTHON', 'PostgreSQL', 'MongoDB', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Node.js', 'React', 'Next.js', 'Flask', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'PostgreSQL', 'MySQL', 'MongoDB', 'Redis', 'Amazon Web Services \\ AWS', 'Azure', 'React', 'Next.js', 'Angular', 'Django', 'Terraform']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'Visual Basic', 'VBA', 'PostgreSQL', 'MySQL', 'Microsoft Access', 'Node.js', 'React', 'Angular', 'Vue.js', 'Flutter']",1
+"['JS \\ javascript', 'PYTHON', 'TS \\ TypeScript', 'PostgreSQL', 'MySQL', 'Amazon Web Services \\ AWS', 'Azure', 'Node.js', 'React', 'Express', 'Docker', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'SQL', 'Java', 'Oracle', 'Dynamodb', 'Amazon Web Services \\ AWS', 'React', 'Angular', 'Spring Boot', 'Docker', 'Make', 'Gradle', 'Terraform']",2
+"['JS \\ javascript', 'SQL', 'TS \\ TypeScript', 'MySQL', 'MongoDB', 'Dynamodb', 'Amazon Web Services \\ AWS', 'Azure', 'Node.js', 'React', 'Docker', 'npm', 'Kubernetes']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Java', 'Dynamodb', 'Amazon Web Services \\ AWS', 'Node.js', 'React', 'Angular', 'Docker', 'Kubernetes', 'Maven', 'Gradle', 'Ant']",2
+"['PYTHON', 'Bash', 'PowerShell', 'Go', 'Redis', 'Elasticsearch', 'Dynamodb', 'Amazon Web Services \\ AWS', 'Docker', 'Kubernetes', 'Terraform', 'Puppet', 'Chef']",1
+"['PYTHON', 'Bash', 'PowerShell', 'Snowflake', 'Amazon Web Services \\ AWS', 'Azure', 'Docker', 'Make', 'Kubernetes', 'Terraform', 'Ansible', 'Puppet', 'Chef']",1
+"['PYTHON', 'C++', 'Java', 'C', 'Go', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Make', 'Kubernetes', 'Terraform', 'Pulumi']",1
+"['PYTHON', 'C++', 'SQL', 'C', 'Azure', 'React', 'Angular', 'ASP.NET', 'Blazor', 'Docker', 'Make', 'Kubernetes', 'Terraform']",1
+"['PYTHON', 'C++', 'SQL', 'TS \\ TypeScript', 'C', 'Go', 'Assembly', 'MATLAB', 'Oracle', 'Phoenix', 'Docker', 'Make', 'Kubernetes']",1
+"['PYTHON', 'C++', 'SQL', 'TS \\ TypeScript', 'Java', 'C', 'Kotlin', 'React', 'Angular', 'Make', 'Webpack', 'Maven', 'Gradle']",1
+"['PYTHON', 'C++', 'TS \\ TypeScript', 'Java', 'C', 'Go', 'Rust', 'Ruby', 'Oracle', 'Cassandra', 'Couchbase', 'Ruby on Rails', 'Make']",1
+"['PYTHON', 'Go', 'MongoDB', 'Elasticsearch', 'Amazon Web Services \\ AWS', 'Azure', 'Phoenix', 'Docker', 'Kubernetes', 'Terraform', 'Ansible', 'Puppet', 'Chef']",1
+"['PYTHON', 'Rust', 'Ruby', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Kubernetes', 'Terraform', 'Ansible', 'Nix', 'Puppet', 'Chef']",1
+"['PYTHON', 'SQL', 'Java', 'Redis', 'Elasticsearch', 'BigQuery', 'Snowflake', 'Clickhouse', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Docker', 'Make', 'Kubernetes']",1
+"['PYTHON', 'SQL', 'TS \\ TypeScript', 'Java', 'Go', 'Amazon Web Services \\ AWS', 'React', 'Flask', 'FastAPI', 'Docker', 'Kubernetes', 'Maven', 'Terraform']",1
+"['SQL', 'Java', 'Oracle', 'Azure', 'OpenShift', 'React', 'Express', 'Angular', 'Spring Boot', 'AngularJS', 'Make', 'Maven', 'Ant']",1
+"['C++', 'SQL', 'C', 'PowerShell', 'R', 'Ada', 'Elasticsearch', 'Azure', 'Express', 'Docker', 'Make', 'Kubernetes', 'Terraform', 'Ansible']",1
+"['HTML \\ CSS', 'C++', 'SQL', 'Java', 'C', 'PHP', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'VMware', 'Docker', 'Make', 'Kubernetes', 'Ansible']",1
+"['HTML \\ CSS', 'C++', 'SQL', 'Java', 'C', 'Swift', 'MySQL', 'MongoDB', 'Oracle', 'Cosmos DB', 'Amazon Web Services \\ AWS', 'Azure', 'React', 'AngularJS']",1
+"['JS \\ javascript', 'C++', 'SQL', 'Bash', 'C', 'PowerShell', 'Oracle', 'Azure', 'ASP.NET CORE', 'ASP.NET', 'Blazor', 'Docker', 'Make', 'Nix']",1
+"['JS \\ javascript', 'C++', 'SQL', 'C', 'PostgreSQL', 'MongoDB', 'Redis', 'Dynamodb', 'Amazon Web Services \\ AWS', 'Azure', 'Next.js', 'Docker', 'Kubernetes', 'Terraform']",1
+"['JS \\ javascript', 'C++', 'TS \\ TypeScript', 'Java', 'C', 'Kotlin', 'Scala', 'PostgreSQL', 'React', 'npm', 'Kubernetes', 'Webpack', 'Maven', 'Gradle']",2
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'TS \\ TypeScript', 'C', 'PowerShell', 'Azure', 'Node.js', 'React', 'Angular', 'ASP.NET', 'Blazor', 'Make']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'Java', 'Go', 'PostgreSQL', 'Google Cloud \\ GCP', 'Cloudflare', 'Spring Boot', 'Docker', 'Make', 'Kubernetes', 'Maven', 'Terraform', 'Ninja']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'C#', 'Java', 'C', 'Amazon Web Services \\ AWS', 'Azure', 'ASP.NET CORE', 'ASP.NET', 'Docker', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'SQL', 'Bash', 'Java', 'C', 'Ada', 'Azure', 'Angular', 'Docker', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'SQL', 'Java', 'C', 'PHP', 'Rust', 'Kotlin', 'Ruby', 'Swift', 'VBA', 'Scala']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'SQL', 'Java', 'C', 'PostgreSQL', 'Amazon Web Services \\ AWS', 'React', 'jQuery', 'ASP.NET', 'Play Framework', 'Docker']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'TS \\ TypeScript', 'Java', 'C', 'Cassandra', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'React', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'Bash', 'PHP', 'MongoDB', 'Amazon Web Services \\ AWS', 'Node.js', 'Express', 'Vue.js', 'WordPress', 'Nuxt.js', 'Docker', 'Webpack']",2
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'TS \\ TypeScript', 'Java', 'Go', 'MySQL', 'Oracle', 'Amazon Web Services \\ AWS', 'Azure', 'Angular', 'Docker', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'Java', 'C', 'Go', 'Ruby', 'MongoDB', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Node.js', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'Java', 'C', 'MySQL', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'ASP.NET', 'Docker', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'Java', 'C', 'PHP', 'Ruby', 'Perl', 'MySQL', 'Oracle', 'WordPress', 'Ruby on Rails', 'Drupal']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'Java', 'C', 'PowerShell', 'Go', 'Rust', 'Redis', 'Neo4J', 'Amazon Web Services \\ AWS', 'Azure', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'TS \\ TypeScript', 'C', 'Redis', 'Amazon Web Services \\ AWS', 'Azure', 'React', 'Angular', 'Docker', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'Java', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Node.js', 'React', 'Angular', 'Spring Boot', 'FastAPI', 'Docker', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'Java', 'R', 'H', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Node.js', 'React', 'Express', 'Angular', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'PHP', 'MySQL', 'MongoDB', 'Dynamodb', 'Cassandra', 'Amazon Web Services \\ AWS', 'React', 'Express', 'Angular', 'Django', 'Laravel', 'Make']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'Java', 'PostgreSQL', 'MySQL', 'MongoDB', 'Cassandra', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Express', 'Make', 'Terraform']",3
+"['JS \\ javascript', 'PYTHON', 'SQL', 'PostgreSQL', 'MySQL', 'MongoDB', 'Redis', 'Amazon Web Services \\ AWS', 'Node.js', 'React', 'Next.js', 'Flask', 'Docker', 'Terraform']",1
+"['JS \\ javascript', 'PYTHON', 'TS \\ TypeScript', 'Go', 'Crystal', 'Elasticsearch', 'Node.js', 'React', 'FastAPI', 'Docker', 'Kubernetes', 'Yarn', 'Terraform', 'Ansible']",1
+"['JS \\ javascript', 'SQL', 'Java', 'Kotlin', 'PostgreSQL', 'MongoDB', 'Amazon Web Services \\ AWS', 'Node.js', 'React', 'Next.js', 'Spring Boot', 'Docker', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'Java', 'Oracle', 'Dynamodb', 'Amazon Web Services \\ AWS', 'Azure', 'Node.js', 'React', 'Express', 'Angular', 'NestJS', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'MySQL', 'Redis', 'MariaDB', 'Amazon Web Services \\ AWS', 'Azure', 'OpenShift', 'React', 'Express', 'Angular', 'Docker', 'Make', 'Kubernetes']",1
+"['PYTHON', 'C++', 'SQL', 'C', 'PostgreSQL', 'MySQL', 'MongoDB', 'React', 'Flask', 'Django', 'FastAPI', 'Docker', 'Make', 'Ansible']",1
+"['PYTHON', 'C++', 'SQL', 'Java', 'C', 'Ruby', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'VMware', 'OpenStack', 'Docker', 'Kubernetes', 'Terraform']",1
+"['PYTHON', 'PostgreSQL', 'MySQL', 'MongoDB', 'Cassandra', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Express', 'Flask', 'FastAPI', 'Docker', 'Make', 'Kubernetes', 'Terraform']",1
+"['SQL', 'Java', 'Kotlin', 'Groovy', 'Scala', 'Clojure', 'MySQL', 'MongoDB', 'Redis', 'Amazon Web Services \\ AWS', 'React', 'Make', 'Terraform', 'Dagger']",1
+"['C++', 'C', 'PHP', 'Go', 'Rust', 'Swift', 'Scala', 'Haskell', 'Clojure', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Docker', 'Make', 'Kubernetes', 'GraphQL[^w+#][W]REST']",1
+"['JS \\ javascript', 'C++', 'SQL', 'Java', 'C', 'Kotlin', 'Swift', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'React', 'Angular', 'Docker', 'Make', 'Maven', 'Gradle']",1
+"['JS \\ javascript', 'C++', 'SQL', 'Java', 'C', 'Redis', 'Elasticsearch', 'Cosmos DB', 'Cassandra', 'Amazon Web Services \\ AWS', 'Azure', 'React', 'ASP.NET', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'TS \\ TypeScript', 'Java', 'C', 'Azure', 'React', 'ASP.NET', 'npm', 'Webpack', 'Maven', 'Gradle', 'GraphQL[^w+#][W]REST']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'SQL', 'Bash', 'Java', 'C', 'PHP', 'Oracle', 'jQuery', 'Angular', 'Docker', 'npm', 'Ansible']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'SQL', 'TS \\ TypeScript', 'Bash', 'Azure', 'Node.js', 'React', 'Angular', 'Vue.js', 'Docker', 'Make', 'Vite', 'Kubernetes']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'TS \\ TypeScript', 'Java', 'Go', 'PostgreSQL', 'MySQL', 'Dynamodb', 'Amazon Web Services \\ AWS', 'Azure', 'React', 'Angular', 'Make', 'Terraform']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'Java', 'C', 'Rust', 'Groovy', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'OpenShift', 'Docker', 'Kubernetes', 'Terraform', 'Ansible']",2
+"['JS \\ javascript', 'PYTHON', 'C++', 'TS \\ TypeScript', 'Bash', 'Java', 'C', 'Perl', 'Elasticsearch', 'Solr', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Node.js', 'Vue.js']",1
+"['JS \\ javascript', 'PYTHON', 'Java', 'Go', 'Kotlin', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'npm', 'Make', 'Kubernetes', 'Yarn', 'Maven', 'Gradle', 'Terraform']",1
+"['JS \\ javascript', 'PYTHON', 'Java', 'Go', 'Ruby', 'Redis', 'MariaDB', 'Elasticsearch', 'BigQuery', 'Google Cloud \\ GCP', 'Node.js', 'React', 'Angular', 'Vue.js', 'Ruby on Rails']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'Bash', 'Java', 'Go', 'Ruby', 'Perl', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Kubernetes', 'Terraform', 'Ansible']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'TS \\ TypeScript', 'PostgreSQL', 'Amazon Web Services \\ AWS', 'Node.js', 'React', 'Express', 'Flask', 'Django', 'FastAPI', 'Docker', 'Vite', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'TS \\ TypeScript', 'PostgreSQL', 'MySQL', 'MongoDB', 'Redis', 'Amazon Web Services \\ AWS', 'Node.js', 'React', 'Next.js', 'Flask', 'Docker', 'Terraform']",1
+"['PYTHON', 'Bash', 'PHP', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'npm', 'Kubernetes', 'Yarn', 'Terraform', 'Composer', 'Ansible', 'Puppet', 'Chef']",1
+"['PYTHON', 'SQL', 'Bash', 'Go', 'MySQL', 'Dynamodb', 'BigQuery', 'Cosmos DB', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Make', 'Kubernetes', 'Terraform']",1
+"['C++', 'SQL', 'Java', 'C', 'Cobol', 'MySQL', 'Elasticsearch', 'Cassandra', 'Amazon Web Services \\ AWS', 'Docker', 'Make', 'Kubernetes', 'Terraform', 'Ansible', 'Puppet', 'Chef']",1
+"['JS \\ javascript', 'C++', 'SQL', 'Java', 'C', 'PHP', 'Perl', 'PostgreSQL', 'MySQL', 'MongoDB', 'Amazon Web Services \\ AWS', 'Azure', 'Laravel', 'Docker', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'TS \\ TypeScript', 'Java', 'C', 'PowerShell', 'Azure', 'React', 'ASP.NET', 'npm', 'Webpack', 'Maven', 'Gradle', 'GraphQL[^w+#][W]REST']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'Go', 'Rust', 'PostgreSQL', 'MySQL', 'Redis', 'Elasticsearch', 'Amazon Web Services \\ AWS', 'React', 'Docker', 'Make', 'Kubernetes', 'Bun', 'GraphQL[^w+#][W]REST']",1
+"['JS \\ javascript', 'PYTHON', 'Bash', 'Java', 'Kotlin', 'PostgreSQL', 'MySQL', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Node.js', 'FastAPI', 'Docker', 'Kubernetes', 'Terraform', 'Ansible']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'C', 'Go', 'MongoDB', 'Cockroachdb', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Node.js', 'Flask', 'Docker', 'Make', 'Kubernetes', 'Podman']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'Java', 'C', 'PostgreSQL', 'Elasticsearch', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'OpenStack', 'Docker', 'Make', 'Kubernetes', 'Ansible', 'Chef']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'TS \\ TypeScript', 'Java', 'C', 'Groovy', 'Scala', 'Elasticsearch', 'Cassandra', 'Node.js', 'React', 'Angular', 'Spring Boot', 'Make', 'Ansible']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'Bash', 'Java', 'PHP', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'OpenShift', 'Docker', 'Kubernetes', 'Maven', 'Terraform', 'Ansible', 'Podman']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'Ruby', 'Swift', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Firebase', 'Node.js', 'Flask', 'Django', 'Ruby on Rails', 'Docker', 'Make', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'TS \\ TypeScript', 'Go', 'MySQL', 'InfluxDB', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Node.js', 'React', 'Vue.js', 'Flask', 'Make', 'Terraform', 'Ansible']",1
+"['JS \\ javascript', 'SQL', 'TS \\ TypeScript', 'Go', 'PostgreSQL', 'MySQL', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Node.js', 'React', 'Express', 'Angular', 'Vue.js', 'Docker', 'Make']",1
+"['JS \\ javascript', 'TS \\ TypeScript', 'PHP', 'Go', 'Ruby', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'React', 'Next.js', 'Ruby on Rails', 'Phoenix', 'Docker', 'Make', 'Vite', 'Kubernetes']",1
+"['PYTHON', 'C++', 'Bash', 'C', 'Go', 'Snowflake', 'Databricks', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Databricks', 'Docker', 'Kubernetes', 'Terraform', 'Ansible', 'Chef']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'Bash', 'Java', 'C', 'PostgreSQL', 'Azure', 'npm', 'NuGet', 'Maven', 'Gradle', 'Terraform', 'Ansible', 'Puppet', 'Chef']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'C', 'Go', 'PostgreSQL', 'MongoDB', 'Dynamodb', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'React', 'Angular', 'Vue.js', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'C++', 'SQL', 'Bash', 'Java', 'C', 'PowerShell', 'Go', 'Microsoft SQL Server', 'Oracle', 'Azure', 'Angular', 'Docker', 'Kubernetes', 'Maven', 'Terraform', 'Chef']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C#', 'SQL', 'Lua', 'PostgreSQL', 'MongoDB', 'Redis', 'Neo4J', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'VMware', 'React', 'jQuery', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'Java', 'C', 'Go', 'Ruby', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Node.js', 'React', 'Angular', 'Vue.js', 'Flask', 'Spring Boot', 'Django']",2
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'SQL', 'Java', 'C', 'Apex', 'PostgreSQL', 'Oracle', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'React', 'Angular', 'Docker', 'Make', 'Terraform']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'Java', 'Kotlin', 'Ruby', 'Ada', 'PostgreSQL', 'Redis', 'Elasticsearch', 'Dynamodb', 'Snowflake', 'Neo4J', 'Amazon Web Services \\ AWS', 'React', 'Ruby on Rails', 'Elm', 'Docker']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'SQL', 'PHP', 'H', 'Amazon Web Services \\ AWS', 'Azure', 'Node.js', 'React', 'Next.js', 'Angular', 'Vue.js', 'WordPress', 'Drupal', 'npm', 'Make', 'Yarn', 'Webpack']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'Bash', 'Java', 'C', 'PowerShell', 'Databricks', 'Azure', 'VMware', 'OpenShift', 'Databricks', 'Docker', 'Make', 'Kubernetes', 'Terraform', 'Ansible', 'Pulumi']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'Java', 'C', 'Go', 'Ruby', 'Scala', 'Microsoft SQL Server', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Node.js', 'React', 'Express', 'ASP.NET', 'Ruby on Rails', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'TS \\ TypeScript', 'Go', 'MySQL', 'Redis', 'Dynamodb', 'Amazon Web Services \\ AWS', 'React', 'Angular', 'Flask', 'Django', 'Docker', 'Make', 'Kubernetes', 'Maven', 'Puppet', 'Chef']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C#', 'TS \\ TypeScript', 'Go', 'Rust', 'R', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Node.js', 'React', 'Express', 'Angular', 'Docker', 'Vite', 'Kubernetes', 'Webpack']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'SQL', 'C', 'Lua', 'PostgreSQL', 'MongoDB', 'Redis', 'Neo4J', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'VMware', 'React', 'jQuery', 'Docker', 'Kubernetes']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'C', 'Go', 'Ruby', 'Swift', 'Elixir', 'Amazon Web Services \\ AWS', 'Google Cloud \\ GCP', 'Node.js', 'React', 'Vue.js', 'Ruby on Rails', 'Phoenix', 'Docker', 'Make', 'Kubernetes', 'Terraform']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'Bash', 'Java', 'PHP', 'PostgreSQL', 'MySQL', 'Oracle', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'OpenShift', 'Docker', 'Kubernetes', 'Maven', 'Terraform', 'Ansible', 'Podman']",1
+"['JS \\ javascript', 'PYTHON', 'SQL', 'Bash', 'Java', 'PowerShell', 'Oracle', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'OpenShift', 'Docker', 'npm', 'Make', 'Maven', 'Ansible', 'Ant', 'Puppet', 'Chef']",1
+"['PYTHON', 'C++', 'SQL', 'Java', 'C', 'Go', 'Elasticsearch', 'Snowflake', 'Cassandra', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Make', 'Kubernetes', 'Terraform', 'Ansible', 'Puppet', 'Chef']",2
+"['PYTHON', 'C++', 'SQL', 'Java', 'C', 'Go', 'Rust', 'PostgreSQL', 'MySQL', 'MongoDB', 'Dynamodb', 'Cassandra', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'Docker', 'Make', 'Kubernetes', 'Ansible']",1
+"['PYTHON', 'C++', 'SQL', 'Java', 'C', 'Groovy', 'PostgreSQL', 'MongoDB', 'Amazon Web Services \\ AWS', 'Azure', 'OpenShift', 'Angular', 'Spring Boot', 'Docker', 'Make', 'Maven', 'Ansible', 'Puppet', 'Chef']",1
+"['PYTHON', 'SQL', 'TS \\ TypeScript', 'Java', 'Kotlin', 'MySQL', 'MongoDB', 'Oracle', 'Cassandra', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'React', 'Docker', 'Kubernetes', 'Terraform', 'Ansible', 'Puppet', 'Chef']",1
+"['PYTHON', 'SQL', 'Bash', 'Java', 'PHP', 'PowerShell', 'Ruby', 'PostgreSQL', 'MySQL', 'Microsoft SQL Server', 'MongoDB', 'Dynamodb', 'Amazon Web Services \\ AWS', 'Docker', 'Make', 'Kubernetes', 'Maven', 'Terraform', 'Ansible', 'Ant']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'Bash', 'PowerShell', 'Elasticsearch', 'Amazon Web Services \\ AWS', 'Azure', 'OpenShift', 'React', 'jQuery', 'Phoenix', 'Docker', 'npm', 'Kubernetes', 'Yarn', 'Webpack', 'Terraform', 'Ansible', 'Puppet', 'Chef']",1
+"['PYTHON', 'C++', 'SQL', 'TS \\ TypeScript', 'Java', 'C', 'Kotlin', 'Swift', 'MySQL', 'MongoDB', 'Oracle', 'Cassandra', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'React', 'Docker', 'Kubernetes', 'Terraform', 'Ansible', 'Puppet', 'Chef']",1
+"['JS \\ javascript', 'PYTHON', 'C++', 'SQL', 'TS \\ TypeScript', 'Java', 'C', 'PowerShell', 'Ruby', 'PostgreSQL', 'MySQL', 'MongoDB', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'React', 'Angular', 'Vue.js', 'Django', 'Docker', 'Kubernetes', 'Terraform', 'Ansible']",1
+"['JS \\ javascript', 'HTML \\ CSS', 'PYTHON', 'C++', 'SQL', 'TS \\ TypeScript', 'Java', 'C', 'Kotlin', 'Scala', 'Clojure', 'PostgreSQL', 'MySQL', 'MongoDB', 'Redis', 'Cassandra', 'Solr', 'Couchbase', 'Amazon Web Services \\ AWS', 'Azure', 'Google Cloud \\ GCP', 'OpenStack', 'Node.js', 'React', 'jQuery', 'Express', 'AngularJS', 'Svelte', 'Docker', 'Make', 'Kubernetes', 'Webpack', 'Composer']",1

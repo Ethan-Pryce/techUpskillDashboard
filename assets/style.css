@@ -1,0 +1,73 @@
+#_dash-app-content {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap:20px
+}
+
+h1 {margin: 4px;}
+
+
+#dropdownDiv {
+    min-width: 70%;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+
+.main-svg {
+    border-radius: 5px;
+}
+
+#upgradeDiv {
+    min-width: 700px;
+    display: flex;
+    flex-direction: column;
+    row-gap:5px;
+    align-items: center;
+}
+
+
+
+#learn_button {
+    background-color: #557EAA;
+    border: 0px;
+    border-radius: 3px;
+    max-width: 400px;
+    padding: 5px 10px 5px 10px;
+    
+}
+
+#learn_button:hover{
+    background-color: #007bff;
+} 
+
+
+#popularityText {
+    min-width: 700px;
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.factDiv {
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 4px;
+    color: black;
+    text-align: center;
+    
+
+}
+
+
+
