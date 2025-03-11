@@ -1,26 +1,10 @@
 import dash
-from dash import html, dcc, callback, Input, Output, State, Dash, page_container
+from dash import html, dcc, callback, Input, Output, State, Dash
 import plotly.express as px
 import pandas as pd
 import dash_bootstrap_components as dbc
 import jobData
 import ast
-
-
-
-class MainApplication:
-    def __init__(self):
-        self.__app = Dash(
-            __name__,
-            use_pages=True,
-        )
-        self.set_layout()
-
-
-    @property
-    def app(self):
-        return self.__app
-
 
 
 
@@ -30,7 +14,7 @@ popTechs = jobData.getPopTechs()
 dataCounted = pd.read_csv("app/AI_output_counted.csv")
 counted_calcs = [[ast.literal_eval(x.lower()), y] for x, y in zip(dataCounted['Techs'], dataCounted['Count'])]
 
-listing_count = 2807
+listing_count = 3202
 
 color_map_pie = [
    "#124559",
@@ -42,7 +26,7 @@ color_map_pie = [
     ]  
 #fig = px.line(df)
 
-app = dash.Dash(__name__,external_stylesheets=[dbc.themes.SLATE])
+app = dash.Dash(__name__,external_stylesheets=[dbc.themes.SLATE],title='TechStack Optimizer')
 
 #matchData = pd.read_csv("match.csv")
 matchData = pd.DataFrame(data={"Match Percentage":[100,90,80,70,60,50,40,30,20,10,0], "Market Percentage":[0,0,0,0,0,0,0,0,0,0,100]})
@@ -52,7 +36,7 @@ matchFig = px.bar(matchData, x="Match Percentage", y="Market Percentage",  color
 matchFig.update_xaxes(autorange="reversed", tickmode="array", tickvals = [100,90,80,70,60,50,40,30,20,10,0], ticktext=["Full Match", "90%", "80%", "70%", "60%", "50%", "40%","30%", "20%","10%","Not Qualified" ])
 matchFig.update_yaxes( tickmode="array", tickvals = [100,90,80,70,60,50,40,30,20,10,0], ticktext=["100% of jobs", "90%", "80%", "70%", "60%", "50%", "40%","30%", "20%","10%","No Matches" ])
 matchFig.update_layout(title_text="Tech Stack vs Market")
-
+matchFig.update_layout(coloraxis_showscale=False)
 pieFig = px.pie(pieData, values="Match Percentage", names="Market Percentage",  hole=.2, color_discrete_sequence=color_map_pie)
 #pieFig.update_xaxes(autorange="reversed", tickmode="array", tickvals = [100,75,50,25,0], ticktext=["Full Match", "75%+", "50%+", "25+%","Not Qualified" ])
 #pieFig.update_yaxes( tickmode="array", tickvals = [100,75,50,25,0], ticktext=["100% of jobs", "75%+", "50%+", "25+%","No Matches" ])
@@ -93,15 +77,15 @@ app.layout = [
       10.Azure  ''')),
              html.Div(className="factDiv", 
                         children=dcc.Markdown('''# 9.35  
-Average technologies''')),
+Average technologies per job post''')),
             html.Div(className="factDiv", 
                         children=dcc.Markdown('''# 8  
-Median technologies''')),
+Median technologies in a post''')),
             html.Div(className="factDiv", 
                         children=dcc.Markdown('''# 79
-max in one listing (__yikes__) ''')),
+technlogies in the largest listing (__yikes__) ''')),
             html.Div(className="factDiv", 
-                        children=dcc.Markdown('''# 3000 Posts
+                        children=dcc.Markdown('''# 3000 Jobs
 analyzed for keywords''')),
 
                         
@@ -138,7 +122,7 @@ def find_per_match(value):
          data[-1] +=x[1]
       else:
          data[-(per + 1)] += x[1]
-   print(data)
+   #print(data)
    return [data, dataPie]
 
 
@@ -155,7 +139,7 @@ def update_match_graph(value):
       raise dash.exceptions.PreventUpdate
    matches = find_per_match(value)
    pieMatchs = matches[1]
-   print(f'piematches are{pieMatchs}')
+   #print(f'piematches are{pieMatchs}')
    matches = matches[0]
 
    matchData = pd.DataFrame(data={"Match Percentage":[100,90,80,70,60,50,40,30,20,10,0], "Market Percentage":[ round((x / listing_count) * 100) for x in  matches]})
@@ -187,16 +171,24 @@ def update_match_graph(value):
 def find_top_overlap(value):
    data = {}
    for x in counted_calcs:
-      overlap = set(value) & set(x[0])
+      overlap = set(value) & set(x[0]) 
       if len( overlap) > 0: # 
          for y in x[0]:
             if y not in overlap:
                if y in data:
-                  data[y] +=1
+                  data[y] +=x[1]
                else:
-                  data[y] = 0
-   
-   
+                  data[y] = x[1]
+   #we need to remove languages that are already included from wrapping around
+   for x in value:
+      if x in data:
+         try:
+            data.pop(x)
+         finally:
+            pass
+   print(data)
+   for x in data:
+      print(ascii(x))
    return data
 
 
@@ -214,8 +206,10 @@ def create_reccomendation(n_clicks,value):
    if (value is None):
       raise dash.exceptions.PreventUpdate
    tops = find_top_overlap(value)
+   #print(tops)
    top10 = sorted(tops, key=tops.get, reverse=True)[:10]
    output = []
+   
    for x in top10:
       output.append([x, round((tops[x]/ listing_count)*100)])
    
